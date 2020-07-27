@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Old VK options</title>
+    <style>
+        body {
+            min-width: 320px
+        }
+        #save {
+            margin-top: 10px
+        }
+
+        #options > div {
+            margin-bottom: 5px;
+        }
+
+        label.option input {
+            margin-right: 5px
+        }
+
+        #status {
+            float: right;
+            margin-top: 15px;
+            color: #3F7F3A;
+        }
+
+        #status.hide {
+            opacity: 0;
+            transition: opacity 2s ease-in;
+        }
+    </style>
+</head>
+<body>
+<form id="options">
+    <div>
+        <input type="checkbox" id="cover" name="cover">
+        <label for="cover" id="cover_label" class="option"></label>
+    </div>
+    <div>
+        <input type="checkbox" id="viewer" name="viewer">
+        <label for="viewer" id="viewer_label" class="option"></label>
+    </div>
+    <div>
+        <input type="checkbox" id="font" name="font">
+        <label for="font" id="font_label" class="option"></label>
+    </div>
+    <div>
+        <input type="checkbox" id="audio" name="audio">
+        <label for="audio" id="audio_label" class="option"></label>
+    </div>
+    <div>
+        <input type="checkbox" id="im" name="im">
+        <label for="im" id="im_label" class="option"></label>
+    </div>
+    <div>
+        <input type="checkbox" id="dark" name="dark">
+        <label for="dark" id="dark_label" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="poster" name="poster">
+        <label for="poster" id="poster_label" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="stories" name="stories">
+        <label for="stories" id="stories_label" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="views" name="views">
+        <label for="views" id="views_label" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="wall" name="wall">
+        <label for="wall" id="wall_label" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="ui_rmenu_unread" name="ui_rmenu_unread">
+        <label for="ui_rmenu_unread" id="ui_rmenu_unread_label" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="audio_page__shuffle_all" name="audio_page__shuffle_all">
+        <label for="audio_page__shuffle_all" id="audio_page__shuffle_all" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="post_replies_reorder_wrap" name="post_replies_reorder_wrap">
+        <label for="post_replies_reorder_wrap" id="post_replies_reorder_wrap" class="option"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="date" name="date">
+        <label for="date" id="date_label" class="option" data-l10n-id="option_date"></label>
+    </div>
+	<div>
+        <input type="checkbox" id="ui_tab_search_wrap" name="ui_tab_search_wrap">
+        <label for="ui_tab_search_wrap" id="ui_tab_search_wrap" class="option"></label>
+    </div>
+    <button id="save"></button>
+    <div id="status"></div>
+</form>
+<script src="options.js"></script>
+</body>
+</html>
