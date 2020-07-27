@@ -1,0 +1,102 @@
+{
+   "appDesc": {
+      "description": "",
+      "message": "The extension, which brings back old design of VK"
+   },
+   "appName": {
+      "description": "",
+      "message": "Old Design VK"
+   },
+   "developing": {
+      "description": "",
+      "message": "Developing"
+   },
+   "enable": {
+      "description": "",
+      "message": "Enable or disable extension"
+   },
+   "option_audio": {
+      "description": "",
+      "message": "Show audio album covers"
+   },
+   "option_cover": {
+      "description": "",
+      "message": "Use adapted community covers"
+   },
+      "option_dark": {
+      "description": "",
+      "message": "Enable the dark theme"
+   },
+   "option_date": {
+      "description": "",
+      "message": "Show post date on top"
+   },
+   "option_font": {
+      "description": "",
+      "message": "Use large fonts"
+   },
+   "option_im": {
+      "description": "",
+      "message": "Show images on buttons instead of text in messages"
+   },
+      "option_post_replies_reorder_wrap": {
+      "description": "",
+      "message": "Disable sorting of comments "
+   },
+   "option_poster": {
+      "description": "",
+      "message": "Enable include poster"
+   },
+   "option_stories": {
+      "description": "",
+      "message": "Disable stories"
+   },
+   "option_ui_rmenu_unread": {
+      "description": "",
+      "message": "Enable Unread Messages "
+   },
+   "option_ui_tab_search_wrap": {
+      "description": "",
+      "message": "Enable Search For Posts In Communities"
+   },
+   "option_viewer": {
+      "description": "",
+      "message": "Use new photo viewer"
+   },
+   "option_views": {
+      "description": "",
+      "message": "Disable Views "
+   },
+   "option_wall": {
+      "description": "",
+      "message": "Enable Record Archive "
+   },
+   "options": {
+      "description": "",
+      "message": "Options"
+   },
+   "save": {
+      "description": "",
+      "message": "Save"
+   },
+   "saved": {
+      "description": "",
+      "message": "Options saved, refresh the page"
+   },
+   "styleVersion": {
+      "description": "",
+      "message": "Extension version"
+   },
+   "support": {
+      "description": "",
+      "message": "Support"
+   },
+   "to_support_money": {
+      "description": "",
+      "message": "Support the developer with money"
+   },
+   "updateStyle": {
+      "description": "",
+      "message": "Update style"
+   }
+}

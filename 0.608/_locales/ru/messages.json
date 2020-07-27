@@ -1,0 +1,118 @@
+{
+   "Financial_Assistants": {
+      "description": "",
+      "message": "Финансовые помощникик"
+   },
+   "Telegram_Channel": {
+      "description": "",
+      "message": "Телеграм канал:"
+   },
+   "appDesc": {
+      "description": "",
+      "message": "Расширение, возвращающее старый дизайн ВК."
+   },
+   "appName": {
+      "description": "",
+      "message": "Старый дизайн ВК Gold"
+   },
+   "developing": {
+      "description": "",
+      "message": "Разработка"
+   },
+   "enable": {
+      "description": "",
+      "message": "Включить или выключить расширение"
+   },
+   "modifications": {
+      "description": "",
+      "message": "Разработчики Доработак:"
+   },
+   "option_audio": {
+      "description": "",
+      "message": "Показывать обложки для альбомов аудио"
+   },
+   "option_audio_page__shuffle_all": {
+      "description": "",
+      "message": "Включить кнопку Перемешать Всё  "
+   },
+   "option_cover": {
+      "description": "",
+      "message": "Использовать адаптированные обложки сообществ"
+   },
+   "option_dark": {
+      "description": "",
+      "message": "Включить тёмную тему"
+   },
+   "option_date": {
+      "description": "",
+      "message": "Показывать дату поста сверху"
+   },
+   "option_font": {
+      "description": "",
+      "message": "Использовать увеличенные шрифты"
+   },
+   "option_im": {
+      "description": "",
+      "message": "Показывать картинки на кнопках вместо текста в сообщениях"
+   },
+   "option_post_replies_reorder_wrap": {
+      "description": "",
+      "message": "Выключить Сортировку комментариев "
+   },
+   "option_poster": {
+      "description": "",
+      "message": "Включить постер"
+   },
+   "option_stories": {
+      "description": "",
+      "message": "Выключить истории"
+   },
+   "option_ui_rmenu_unread": {
+      "description": "",
+      "message": "Включить Функции Непрочитанные Сообщения "
+   },
+   "option_ui_tab_search_wrap": {
+      "description": "",
+      "message": "Включить Поиск Записей В Сообществах"
+   },
+   "option_viewer": {
+      "description": "",
+      "message": "Использовать новый просмотрщик фотографий"
+   },
+   "option_views": {
+      "description": "",
+      "message": "Выключить Просмотры "
+   },
+   "option_wall": {
+      "description": "",
+      "message": "Включить Архив Записей  "
+   },
+   "options": {
+      "description": "",
+      "message": "Настройки"
+   },
+   "save": {
+      "description": "",
+      "message": "Сохранить"
+   },
+   "saved": {
+      "description": "",
+      "message": "Настройки сохранены, обновите страницу"
+   },
+   "styleVersion": {
+      "description": "",
+      "message": "Версия расширения"
+   },
+   "support": {
+      "description": "",
+      "message": "Поддержка"
+   },
+   "to_support_money": {
+      "description": "",
+      "message": "Поддержать деньгами разработчика"
+   },
+   "updateStyle": {
+      "description": "",
+      "message": "Обновить стиль"
+   }
+}
