@@ -1,0 +1,812 @@
+@charset "UTF-8";
+:lang(ru) #l_nwsf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_ntf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_msg .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_fr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_gr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_ph .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_aud .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_vid .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_fav .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_sett .left_label:before {
+  content: "Мои ";
+}
+
+:lang(uk) #l_nwsf .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_ntf .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_msg .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_fr .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_gr .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_ph .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_aud .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_vid .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_fav .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_sett .left_label:before {
+  content: "Мої ";
+}
+
+:lang(be) #l_nwsf .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_ntf .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_msg .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_fr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_gr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_ph .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_aud .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_vid .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_fav .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_sett .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_nwsf .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_ntf .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_msg .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_fr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_gr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_ph .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_aud .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_vid .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_fav .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_sett .left_label:before {
+  content: "Мае ";
+}
+
+:lang(en-us) #l_nwsf .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_ntf .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_msg .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_fr .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_gr .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_ph .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_aud .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_vid .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_fav .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_sett .left_label:before {
+  content: "My ";
+}
+
+:lang(ru-ussr) #l_nwsf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_ntf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_msg .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_fr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_gr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_ph .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_aud .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_vid .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_fav .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_sett .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_nwsf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_ntf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_msg .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_fr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_gr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_ph .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_aud .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_vid .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_fav .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_sett .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_nwsf .left_label:before {
+  content: "Моё ";
+}
+
+:lang(ru-petr1708) #l_vid .left_label:before,
+:lang(ru-petr1708) #l_fav .left_label:before {
+  content: "Мой ";
+}
+
+:lang(ru) #feed_filters .ui_toggler:before {
+  content: "Показать по времени публикации";
+}
+
+#feed_filters .ui_toggler:before {
+  content: "...";
+}
+
+#oldvk-filter-label:before {
+  content: "Фильтр";
+}
+
+:lang(uk) #oldvk-filter-label:before {
+  content: "Фільтр";
+}
+
+:lang(be) #oldvk-filter-label:before {
+  content: "Фільтр";
+}
+
+:lang(be-tarask) #oldvk-filter-label:before {
+  content: "Фільтар";
+}
+
+:lang(en-us) #oldvk-filter-label:before {
+  content: "Filter";
+}
+
+:lang(ru-petr1708) #oldvk-filter-label:before {
+  content: "Фильтръ";
+}
+
+:lang(ru-ussr) #oldvk-filter-label:before {
+  content: "Выборка";
+}
+
+head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фильтр";
+}
+
+:lang(uk) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фільтр";
+}
+
+:lang(be) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фільтр";
+}
+
+:lang(be-tarask) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фільтар";
+}
+
+:lang(en-us) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Filter";
+}
+
+:lang(ru-petr1708) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фильтръ";
+}
+
+:lang(ru-ussr) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Выборка";
+}
+
+#oldvk-counter-sub:before {
+  content: "Подписчики";
+}
+
+:lang(uk) #oldvk-counter-sub:before {
+  content: "Підписники";
+}
+
+:lang(be) #oldvk-counter-sub:before {
+  content: "Падпісчыкі";
+}
+
+:lang(be-tarask) #oldvk-counter-sub:before {
+  content: "Падпісанты";
+}
+
+:lang(en-us) #oldvk-counter-sub:before {
+  content: "Followers";
+}
+
+:lang(ru-petr1708) #oldvk-counter-sub:before {
+  content: "Почитатели";
+}
+
+:lang(ru-ussr) #oldvk-counter-sub:before {
+  content: "Читатели";
+}
+
+:lang(kk) #oldvk-counter-sub:before {
+  content: "Жазылушылар";
+}
+
+.owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мои подписчики";
+}
+
+:lang(uk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мої підписники";
+}
+
+:lang(be) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мае падпісчыкі";
+}
+
+:lang(be-tarask) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мае падпісанты";
+}
+
+:lang(en-us) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "My followers";
+}
+
+:lang(ru-petr1708) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мои почитатели";
+}
+
+:lang(ru-ussr) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мои читатели";
+}
+
+:lang(kk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Жазылушыларым";
+}
+
+#oldvk-counter-tag:before {
+  content: "Фотографии с ";
+}
+
+:lang(uk) #oldvk-counter-tag:before {
+  content: "Фотографії з ";
+}
+
+:lang(be) #oldvk-counter-tag:before {
+  content: "Фотаздымкі з ";
+}
+
+:lang(be-tarask) #oldvk-counter-tag:before {
+  content: "Фатаздымкі з ";
+}
+
+:lang(en-us) #oldvk-counter-tag:before {
+  content: "Photos of ";
+}
+
+:lang(ru-petr1708) #oldvk-counter-tag:before {
+  content: "Фотопортреты съ ";
+}
+
+:lang(ru-ussr) #oldvk-counter-tag:before {
+  content: "Фотокарточки с ";
+}
+
+:lang(kk) #oldvk-counter-tag:before {
+  content: "Оны бар суреттер";
+}
+
+.owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотографии со мной";
+}
+
+:lang(uk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотографії зi мною";
+}
+
+:lang(be) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотаздымкі са мною";
+}
+
+:lang(be-tarask) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фатаздымкі з мною";
+}
+
+:lang(en-us) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Photos of me";
+}
+
+:lang(ru-petr1708) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Мои фотопортреты";
+}
+
+:lang(ru-ussr) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотокарточки со мной";
+}
+
+:lang(kk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Мен бар суреттер";
+}
+
+:lang(en-us) .top_home_link .top_home_logo {
+  background: url("data:image/gif;base64,R0lGODlhkQAqAOYRAExtkUxukk1ukk1vk05vk05wk05wlE9wlE9xlVBxlWeEpMnT3u/y9fr7/P////X3+d7l7IWet1ByllFzlvf4+srU34qhuvL09+Lo7rrI1vT2+Pz9/c/X4X+ZtHKKpmaEo/7+/uXp7lFyln+Vrq++zpepvVFzl9vh6P7+/3KNq+nt8V9+n/b3+eLn7FBwk1Jzl4GXr9/k6+fr8LLB0P39/lJ0mE9wk93j6eXq7/v8/aSzxezv81N1mdff59HZ4s3X4VZ4m15/olZ3m5mtw1x5mm6IpczW4fj5+3yTrVR2mlh2mOzw81V3m1R2m3uSrb7L2VV3nFZ4nFBxlM3W4Fd2l9ng52B8nFVzlp2vwubq74uiu1Z4nZOmvO3w9IqguWJ/oOru8ld5nVFwlIygt8PO2vn6/L7K11h6nUxskEtrj0pqjk5ukld5nlh6nmKCpVh6n3SRr3KOrqS3yll7n5+yyOTp71x9oVp8n1l7oJmuxVl8oPj6+1p8oJ2xxqK2ynWSsCwAAAAAkQAqAAAH/oAAgoOEhYaHiImKi4yNjo+QiQGTlJWWl5iZmpucnZ6foKGaAqSlpqeoqaqrrK2ur7CxsrO0tba3uLmwA7y9vr/AwcLDxMXGx8jJysMEzc7P0NHS09TV1tfY2drb1AXe3+Dh4uPk5ebn6Onq6+zlBu/w8fLz9PX29/j5+vv8/fYHAAMKHEiwoMGDCBMqXMiwocODCCJKnEixosWLGDNq3Mixo8ePIEOKHEmypMmOCVKqXMmy5UoFCxg0cODgAYQILnPq3Mmzp8+fQHtKGEq0KNEJFGgqrTCBqIULSpViMJpBw4aoU41q3cq1q9evYMOKHSuBQ1SaHYgC8HDWgYai/h9AtA1Btq7du3i5itjLt2/fEW0r9CWQNCqDviTaOijht7Hjx5AjS55MuTJfE5gza9Zc4MRZFCk0qzirIvMKFm1buNjMurXr17Bjy55NO/OL27hz64bRlkPuGGdl4J7RloYH3ciTK1/OvLnz59Bz15hOvbp1GzfaWqCO42yM6SlytNWBwLr58+jTq1/Pvr3799YBn92xYjpUrDV49GjrgwD8/wAGKKB6PBRo4IEI8oCAD239AEQQckXFghBDtMUAEQlmqOGGHHbo4YcghvhhETS01YMRiv1wRFtI5CfiizDGKCOHSdRo44041vgCcYr1yJ8EOQYp5JBEFmnkkUgm/pmkEkv46CRNNzCh5JRUVmmlkU1kqeWWXGrJgxMoPOnkE1B0aeaZaKap5ppstqkmE3DGKeeccpqQmJg+PhEFnXz26eefgAYq6KCEEirFFGLKUFhbTwBR6KOQRiqpn1FUaumlmGZKRRVOngCAFSH0SEKmpJZq6qmopqrqqqyyysQVC/iIRRRJWJFFj1q0quuuvPZa6hbABivssMRuAQUBXHShmBfANvHFrW2BUey01FZr7bXYZpttGNx26+234Hb7ghhjkKFCGTThoEC3TBBhxopKbTDFGeHWa++9+Oar77789htuFC8QgEYaaqiBBhPeRkEAwQUXvIa/EEcs8cTd6LJh8cUYZ6zxxhx37PHHIIcs8sgkd9zGySinrPLKLLfs8sswxyzzzDTX7LIbb+Ss88489+zzz0AHLfTQRBdt9NE+BwEH0kw37fTTUEetcxxyzGH11VhnrfXWXHft9ddghy322GRvTUcddpSt9tpst+3223PcAYEDdOBh991456333nz37fffgAcu+OCE550HTWVEoMfijDfu+OOQRy755JRXbvnlmGfOeAd7KNUAHXbwIfropJdu+umop6766qy37vrrr9vRB7pn1eEHHEHArvvuvPfu++5u/OEHBngWb/zxyCev/PLIBwIAOw==");
+}
+
+.post_info > .like_wrap .like_btn.like:before {
+  font-weight: normal;
+  padding-right: 4px;
+  font-size: 10px;
+  color: #829baf;
+  transition: color 100ms ease-in-out;
+  line-height: 16px;
+}
+
+.post_info > .like_wrap .like_btns:hover .like_btn.like:before {
+  color: #2f5879;
+}
+
+:lang(ru) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мне нравится";
+}
+
+:lang(uk) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мені подобається";
+}
+
+:lang(be) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мне падабаецца";
+}
+
+:lang(be-tarask) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мне падабаецца";
+}
+
+:lang(en-us) .post_info > .like_wrap .like_btn.like:before {
+  content: "Like";
+}
+
+:lang(ru-petr1708) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мнѣ по нраву";
+}
+
+:lang(ru-ussr) .post_info > .like_wrap .like_btn.like:before {
+  content: "Одобряю";
+}
+
+:lang(kk) .post_info > .like_wrap .like_btn.like:before {
+  content: "Ұнатамын";
+}
+
+/* Страницу */
+
+#profile_edit_act.flat_button.button_wide.secondary:after {
+   content: " страницу";
+}
+:lang(en-us) #profile_edit_act.flat_button.button_wide.secondary:after {
+   content: " page";
+}
+:lang(uk) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " сторінку"
+}
+:lang(kk) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " Бетті"
+}
+:lang(ru-ussr) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " досье"
+}
+
+ /*Group*/
+   
+#group:before {
+content: 'Открытая группа';
+} 
+:lang(en-us) #group:before {         
+		content: 'Open community';
+}
+:lang(en-us) #public:before {
+content: 'Public page';
+}
+:lang(en-us).group_closed:before{ 
+content: 'Closed community'; 
+}
+
+ /* Мои аудиозаписи */
+ 
+:lang(en-us) ._audio_section_tab__all .ui_tab:before {
+	    content: "My audios";
+}
+:lang(uk) ._audio_section_tab__all .ui_tab:before {
+	    content: "Мої Аудіозаписи";
+}
+
+/* Голосовое сообщение,действия,отправить,прикрепить*/
+:lang(en-us) .im-page--header-more:before {
+    content: "Action";
+}
+:lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_audio:before {
+    content: "Voice Message";
+}
+:lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_send:before {
+	content: "Send";
+}
+:lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_send:after {
+	content: "Send";
+}
+:lang(en-us) .ms_items_more_wrap.to_up .ms_items_more:after {
+    content: "Attach";
+}
+:lang(uk) .ms_items_more_wrap.to_up .ms_items_more:after {
+	content: "Прикріпивши"
+}
+:lang(en-us) .ms_items_more_wrap.ms_items_more_wrap_vector .ms_item_more_label:after {
+	content: "Attach";
+}
+
+/* Перевод регестрации*/
+:lang(ru) .flat_button.button_wide.button_big_text.ij_button { 
+    content: "Зарегистрироваться"
+}
+:lang(en-us) .flat_button.button_wide.button_big_text.ij_button { 
+    content: "Register"
+}
+:lang(en-us) #index_rcolumn>.ij_form>.ij_header #txt_about_vk:before {
+ content: " VK – universal means for communication and search for friends and classmates, which are used daily by tens of millions of people.";
+ background: #fff;
+ position: absolute;
+}
+:lang(en-us) #ij_submit.flat_button.button_wide.button_big_text.ij_button:before { 
+    content: "Sign up" !important;
+    padding: 4.3px 55px;
+    display: -webkit-box;
+}
+:lang(en-us) #title_vk2:before {
+ content: "What can you do on VKontakte?" !important;
+ background: #fff;
+ position: absolute;
+} 
+:lang(en-us) #t_and_em:before { 
+    content: "Telephone or email" !important;
+    background: #fff;
+    position: absolute;
+}
+:lang(en-us) #pass_word:before { 
+    content: "Password" !important;
+    background: #fff;
+    position: absolute;
+}   
+:lang(en-us) .index_page #content:before {
+    display: block;
+    width: 607px;
+    height: 15px;
+    content: "Welcome!";
+    font-weight: 700;
+    padding: 7px 10px;
+    line-height: 140%;
+    background: #e9edf1;
+    color: #607387;
+}
+/* Новогдняя шапка */
+:lang(en-us) .top_home_link.top_home_ny_logo .top_home_logo {
+    background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+ :lang(en-us) head.oldvk-ny-1 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-2 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-3 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-4 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-5 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-6 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-7 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-8 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-9 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-10 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-11 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-12 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-13 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-14 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-15 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-16 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-17 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+/* Надпись Поделиться */
+:lang(ru) .post_info > .like_wrap .like_btn.share:before {
+    content: "Поделиться"
+}
+:lang(en-us) .post_info > .like_wrap .like_btn.share:before {
+    content: "Share"
+}    
+ :lang(uk) .post_info > .like_wrap .like_btn.share:before {
+    content: "Поділитися"
+} 
+/* Надпись Мои Группы */       
+:lang(ru) #l_gr .left_label.inl_bl:before {
+    content: 'Мои Группы';
+    display: -webkit-inline-box;
+    padding-right: 70px;
+}     
+:lang(en-us) #l_gr .left_label.inl_bl:before {
+    content: 'My Communities';
+    display: -webkit-inline-box;
+    padding-right: 68px;
+}     
+:lang(en-us) #l_pr .left_label.inl_bl:before {
+    content: 'My Page';
+    display: -webkit-inline-box;
+    padding-right: 95px;
+}
+:lang(en-us) .strelka::after {
+    content: '';
+    position: absolute;
+    left: 104px;
+    top: 10px;
+    border: 4px solid transparent;
+    border-left: 5px solid #fff;
+}
+:lang(en-us) #vkc-profile-edit:before {
+    content: 'edit.';
+}
+:lang(ru) #vkc-profile-edit:before {
+    content: 'ред.';
+}
+:lang(en-us) #footer_wrap .left_menu_nav_wrap {
+    display: block;
+    margin-top: auto;
+    margin-left: 155px;
+}
+:lang(en-us) #durov:before {
+    content: 'Павел Дуров';
+}
