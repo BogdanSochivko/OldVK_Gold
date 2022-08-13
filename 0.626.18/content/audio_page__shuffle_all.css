@@ -1,0 +1,4 @@
+/*Включить кнопку перемешать всё в разделе Мои Аудиозаписи  */
+.audio_page__shuffle_all {
+    display: block !important;
+}
