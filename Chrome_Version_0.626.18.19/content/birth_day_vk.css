@@ -1,0 +1,76 @@
+[dir] body .TopHomeLink--logoWithText {
+	width: 134px;
+    height: 40px;
+    margin: 0;
+}
+
+[dir] .TopHomeLink--logoWithText  {
+    background-image: none;
+    background-size: none;
+}
+
+head.oldvk-birth_day_vk-1 ~ body .TopHomeLink {
+	background: url("https://vk.com/images/hat_birth_1.png");
+}
+head.oldvk-birth_day_vk-1 ~ body #page_header_cont {
+    position: absolute;
+    width: 791px;
+    left: auto;
+    border-radius: 0 0 8px 8px;
+    border-bottom: none;
+    background: url('https://vk.com/images/hat_birth_1.png') 0 -42px repeat-x!important;
+}
+
+head.oldvk-birth_day_vk-2 ~ body .TopHomeLink {
+	background: url("https://vk.com/images/hat_birth_2.png");
+}
+head.oldvk-birth_day_vk-2 ~ body #page_header_cont {
+    position: absolute;
+    width: 791px;
+    left: auto;
+    border-radius: 0 0 8px 8px;
+    border-bottom: none;
+    background: url('https://vk.com/images/hat_birth_1.png') 0 -42px repeat-x!important;
+}
+head.oldvk-birth_day_vk-3 ~ body .TopHomeLink {
+	background: url("https://vk.com/images/hat_birth_3.png");
+}
+head.oldvk-birth_day_vk-3 ~ body #page_header_cont {
+    position: absolute;
+    width: 791px;
+    left: auto;
+    border-radius: 0 0 8px 8px;
+    border-bottom: none;
+    background: url('https://vk.com/images/hat_birth_1.png') 0 -42px repeat-x!important;
+}
+head.oldvk-birth_day_vk-4 ~ body .TopHomeLink {
+	background: url("https://vk.com/images/hat_birth_4.png");
+}
+head.oldvk-birth_day_vk-4 ~ body #page_header_cont {
+    position: absolute;
+    width: 791px;
+    left: auto;
+    border-radius: 0 0 8px 8px;
+    border-bottom: none;
+    background: url('https://vk.com/images/hat_birth_1.png') 0 -42px repeat-x!important;
+}
+head.oldvk-birth_day_vk-5 ~ body #page_header_cont {
+    position: absolute;
+    width: 791px;
+    left: auto;
+    border-radius: 0 0 8px 8px;
+    border-bottom: none;
+    background: url('https://vk.com/images/hat_birth_1.png') 0 -42px repeat-x!important;
+}
+head.oldvk-birth_day_vk-5~ body .TopHomeLink {
+	background: url("https://vk.com/images/hat_birth_5.png");
+}
+
+
+
+head.oldvk-birth_day_vk-1~ body #page_header_VKidreg {
+    background: url('https://vk.com/images/hat_birth_1.png') 0 -42px repeat-x!important;
+}
+head.oldvk-birth_day_vk-1~ body #hatf_vkid {
+	background: url("https://vk.com/images/hat_birth_1.png");
+}

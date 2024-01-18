@@ -1,0 +1,1825 @@
+@charset "UTF-8";
+:lang(ru) #l_nwsf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_msg .left_label:before {
+    content: "Мои ";
+}
+
+:lang(ru) #l_fr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_gr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_ph .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_aud .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_vid .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_fav .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru) #l_sett .left_label:before {
+  content: "Мои ";
+}
+
+:lang(uk) #l_pr .left_label.inl_bl:before {
+    content: 'Моя Сторінка';
+    display: -webkit-inline-box;
+    padding-right: 100px;
+}
+
+:lang(uk) #l_nwsf .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_msg .left_label.inl_bl:before {
+  content: "Мої Повідомлення";
+  display: -webkit-inline-box;
+  padding-right: 130px;
+}
+
+:lang(uk) #l_fr .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_gr .left_label.inl_bl:before {
+  content: "Мої Групи";
+  display: -webkit-inline-box;
+  padding-right: 100px;
+}
+
+:lang(uk) #l_ph .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_aud .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_vid .left_label.inl_bl:before {
+  content: "Мої Відеозаписи";
+  display: -webkit-inline-box;
+  padding-right: 100px;
+}
+:lang(uk) #l_ap .left_label.inl_bl:before {
+    content: "Додатки";
+    display: -webkit-inline-box;
+    padding-right: 100px;
+}
+:lang(uk) #l_fav .left_label:before {
+  content: "Мої ";
+}
+
+:lang(uk) #l_sett .left_label:before {
+  content: "Мої Налаштування ";
+  display: -webkit-inline-box;
+  padding-right: 100px;
+}
+
+:lang(uk) .deep_active .replies .reply_send_button:before, .deep_active.wall_module .replies .reply_send_button:before, .deep_active.wall_module .wl_replies_block_wrap .reply_send_button:before, .deep_active .wl_replies_block_wrap .reply_send_button:before {
+  content: "Облямувати";
+}
+
+:lang(uk) .im-send-btn.im-chat-input--send._im_send.im-send-btn_audio:before {
+    content: "Голосове повідомлення";
+}
+
+:lang(uk) .im-send-btn.im-chat-input--send._im_send.im-send-btn_audio:after{
+    content: "Голосове повідомлення";
+}
+
+:lang(uk) .im-send-btn.im-chat-input--send._im_send.im-send-btn_send:before {
+    content: "Надіслати";
+}
+
+:lang(uk) .im-send-btn.im-chat-input--send._im_send.im-send-btn_send:after {
+    content: "Надіслати";
+}
+
+:lang(uk) .im-chat-input.im-chat-input_classic .im-chat-input--textarea .ms_items_more_wrap.ms_items_more_wrap_vector .ms_item_more_label:after {
+    content: "Прикріпити";
+}
+
+:lang(uk) .im-page--header-more:before {
+    content: "Дії";
+}
+
+:lang(be) #l_nwsf .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_msg .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_fr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_gr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_ph .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_aud .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_vid .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_fav .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be) #l_sett .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_nwsf .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_msg .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_fr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_gr .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_ph .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_aud .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_vid .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_fav .left_label:before {
+  content: "Мае ";
+}
+
+:lang(be-tarask) #l_sett .left_label:before {
+  content: "Мае ";
+}
+
+:lang(en-us) #l_nwsf .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_msg .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_fr .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_gr .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_ph .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_aud .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_vid .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_fav .left_label:before {
+  content: "My ";
+}
+
+:lang(en-us) #l_sett .left_label:before {
+  content: "My ";
+}
+
+:lang(ru-ussr) #l_nwsf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_msg .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_fr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_gr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_ph .left_label:before {
+  content: "Мои ";
+	}
+
+:lang(ru-ussr) #l_aud .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_vid .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_fav .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_sett .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_nwsf .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_msg .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_fr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_gr .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_ph .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_aud .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_vid .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_fav .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-petr1708) #l_sett .left_label:before {
+  content: "Мои ";
+}
+
+:lang(ru-ussr) #l_nwsf .left_label:before {
+  content: "Моё ";
+}
+
+:lang(ru-petr1708) #l_vid .left_label:before,
+:lang(ru-petr1708) #l_fav .left_label:before {
+  content: "Мой ";
+}
+
+:lang(ru) #feed_filters .ui_toggler:before {
+  content: "Показать по времени публикации";
+}
+
+#feed_filters .ui_toggler:before {
+  content: "...";
+}
+
+#oldvk-filter-label:before {
+  content: "Фильтр";
+}
+
+:lang(uk) #oldvk-filter-label:before {
+  content: "Фільтр";
+}
+
+:lang(be) #oldvk-filter-label:before {
+  content: "Фільтр";
+}
+
+:lang(be-tarask) #oldvk-filter-label:before {
+  content: "Фільтар";
+}
+
+:lang(en-us) #oldvk-filter-label:before {
+  content: "Filter";
+}
+
+:lang(ru-petr1708) #oldvk-filter-label:before {
+  content: "Фильтръ";
+}
+
+:lang(ru-ussr) #oldvk-filter-label:before {
+  content: "Выборка";
+}
+
+head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фильтр";
+}
+
+:lang(uk) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фільтр";
+}
+
+:lang(be) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фільтр";
+}
+
+:lang(be-tarask) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фільтар";
+}
+
+:lang(en-us) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Filter";
+}
+
+:lang(ru-petr1708) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Фильтръ";
+}
+
+:lang(ru-ussr) head.oldvk-market ~ body .search_filters_wrap:before {
+  content: "Выборка";
+}
+
+#oldvk-counter-sub:before {
+  content: "Подписчики";
+}
+
+:lang(uk) #oldvk-counter-sub:before {
+  content: "Підписники";
+}
+
+:lang(be) #oldvk-counter-sub:before {
+  content: "Падпісчыкі";
+}
+
+:lang(be-tarask) #oldvk-counter-sub:before {
+  content: "Падпісанты";
+}
+
+:lang(en-us) #oldvk-counter-sub:before {
+  content: "Followers";
+}
+
+:lang(ru-petr1708) #oldvk-counter-sub:before {
+  content: "Почитатели";
+}
+
+:lang(ru-ussr) #oldvk-counter-sub:before {
+  content: "Читатели";
+}
+
+:lang(kk) #oldvk-counter-sub:before {
+  content: "Жазылушылар";
+}
+
+.owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мои подписчики";
+}
+
+:lang(uk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мої підписники";
+}
+
+:lang(be) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мае падпісчыкі";
+}
+
+:lang(be-tarask) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мае падпісанты";
+}
+
+:lang(en-us) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "My followers";
+}
+
+:lang(ru-petr1708) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мои почитатели";
+}
+
+:lang(ru-ussr) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Мои читатели";
+}
+
+:lang(kk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-sub:before {
+  content: "Жазылушыларым";
+}
+
+#oldvk-counter-tag:before {
+  content: "Фотографии с ";
+}
+
+:lang(uk) #oldvk-counter-tag:before {
+  content: "Фотографії з ";
+}
+
+:lang(be) #oldvk-counter-tag:before {
+  content: "Фотаздымкі з ";
+}
+
+:lang(be-tarask) #oldvk-counter-tag:before {
+  content: "Фатаздымкі з ";
+}
+
+:lang(en-us) #oldvk-counter-tag:before {
+  content: "Photos of ";
+}
+
+:lang(ru-petr1708) #oldvk-counter-tag:before {
+  content: "Фотопортреты съ ";
+}
+
+:lang(ru-ussr) #oldvk-counter-tag:before {
+  content: "Фотокарточки с ";
+}
+
+:lang(kk) #oldvk-counter-tag:before {
+  content: "Оны бар суреттер";
+}
+
+.owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотографии со мной";
+}
+
+:lang(uk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотографії зi мною";
+}
+
+:lang(be) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотаздымкі са мною";
+}
+
+:lang(be-tarask) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фатаздымкі з мною";
+}
+
+:lang(en-us) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Photos of me";
+}
+
+:lang(ru-petr1708) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Мои фотопортреты";
+}
+
+:lang(ru-ussr) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Фотокарточки со мной";
+}
+
+:lang(kk) .owner_photo_wrap ~ #oldvk-counters #oldvk-counter-tag:before {
+  content: "Мен бар суреттер";
+}
+
+:lang(en-us) .top_home_link .top_home_logo {
+  background: url("data:image/gif;base64,R0lGODlhkQAqAOYRAExtkUxukk1ukk1vk05vk05wk05wlE9wlE9xlVBxlWeEpMnT3u/y9fr7/P////X3+d7l7IWet1ByllFzlvf4+srU34qhuvL09+Lo7rrI1vT2+Pz9/c/X4X+ZtHKKpmaEo/7+/uXp7lFyln+Vrq++zpepvVFzl9vh6P7+/3KNq+nt8V9+n/b3+eLn7FBwk1Jzl4GXr9/k6+fr8LLB0P39/lJ0mE9wk93j6eXq7/v8/aSzxezv81N1mdff59HZ4s3X4VZ4m15/olZ3m5mtw1x5mm6IpczW4fj5+3yTrVR2mlh2mOzw81V3m1R2m3uSrb7L2VV3nFZ4nFBxlM3W4Fd2l9ng52B8nFVzlp2vwubq74uiu1Z4nZOmvO3w9IqguWJ/oOru8ld5nVFwlIygt8PO2vn6/L7K11h6nUxskEtrj0pqjk5ukld5nlh6nmKCpVh6n3SRr3KOrqS3yll7n5+yyOTp71x9oVp8n1l7oJmuxVl8oPj6+1p8oJ2xxqK2ynWSsCwAAAAAkQAqAAAH/oAAgoOEhYaHiImKi4yNjo+QiQGTlJWWl5iZmpucnZ6foKGaAqSlpqeoqaqrrK2ur7CxsrO0tba3uLmwA7y9vr/AwcLDxMXGx8jJysMEzc7P0NHS09TV1tfY2drb1AXe3+Dh4uPk5ebn6Onq6+zlBu/w8fLz9PX29/j5+vv8/fYHAAMKHEiwoMGDCBMqXMiwocODCCJKnEixosWLGDNq3Mixo8ePIEOKHEmypMmOCVKqXMmy5UoFCxg0cODgAYQILnPq3Mmzp8+fQHtKGEq0KNEJFGgqrTCBqIULSpViMJpBw4aoU41q3cq1q9evYMOKHSuBQ1SaHYgC8HDWgYai/h9AtA1Btq7du3i5itjLt2/fEW0r9CWQNCqDviTaOijht7Hjx5AjS55MuTJfE5gza9Zc4MRZFCk0qzirIvMKFm1buNjMurXr17Bjy55NO/OL27hz64bRlkPuGGdl4J7RloYH3ciTK1/OvLnz59Bz15hOvbp1GzfaWqCO42yM6SlytNWBwLr58+jTq1/Pvr3799YBn92xYjpUrDV49GjrgwD8/wAGKKB6PBRo4IEI8oCAD239AEQQckXFghBDtMUAEQlmqOGGHHbo4YcghvhhETS01YMRiv1wRFtI5CfiizDGKCOHSdRo44041vgCcYr1yJ8EOQYp5JBEFmnkkUgm/pmkEkv46CRNNzCh5JRUVmmlkU1kqeWWXGrJgxMoPOnkE1B0aeaZaKap5ppstqkmE3DGKeeccpqQmJg+PhEFnXz26eefgAYq6KCEEirFFGLKUFhbTwBR6KOQRiqpn1FUaumlmGZKRRVOngCAFSH0SEKmpJZq6qmopqrqqqyyysQVC/iIRRRJWJFFj1q0quuuvPZa6hbABivssMRuAQUBXHShmBfANvHFrW2BUey01FZr7bXYZpttGNx26+234Hb7ghhjkKFCGTThoEC3TBBhxopKbTDFGeHWa++9+Oar77789htuFC8QgEYaaqiBBhPeRkEAwQUXvIa/EEcs8cTd6LJh8cUYZ6zxxhx37PHHIIcs8sgkd9zGySinrPLKLLfs8sswxyzzzDTX7LIbb+Ss88489+zzz0AHLfTQRBdt9NE+BwEH0kw37fTTUEetcxxyzGH11VhnrfXWXHft9ddghy322GRvTUcddpSt9tpst+3223PcAYEDdOBh991456333nz37fffgAcu+OCE550HTWVEoMfijDfu+OOQRy755JRXbvnlmGfOeAd7KNUAHXbwIfropJdu+umop6766qy37vrrr9vRB7pn1eEHHEHArvvuvPfu++5u/OEHBngWb/zxyCev/PLIBwIAOw==");
+}
+
+.post_info > .like_wrap .like_btn.like:before {
+  font-weight: normal;
+  padding-right: 4px;
+  font-size: 10px;
+  color: #829baf;
+  transition: color 100ms ease-in-out;
+  line-height: 16px;
+}
+
+.post_info > .like_wrap .like_btns:hover .like_btn.like:before {
+  color: #2f5879;
+}
+
+:lang(ru) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мне нравится";
+}
+
+:lang(uk) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мені подобається";
+}
+
+:lang(be) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мне падабаецца";
+}
+
+:lang(be-tarask) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мне падабаецца";
+}
+
+:lang(en-us) .post_info > .like_wrap .like_btn.like:before {
+  content: "Like";
+}
+
+:lang(ru-petr1708) .post_info > .like_wrap .like_btn.like:before {
+  content: "Мнѣ по нраву";
+}
+
+:lang(ru-ussr) .post_info > .like_wrap .like_btn.like:before {
+  content: "Одобряю";
+}
+
+:lang(kk) .post_info > .like_wrap .like_btn.like:before {
+  content: "Ұнатамын";
+}
+
+/* Страницу */
+
+#profile_edit_act.FlatButton.FlatButton--secondary.FlatButton--size-m.FlatButton--wide:after {
+    content: " страницу";
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 79.15px;
+}
+:lang(en-us) #profile_edit_act.flat_button.button_wide.secondary:after {
+   content: " page";
+}
+:lang(uk) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " сторінку"
+}
+:lang(kk) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " Бетті"
+}
+:lang(ru-ussr) #profile_edit_act.flat_button.button_wide.secondary:after {
+    content: " досье"
+}
+
+ /*Group*/
+   
+#group:before {
+content: 'Открытая группа';
+} 
+:lang(en-us) #group:before {         
+		content: 'Open community';
+}
+:lang(en-us) #public:before {
+content: 'Public page';
+}
+:lang(en-us).group_closed:before{ 
+content: 'Closed community'; 
+}
+
+ /* Мои аудиозаписи */
+ 
+:lang(en-us) ._audio_section_tab__all .ui_tab:before {
+	    content: "My audios";
+}
+:lang(uk) ._audio_section_tab__all .ui_tab:before {
+	    content: "Мої Аудіозаписи";
+}
+:lang(uk) #l_aud .left_label.inl_bl:before {
+    content: "Мої Аудїозаписи";
+    display: -webkit-inline-box;
+    padding-right: 100px;
+}
+:lang(en-us)  #l_aud .left_label.inl_bl:before {
+    content: "My Audios";
+    display: -webkit-inline-box;
+    padding-right: 100px;
+}
+
+/* Голосовое сообщение,действия,отправить,прикрепить*/
+:lang(en-us) .im-page--header-more:before {
+    content: "Action";
+}
+[dir] :lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_audio:after {
+    content: "Voice message";
+}
+:lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_send:after {
+	content: "Send";
+}
+:lang(uk) .ms_items_more_wrap.to_up .ms_items_more:after {
+	content: "Прикріпивши"
+}
+
+/* Перевод регестрации*/
+:lang(ru) .flat_button.button_wide.button_big_text.ij_button { 
+    content: "Зарегистрироваться"
+}
+:lang(en-us)[dir] button.FlatButton.FlatButton--positive.FlatButton--size-l.FlatButton--wide.JoinForm__submitButton::before {
+    content: "Sign up";
+	width: 114px;
+}
+:lang(en-us) #index_rcolumn>.ij_form>.ij_header #txt_about_vk:before {
+ content: " VK – universal means for communication and search for friends and classmates, which are used daily by tens of millions of people.";
+ background: #fff;
+ position: absolute;
+}
+:lang(ru-ussr) p#txt_about_vk b:before {
+    content: "ВСоюзе";
+    background: #fff;
+    position: absolute;
+    height: 48px;
+    width: 66px;
+    left: 160px;
+    display: block;
+}
+
+:lang(ru-ussr).TopHomeLink {
+    background: url(data:image/png;base64,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)no-repeat;
+    width: 134px;
+    left: 13px;
+    height: 34px;
+    top: 6px;
+    position: absolute;
+}
+:lang(ru-ussr) #vkc-profile-edit:before {
+    content: 'корр.'!important;
+}
+:lang(ru-ussr) #footer_wrap .left_menu_nav:first-child {
+    top: 40px;
+    position: relative;
+    text-transform: capitalize;
+    left: 216px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+:lang(ru-ussr) #footer_wrap .left_menu_nav_wrap {
+    display: flow-root;
+    margin-top: auto;
+    padding-right: 240px!important;
+}
+:lang(ru-ussr) #footer_wrap .ui_actions_menu_item:nth-child(4) {
+    top: 17px;
+    position: absolute;
+    display: block;
+}
+:lang(ru-ussr) #like_share_mail.radiobtn:after {
+    content: "Выслать телеграмму" !important;
+    background: white;
+    position: initial;
+    display: -webkit-inline-box;
+    margin-left: -75px;
+    top: 48px;
+}
+:lang(uk) p#txt_about_vk b:before {
+    content: "Вконтакте";
+    background: #fff;
+    position: absolute;
+    height: 48px;
+    width: 66px;
+    left: 160px;
+    display: block;
+}
+:lang(uk) p#txt_about_vk:before {
+    content: "– універсальний засіб для спілкування і пошуку друзів і однокласників,";
+    background: #fff;
+    position: absolute;
+    height: 91px;
+    width: 400px;
+    left: 226px;
+}
+:lang(uk) p#txt_about_vk:after {
+    content: "яким щодня користуються десятки мільйонів чоловік.";
+    background: #fff;
+    position: absolute;
+    height: 27px;
+    width: 278px;
+    right: -322px;
+}
+:lang(be) p#txt_about_vk:before {
+    content: "- універсальны сродак для зносін і пошуку сяброў і аднакласнікаў,";
+    background: #fff;
+    position: absolute;
+    height: 91px;
+    width: 400px;
+    left: 226px;
+}
+:lang(be) p#txt_about_vk:after {
+    content: "якім штодня карыстаюцца дзясяткі мільёнаў чалавек.";
+    background: #fff;
+    position: absolute;
+    height: 27px;
+    width: 278px;
+    right: -321px;
+}
+:lang(en-us) #ij_submit.flat_button.button_wide.button_big_text.ij_button:before { 
+    content: "Sign up" !important;
+    padding: 4.3px 55px;
+    display: -webkit-box;
+}
+:lang(en-us) #title_vk2:before {
+ content: "What can you do on VKontakte?" !important;
+ background: #fff;
+ position: absolute;
+} 
+:lang(uk) #title_vk2:before {
+	content:"У чому допоможе ВКонтакте?";
+	position:absolute;
+	background:#fff;
+    font-size: 13px;
+    color: #456389;
+}
+:lang(en-us) #t_and_em:before { 
+    content: "Telephone or email" !important;
+    background: #fff;
+    position: absolute;
+	width: 110px;
+}
+:lang(uk) #t_and_em:before { 
+    content: "Телефон або email" !important;
+    background: #fff;
+    position: absolute;
+	width: 110px;
+}
+:lang(be) #t_and_em:before { 
+    content: "Тэлефон або email" !important;
+    background: #fff;
+    position: absolute;
+	width: 110px;
+}
+:lang(en-us) #pass_word:before { 
+    content: "Password" !important;
+    background: #fff;
+    position: absolute;
+}   
+:lang(en-us) .index_page #content:before {
+    display: block;
+    width: 607px;
+    height: 15px;
+    content: "Welcome!";
+    font-weight: 700;
+    padding: 7px 10px;
+    line-height: 140%;
+    background: #e9edf1;
+    color: #607387;
+}
+:lang(uk) .index_page #content:before {
+    display: block;
+    width: 607px;
+    height: 15px;
+    content: "Ласкаво просимо";
+    font-weight: 700;
+    padding: 7px 10px;
+    line-height: 140%;
+    background: #e9edf1;
+    color: #607387;
+}
+:lang(be) .index_page #content:before {
+    display: block;
+    width: 607px;
+    height: 15px;
+    content: "Сардэчна запрашаем";
+    font-weight: 700;
+    padding: 7px 10px;
+    line-height: 140%;
+    background: #e9edf1;
+    color: #607387;
+}
+:lang(uk) button.FlatButton.FlatButton--positive.FlatButton--size-l.FlatButton--wide.JoinForm__submitButton::before {
+    content: "Зареєструватися";
+    left: 16px;
+    top: 7px;
+    background: #6383A9;
+    width: 127px;
+    height: 21px;
+    position: absolute;
+}
+:lang(be) button.FlatButton.FlatButton--positive.FlatButton--size-l.FlatButton--wide.JoinForm__submitButton::before {
+    content: "Зарэгістравацца";
+    left: 16px;
+    top: 7px;
+    background: #6383A9;
+    width: 127px;
+    height: 21px;
+    position: absolute;
+}
+:lang(uk) .JoinForm__facebookLogin.FacebookLogin.FacebookLogin--noNative:before {
+    content: " або ";
+    position: absolute;
+    left: 60%;
+    color: #7C7F82;
+    background: #fff;
+    display: block;
+    width: 21px;
+    text-align: center;
+}
+:lang(be) .JoinForm__facebookLogin.FacebookLogin.FacebookLogin--noNative:before {
+    content: " ці ";
+    position: absolute;
+    left: 60%;
+    color: #7C7F82;
+    background: #fff;
+    display: block;
+    width: 21px;
+    text-align: center;
+}
+:lang(en-us) .JoinForm__facebookLogin.FacebookLogin.FacebookLogin--noNative:before {
+    content: " or ";
+    position: absolute;
+    left: 60%;
+    color: #7C7F82;
+    background: #fff;
+    display: block;
+    width: 21px;
+    text-align: center;
+}
+:lang(en-us) .JoinForm {
+    position: relative;
+    top: -35px;
+}
+
+:lang(en-us) #title_vk2 {
+    font-size: 13px;
+    color: #456389;
+    font-weight: 600;
+    margin: 180px 5px 0 105px;
+    padding: 4px 0;
+    border-bottom: 1px solid #d9e0e7;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    width: 567px;
+}
+:lang(ru-ussr) .JoinForm {
+    position: relative;
+    top: -10px;
+}
+:lang(ru-ussr) #title_vk2 {
+    font-size: 13px;
+    color: #456389;
+    font-weight: 600;
+    margin: 197px 5px 0 105px;
+    padding: 4px 0;
+    border-bottom: 1px solid #d9e0e7;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    width: 567px;
+}
+:lang(ru-ussr) ul#vk_ab {
+    position: absolute;
+    text-align: left;
+    width: 455px;
+    font-size: 13px;
+    left: 166px;
+    top: 75%;
+}
+:lang(ru-ussr) #profile_edit_act.FlatButton.FlatButton--secondary.FlatButton--size-m.FlatButton--wide:after {
+    content: " досьe";
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 85.15px;
+}
+:lang(ru-ussr) .index_page #wrap1 {
+    display: block;
+    height: 720px;
+}
+:lang(ru-ussr)#index_footer_wrap {
+    padding: 9px 15px;
+    margin-left: -18px;
+    margin-top: 80px;
+}
+/* Новогдняя шапка */
+:lang(en-us) .top_home_link.top_home_ny_logo .top_home_logo {
+    background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+ :lang(en-us) head.oldvk-ny-1 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-2 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-3 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-4 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-5 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-6 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-7 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-8 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-9 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-10 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-11 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-12 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-13 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-14 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-15 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-16 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+
+:lang(en-us) head.oldvk-ny-17 ~ body .top_home_link.top_home_ny_logo .top_home_logo {
+	background: url('data:image/svg+xml;charset=utf-8,%3Csvg%20height%3D%2223%22%20width%3D%2246%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M31.131%2011.461c-.729%201.093-1.282%201.872-1.282%201.872-.37.593-.519.89%200%201.557.371.52%201.595%201.558%202.41%202.522%201.504%201.691%202.637%203.118%202.953%204.101C35.5%2022.5%2035%2023%2034%2023h-3.5c-1.335%200-1.726-1.065-4.1-3.438-2.076-2.002-2.966-2.262-3.485-2.262-.704%200-.915.2-.915%201.2v3.139C22%2022.5%2021.725%2023%2019.5%2023c-3.708%200-7.783-2.251-10.675-6.404C4.487%2010.515%203.3%205.916%203.3%204.99c0-.52.2-.99%201.2-.99H8c.895%200%201.231.391%201.566%201.36%201.712%204.987%204.598%209.345%205.785%209.345.445%200%20.649-.205.649-1.335V8.216c-.13-2.373-1.39-2.568-1.39-3.412%200-.391.334-.804.89-.804H21c.742%200%20.988.397.988%201.287v6.933c0%20.742.334%201.002.556%201.002.445%200%20.816-.26%201.632-1.076.99-1.106%201.866-2.447%202.564-3.668z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20fill-rule%3D%22nonzero%22%20transform%3D%22translate(24)%22%3E%3Cpath%20d%3D%22M12.128%2010.126a1.477%201.477%200%200%201%20.344%202.076%201.504%201.504%200%200%201-2.09.364L.872%205.874a1.477%201.477%200%200%201-.344-2.076%201.504%201.504%200%200%201%202.09-.364z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M2.49%203.35C6.26-.576%2011.356-.759%2013.988%201.514c3.95%203.41%203.075%208.527%202.15%2012.199-.141.563-1.072.45-.99%200%20.276-1.498.22-3.16-.292-3.672-.667-.667-1.574-.523-2.533.265z%22%20fill%3D%22%23fa7a5a%22%2F%3E%3Crect%20fill%3D%22%23fff%22%20height%3D%223%22%20rx%3D%221.5%22%20width%3D%223%22%20x%3D%2214%22%20y%3D%2213%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M30.556%2012.313l-4.333-2.965c.182-.293.354-.585.517-.87l4.391%202.983c-.209.313-.403.601-.575.852z%22%20fill%3D%22%234a76a8%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M41.5%2023a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-37%200a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm19-2a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-23%202a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-2-4a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm41%207a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-6-3a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201zm-3-1a.5.5%200%201%201%200-1%20.5.5%200%200%201%200%201z%22%20fill%3D%22%23a6cbf5%22%2F%3E%3Cpath%20d%3D%22M9%2023a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm17%200a1%201%200%201%201%200-2%201%201%200%200%201%200%202zM3%2020a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm35%203a1%201%200%201%201%200-2%201%201%200%200%201%200%202zm5-2a1%201%200%201%201%200-2%201%201%200%200%201%200%202z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat;
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}
+/* Надпись Поделиться */
+:lang(ru) .post_info > .like_wrap .like_btn.share:before {
+    content: "Поделиться"
+}
+:lang(en-us) .post_info > .like_wrap .like_btn.share:before {
+    content: "Share"
+}    
+ :lang(uk) .post_info > .like_wrap .like_btn.share:before {
+    content: "Поділитися"
+} 
+/* Надпись Мои Группы */       
+:lang(ru) #l_gr .left_label.inl_bl:before {
+    content: 'Мои ';
+}     
+:lang(en-us) #l_gr .left_label.inl_bl:before {
+    content: 'My Communities';
+    display: -webkit-inline-box;
+    padding-right: 68px;
+}     
+:lang(en-us) #l_pr .left_label.inl_bl:before {
+    content: 'My Page';
+    display: -webkit-inline-box;
+    padding-right: 100px;
+}
+:lang(en-us) .strelka::after {
+    content: '';
+    position: absolute;
+    left: 104px;
+    top: 10px;
+    border: 4px solid transparent;
+    border-left: 5px solid #fff;
+}
+:lang(en-us) #vkc-profile-edit:before {
+    content: 'edit.';
+}
+:lang(ru) #vkc-profile-edit:before {
+    content: 'ред.';
+}
+:lang(uk) #vkc-profile-edit:before {
+    content: 'ред.';
+}
+:lang(en-us) #footer_wrap .left_menu_nav_wrap {
+    margin-top: auto;
+    margin-left: 155px;
+}
+:lang(en-us) #durov .durov {
+    content: 'Pavel Durov';
+}
+/* Исправления 11.20.20*/
+:lang(ru) #l_doc .left_label:before {
+    content: 'Документы';
+    display: -webkit-inline-box;
+}
+
+:lang(uk) #l_doc .left_label:before {
+    content: 'Документи';
+    display: -webkit-inline-box;
+}
+
+:lang(en-us) #l_doc .left_label:before {
+    content: 'Documents';
+    display: -webkit-inline-box;
+}
+
+:lang(en-us) #footer_wrap .left_menu_nav_wrap {
+    left: 65px;
+	top:0px;
+}
+
+:lang(en-us)[dir] .left_menu_nav_wrap {
+    margin-right: 120px;
+}
+:lang(en-us) #footer_wrap .left_menu_nav_wrap:after {
+    content: "Vkontakte © 2022";
+    top: 21px;
+    position: relative;
+    left: -227px;
+}
+:lang(en-us)[dir] .im-navigation .im-navigation__button:before {
+    content: 'Go to the end of the message history';
+    display: block;
+    margin-top: 13px;
+    color: #93939D;
+}
+:lang(en-us) .ui_search.ui_search_field_empty._im_dialogs_search_input.im-page--dialogs-search.ui_search_custom._wrap.ui_search_old:after {
+    content: "Search for messages or interlocutors";
+}
+:lang(en-us)[dir] #like_share_my.radiobtn.on:after {
+    content: "Friends and subscribers" !important;
+}
+:lang(en-us)[dir] #like_share_my.radiobtn:after {
+    content: "Friends and subscribers" !important;
+}
+:lang(en-us)[dir] #like_share_club.radiobtn:after {
+    content: "Community subscribers" !important;
+}
+:lang(en-us)[dir] #like_share_mail.radiobtn:after {
+    content: "Send by private message" !important;
+}
+:lang(en-us)[dir] ._audio_section_tab__recoms .ui_tab:before {
+    content: "Recommendations";
+    display: -webkit-inline-box;
+    padding-right: 120px;
+}
+:lang(en-us)[dir] ._audio_section_tab__explore .ui_tab:before {
+    content: "Popular";
+    display: -webkit-inline-box;
+    padding-right: 120px;
+}
+lang(en-us)[dir] .index_vk_connect_faq {
+    display: block;
+    position: sticky;
+    top: 268px;
+    width: 88px;
+    text-align: center;
+    color: var(--steel_gray_400);
+    font-size: 13px;
+    line-height: 20px;
+}
+:lang(en-us)[dir] .ms_items_more .post_action_btn .post_action_btn_text:before {
+    content: 'Timer (';
+    background: none;
+}
+:lang(en-us) button.im-page--dialogs-header-control.im-page--dialogs-header-control_call._im_create_call:after {
+    content: "Call"!important;
+}
+:lang(en-us)[dir] #ui_rmenu_fav.ui_rmenu_item._ui_item_fav {
+    left: 489px;
+}
+:lang(en-us)[dir] .TopHomeLink {
+  background: url("data:image/gif;base64,R0lGODlhkQAqAOYRAExtkUxukk1ukk1vk05vk05wk05wlE9wlE9xlVBxlWeEpMnT3u/y9fr7/P////X3+d7l7IWet1ByllFzlvf4+srU34qhuvL09+Lo7rrI1vT2+Pz9/c/X4X+ZtHKKpmaEo/7+/uXp7lFyln+Vrq++zpepvVFzl9vh6P7+/3KNq+nt8V9+n/b3+eLn7FBwk1Jzl4GXr9/k6+fr8LLB0P39/lJ0mE9wk93j6eXq7/v8/aSzxezv81N1mdff59HZ4s3X4VZ4m15/olZ3m5mtw1x5mm6IpczW4fj5+3yTrVR2mlh2mOzw81V3m1R2m3uSrb7L2VV3nFZ4nFBxlM3W4Fd2l9ng52B8nFVzlp2vwubq74uiu1Z4nZOmvO3w9IqguWJ/oOru8ld5nVFwlIygt8PO2vn6/L7K11h6nUxskEtrj0pqjk5ukld5nlh6nmKCpVh6n3SRr3KOrqS3yll7n5+yyOTp71x9oVp8n1l7oJmuxVl8oPj6+1p8oJ2xxqK2ynWSsCwAAAAAkQAqAAAH/oAAgoOEhYaHiImKi4yNjo+QiQGTlJWWl5iZmpucnZ6foKGaAqSlpqeoqaqrrK2ur7CxsrO0tba3uLmwA7y9vr/AwcLDxMXGx8jJysMEzc7P0NHS09TV1tfY2drb1AXe3+Dh4uPk5ebn6Onq6+zlBu/w8fLz9PX29/j5+vv8/fYHAAMKHEiwoMGDCBMqXMiwocODCCJKnEixosWLGDNq3Mixo8ePIEOKHEmypMmOCVKqXMmy5UoFCxg0cODgAYQILnPq3Mmzp8+fQHtKGEq0KNEJFGgqrTCBqIULSpViMJpBw4aoU41q3cq1q9evYMOKHSuBQ1SaHYgC8HDWgYai/h9AtA1Btq7du3i5itjLt2/fEW0r9CWQNCqDviTaOijht7Hjx5AjS55MuTJfE5gza9Zc4MRZFCk0qzirIvMKFm1buNjMurXr17Bjy55NO/OL27hz64bRlkPuGGdl4J7RloYH3ciTK1/OvLnz59Bz15hOvbp1GzfaWqCO42yM6SlytNWBwLr58+jTq1/Pvr3799YBn92xYjpUrDV49GjrgwD8/wAGKKB6PBRo4IEI8oCAD239AEQQckXFghBDtMUAEQlmqOGGHHbo4YcghvhhETS01YMRiv1wRFtI5CfiizDGKCOHSdRo44041vgCcYr1yJ8EOQYp5JBEFmnkkUgm/pmkEkv46CRNNzCh5JRUVmmlkU1kqeWWXGrJgxMoPOnkE1B0aeaZaKap5ppstqkmE3DGKeeccpqQmJg+PhEFnXz26eefgAYq6KCEEirFFGLKUFhbTwBR6KOQRiqpn1FUaumlmGZKRRVOngCAFSH0SEKmpJZq6qmopqrqqqyyysQVC/iIRRRJWJFFj1q0quuuvPZa6hbABivssMRuAQUBXHShmBfANvHFrW2BUey01FZr7bXYZpttGNx26+234Hb7ghhjkKFCGTThoEC3TBBhxopKbTDFGeHWa++9+Oar77789htuFC8QgEYaaqiBBhPeRkEAwQUXvIa/EEcs8cTd6LJh8cUYZ6zxxhx37PHHIIcs8sgkd9zGySinrPLKLLfs8sswxyzzzDTX7LIbb+Ss88489+zzz0AHLfTQRBdt9NE+BwEH0kw37fTTUEetcxxyzGH11VhnrfXWXHft9ddghy322GRvTUcddpSt9tpst+3223PcAYEDdOBh991456333nz37fffgAcu+OCE550HTWVEoMfijDfu+OOQRy755JRXbvnlmGfOeAd7KNUAHXbwIfropJdu+umop6766qy37vrrr9vRB7pn1eEHHEHArvvuvPfu++5u/OEHBngWb/zxyCev/PLIBwIAOw==") no-repeat;
+  width: 134px;
+  height: 40px;
+  margin: 0;
+}
+:lang(en-us)[dir] .footer_links {
+    margin-right: -275px;
+    margin-left: 365px;
+}
+:lang(en-us) .footer_copy {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+:lang(en-us) .footer_lang {
+    margin-top: 23px;
+    margin-left: -161px;
+}
+:lang(ru)[dir] #index_footer_wrap {
+    padding: 9px 15px;
+    margin-left: -85px;
+}
+:lang(ru)[dir] .deep_active .replies .reply_send_button:before, .deep_active.wall_module .replies .reply_send_button:before, .deep_active.wall_module .wl_replies_block_wrap .reply_send_button:before, .deep_active .wl_replies_block_wrap .reply_send_button:before {
+    content: "Отправить";
+}
+
+:lang(en-us) .ui_zoom_icon:after {
+    content: " Increase ";
+    color: white;
+    margin-left: 18px;
+}
+:lang(en-us)._im_media_selector.im-chat-input--selector:after {
+    content: "Attach";
+}
+:lang(en-us) #ui_rmenu_all.ui_rmenu_item._ui_item_all.ui_rmenu_item_sel:span {
+	content: "Dialogue";
+}
+
+:lang(ru-ussr) p#txt_about_vk:before {
+    content: "– универсальное средство для коммуникацирование и поиска таваpищeй и ";
+    background: #fff;
+    position: absolute;
+    height: 91px;
+    width: 400px;
+    left: 226px;
+}
+:lang(en-us) p#txt_about_vk b:before {
+    content: "VKontakte";
+    background: #fff;
+    position: absolute;
+    height: 48px;
+    width: 66px;
+    left: 160px;
+    display: block;
+}
+:lang(en-us) p#txt_about_vk:before {
+    content: "– is a universal tool for communicating and searching for friends and classmates,";
+    background: #fff;
+    position: absolute;
+    height: 91px;
+    width: 400px;
+    left: 226px;
+}
+:lang(en-us) p#txt_about_vk:after {
+    content: "which is used by tens of millions of people every day.";
+    background: #fff;
+    position: absolute;
+    height: 27px;
+    width: 278px;
+    right: -322px;
+}
+:lang(en-us) ul#vk_ab{
+    position: absolute;
+    text-align: left;
+    width: 455px;
+    font-size: 13px;
+    left: -244px;
+    top: 170%;
+}
+:lang(en-us) .index_page #wrap1 {
+    display: block;
+    height: 735px;
+}
+:lang(en-us) #index_footer_wrap {
+    padding: 69px 15px;
+    margin-left: -145px;
+}
+:lang(en-us) ul#vk_ab span5:before {
+    content: "Find people with whom you have ever studied, worked or rested.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(en-us) ul#vk_ab span6:before {
+    content: "Learn more about the people around you and find new friends.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(en-us) ul#vk_ab span7:before {
+    content: "Always stay in touch with those who are dear to you.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(uk) ul#vk_ab span5:before {
+    content: "Знайти людей, з якими ви коли-небудь навчалися, працювали або відпочивали.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(uk) ul#vk_ab span6:before {
+    content: "Дізнатися більше про людей, які Вас оточують, і знайти нових друзів.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(uk) ul#vk_ab span7:before {
+    content: "Завжди залишатися в контакті з тими, хто вам доріг.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(be) ul#vk_ab span5:before {
+    content: "Знайсці людзей, з якімі вы калі-небудзь вучыліся, працавалі або адпачывалі.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(be) ul#vk_ab span6:before {
+    content: "Даведацца больш пра людзей, якія вас атачаюць, і знайсці новых сяброў.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(be) ul#vk_ab span7:before {
+    content: "Заўсёды заставацца ў кантакце з тымі, хто вам дарог.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(en-us) .join_vk_connect_logo {
+    background-repeat: no-repeat;
+    background-image: url(data:image/gif;base64,R0lGODlhkQAqAOYRAExtkUxukk1ukk1vk05vk05wk05wlE9wlE9xlVBxlWeEpMnT3u/y9fr7/P////X3+d7l7IWet1ByllFzlvf4+srU34qhuvL09+Lo7rrI1vT2+Pz9/c/X4X+ZtHKKpmaEo/7+/uXp7lFyln+Vrq++zpepvVFzl9vh6P7+/3KNq+nt8V9+n/b3+eLn7FBwk1Jzl4GXr9/k6+fr8LLB0P39/lJ0mE9wk93j6eXq7/v8/aSzxezv81N1mdff59HZ4s3X4VZ4m15/olZ3m5mtw1x5mm6IpczW4fj5+3yTrVR2mlh2mOzw81V3m1R2m3uSrb7L2VV3nFZ4nFBxlM3W4Fd2l9ng52B8nFVzlp2vwubq74uiu1Z4nZOmvO3w9IqguWJ/oOru8ld5nVFwlIygt8PO2vn6/L7K11h6nUxskEtrj0pqjk5ukld5nlh6nmKCpVh6n3SRr3KOrqS3yll7n5+yyOTp71x9oVp8n1l7oJmuxVl8oPj6+1p8oJ2xxqK2ynWSsCwAAAAAkQAqAAAH/oAAgoOEhYaHiImKi4yNjo+QiQGTlJWWl5iZmpucnZ6foKGaAqSlpqeoqaqrrK2ur7CxsrO0tba3uLmwA7y9vr/AwcLDxMXGx8jJysMEzc7P0NHS09TV1tfY2drb1AXe3+Dh4uPk5ebn6Onq6+zlBu/w8fLz9PX29/j5+vv8/fYHAAMKHEiwoMGDCBMqXMiwocODCCJKnEixosWLGDNq3Mixo8ePIEOKHEmypMmOCVKqXMmy5UoFCxg0cODgAYQILnPq3Mmzp8+fQHtKGEq0KNEJFGgqrTCBqIULSpViMJpBw4aoU41q3cq1q9evYMOKHSuBQ1SaHYgC8HDWgYai/h9AtA1Btq7du3i5itjLt2/fEW0r9CWQNCqDviTaOijht7Hjx5AjS55MuTJfE5gza9Zc4MRZFCk0qzirIvMKFm1buNjMurXr17Bjy55NO/OL27hz64bRlkPuGGdl4J7RloYH3ciTK1/OvLnz59Bz15hOvbp1GzfaWqCO42yM6SlytNWBwLr58+jTq1/Pvr3799YBn92xYjpUrDV49GjrgwD8/wAGKKB6PBRo4IEI8oCAD239AEQQckXFghBDtMUAEQlmqOGGHHbo4YcghvhhETS01YMRiv1wRFtI5CfiizDGKCOHSdRo44041vgCcYr1yJ8EOQYp5JBEFmnkkUgm/pmkEkv46CRNNzCh5JRUVmmlkU1kqeWWXGrJgxMoPOnkE1B0aeaZaKap5ppstqkmE3DGKeeccpqQmJg+PhEFnXz26eefgAYq6KCEEirFFGLKUFhbTwBR6KOQRiqpn1FUaumlmGZKRRVOngCAFSH0SEKmpJZq6qmopqrqqqyyysQVC/iIRRRJWJFFj1q0quuuvPZa6hbABivssMRuAQUBXHShmBfANvHFrW2BUey01FZr7bXYZpttGNx26+234Hb7ghhjkKFCGTThoEC3TBBhxopKbTDFGeHWa++9+Oar77789htuFC8QgEYaaqiBBhPeRkEAwQUXvIa/EEcs8cTd6LJh8cUYZ6zxxhx37PHHIIcs8sgkd9zGySinrPLKLLfs8sswxyzzzDTX7LIbb+Ss88489+zzz0AHLfTQRBdt9NE+BwEH0kw37fTTUEetcxxyzGH11VhnrfXWXHft9ddghy322GRvTUcddpSt9tpst+3223PcAYEDdOBh991456333nz37fffgAcu+OCE550HTWVEoMfijDfu+OOQRy755JRXbvnlmGfOeAd7KNUAHXbwIfropJdu+umop6766qy37vrrr9vRB7pn1eEHHEHArvvuvPfu++5u/OEHBngWb/zxyCev/PLIBwIAOw==)!important;
+    width: 134px;
+    height: 42px;
+    margin: 0;
+}
+:lang(en-us) header.join_vk_connect_header:before {
+    content: "ID";
+    position: absolute;
+    color: #f1f1f1;
+    margin-left: 56px;
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.post_info > .like_wrap .like_btn.like:before, .post_info > .like_wrap .PostButtonReactions:before, #wl_post_actions_wrap > .like_wrap .PostButtonReactions:before, .mv_actions_block .like_wrap .like_btn.like:before, #pv_bottom_info_like .like_wrap .like_btn.like:before, .ShortVideoPost__widgets > .like_wrap .like_btn.like:before {
+    font-weight: normal;
+    padding-right: 4px;
+    font-size: 10px;
+    color: #829baf;
+    transition: color 100ms ease-in-out;
+    line-height: 16px;
+    opacity: 1;
+}
+[dir] :lang(ru) .post_info > .like_wrap .PostButtonReactions:before {
+    content: "Мне нравится";
+}
+[dir] :lang(kk) button.FlatButton.FlatButton--positive.FlatButton--size-l.FlatButton--wide.JoinForm__connectButton::before {
+    content: "Тіркелу";
+}
+
+[dir] :lang(kk) #title_vk2:before {
+    content: "ВКонтакте не көмектеседі?" !important;
+    background: #fff;
+    position: absolute;
+}
+[dir] :lang(kk) .JoinForm__facebookLogin.FacebookLogin.FacebookLogin--noNative:before {
+    content: " немесе ";
+    position: absolute;
+    left: 53%;
+    color: #7C7F82;
+    background: #fff;
+}
+[dir] :lang(kk) p#txt_about_vk:before {
+    content: "– достар мен сыныптастарды қарым-қатынас пен іздеудің әмбебап құралы,";
+    background: #fff;
+	color: black;
+    position: absolute;
+    height: 91px;
+    width: 400px;
+    left: 226px;
+}
+:lang(kk) p#txt_about_vk:after {
+    content: "күн сайын ондаған миллион адам пайдаланады";
+    background: #fff;
+	color: black;
+    position: absolute;
+    height: 27px;
+    width: 278px;
+    right: -322px;
+}
+:lang(kk) ul#vk_ab span5:before {
+    content: "Сіз бұрын оқыған, жұмыс істеген немесе демалған адамдарды табыңыз.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(kk) ul#vk_ab span6:before {
+    content: "Айналаңыздағы адамдар туралы көбірек біліп, жаңа достар табыңыз.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(kk) ul#vk_ab span7:before {
+    content: "Әрқашан сіз үшін қымбат адамдармен байланыста болыңыз.";
+    background: #fff;
+    position: absolute;
+    width: 500px;
+}
+:lang(kk) div#vk_connect_registration_faq {
+    display: block;
+}
+
+div#vk_connect_registration_faq {
+	position: absolute;
+    z-index: 0;
+    height: 128px;
+    margin-top: -175px;
+    left: 390px!important;
+}
+:lang(en-us) .JoinForm {
+    position: relative;
+    top: -15px;
+}
+[dir] :lang(en-us) #prim_str {
+    position: absolute;
+    margin-left: -289px;
+    width: 1364%;
+    margin-top: -90px;
+}
+:lang(en-us) .index_page #wrap1 {
+    display: block;
+    height: 683px;
+}
+:lang(en-us) #index_footer_wrap {
+    padding: 0px 15px;
+    margin-left: -145px;
+    margin-top: 40px;
+}
+
+:lang(en-us) button.FlatButton.FlatButton--positive.FlatButton--size-l.FlatButton--wide.JoinForm__connectButton::before {
+    content: "Sign up";
+    left: 30px;
+    top: 114px;
+}
+:lang(en-us) #profile_edit_act.FlatButton.FlatButton--secondary.FlatButton--size-m.FlatButton--wide:after {
+    content: "page";
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 23.15px;
+}
+[dir] :lang(en-us) .deep_active .replies .reply_send_button:before, .deep_active.wall_module .replies .reply_send_button:before, .deep_active.wall_module .wl_replies_block_wrap .reply_send_button:before, .deep_active .wl_replies_block_wrap .reply_send_button:before {
+    height: 19px;
+    background: #6383A8;
+    background-size: cover;
+    animation: none;
+    content: "Send";
+}
+[dir] :lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_audio {
+    width: 103px;
+}
+[dir] :lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_send {
+    width: 55px;
+}
+[dir] :lang(en-us) #ui_rmenu_all:before {
+    content: "Dialogues";
+    background: #fff;
+	background-size: cover;
+    position: absolute;
+}
+[dir] :lang(en-us) #ui_rmenu_all:hover:before {
+    content: "Dialogues";
+    background: #e1e7ed;
+    position: absolute;
+}
+[dir] :lang(en-us) #ui_rmenu_all:after {
+    content: "Dialogues";
+    background: #597da3;
+    position: absolute;
+}
+[dir] :lang(en-us) #ui_rmenu_all:hover:after {
+    content: "Dialogues";
+    background: #fff;
+    position: absolute;
+}
+
+/*Регистрация на английский*/
+[dir] :lang(en-us) .VkIdForm__header {
+    right: -355px;
+}
+
+:lang(en-us) div#up_title_vk_text:before {
+    content: "has been redesigned to protect";
+    position: absolute;
+    color: black;
+    left: 38px;
+}
+:lang(en-us) div#up_title_vk_text{
+    color: #0000;
+}
+:lang(en-us) div#up_title_vk_login_l{
+left: 307px!important;
+}
+:lang(en-us) div#down_title_vk_text{
+    left: 482px!important;
+    top: 25px!important;
+    color: #0000;
+}
+:lang(en-us) div#down_title_vk_text:before {
+    content: " your account data.";
+    position: absolute;
+    color: black;
+}
+:lang(en-us) div#up_title_vk:before {
+    position: absolute;
+    content: "Sign up for VK";
+    color: #456389;
+}
+[dir] :lang(en-us) #up_title_vk {
+    color: #0000;
+}
+:lang(en-us) .index_or_s {
+     color: #0000;
+     background:#0000;
+}
+:lang(en-us) .index_or_s:before {
+    content:"or";
+    background:#fff;
+    color: #888888;
+    position:absolute;
+    display: inline-block;
+    zoom: 1;
+    padding: 0px 4px;
+    margin: 0px auto 0px;
+    z-index: 2;
+}
+
+/*Регистрация на украинский язык*/
+:lang(uk) div#title_vk2 {
+    left: -345px;
+    top: 72px;
+}
+:lang(uk) div#up_title_vk_login_l {
+    left: 297px!important;
+    z-index: 1;
+}
+[dir] :lang(uk) .VkIdForm__header {
+    right: -339px;
+}
+:lang(uk) div#down_title_vk_text {
+    position: relative;
+    left: 76px!important;
+    top: 49px;
+}
+:lang(uk) div#down_title_vk_text:before {
+    content: "дані вашого облікового запису.";
+    position: absolute;
+    background: #fff;
+}
+:lang(uk) div#up_title_vk_text:before {
+    content: "був перероблений так, щоб він захищав";
+    position: absolute;
+    background: white;
+    width: 433px;
+    left: 7px;
+}
+
+:lang(uk) .index_or_s {
+     color: #0000;
+     background:#0000;
+}
+:lang(uk) .index_or_s:before {
+    content:"або";
+    background:#fff;
+    color: #888888;
+    position:absolute;
+    display: inline-block;
+    zoom: 1;
+    padding: 0px 4px;
+    margin: 0px auto 0px;
+    z-index: 2;
+}
+
+:lang(ru) .strelka::after {
+    content: '';
+    position: absolute;
+    left: 124px;
+    top: 7px;
+    border: 4px solid transparent;
+    border-left: 4px solid #fff;
+}
+
+:lang(ru) button.FlatButton.FlatButton--positive.FlatButton--size-l.FlatButton--wide.VkIdForm__button.VkIdForm__signUpButton > span >.FlatButton__content {
+    margin-left: -24px;
+    font-size: 10px;
+}
+/*Регистрация на каз-яз*/
+:lang(kk) div#title_vk2 {
+    left: -344px;
+    top: 73px;
+}
+[dir] :lang(kk) #prim_str {
+    margin-left: -257px;
+    margin-top: 14px;
+    width: 785%;
+}
+[dir] :lang(kk) #index_footer_wrap {
+    padding: 9px 15px;
+    margin-left: -39px;
+}
+:lang(kk) .index_page #content:before {
+    display: block;
+    width: 607px;
+    height: 15px;
+    content: "Қош келдіңіз!";
+    font-weight: 700;
+    padding: 7px 10px;
+    line-height: 140%;
+    background: #e9edf1;
+    color: #607387;
+}
+:lang(kk) div#up_title_vk_text:before {
+    content: "тіркелгі деректерін қорғау үшін қайта ";
+    position: absolute;
+    color: black;
+    left: 25px;
+}
+:lang(kk) div#up_title_vk_text{
+    color: #0000;
+}
+:lang(kk) div#down_title_vk_text:before {
+    content: " жасақталды.";
+    position: absolute;
+    color:black;
+}
+:lang(kk) div#down_title_vk_text {
+    content: " жасақталды.";
+    position: absolute;
+    color: #0000;
+    left: 74px!important;
+}
+:lang(kk) div#up_title_vk_login_l {
+    left: 297px!important;
+    bottom: 0px;
+    position: absolute;
+}
+[dir] :lang(kk) .VkIdForm__header {
+    right: -345px!important;
+}
+:lang(kk) .index_or_s {
+     color: #0000;
+     background:#0000;
+}
+:lang(kk) .index_or_s:before {
+    content:"немесе";
+    background:#fff;
+    color: #888888;
+    position:absolute;
+    display: inline-block;
+    zoom: 1;
+    padding: 0px 4px;
+    margin: 0px auto 0px;
+    z-index: 2;
+}
+:lang(kk) .index_or {
+    width: 182px;
+    margin-left: -24px;
+    text-align: center;
+}
+:lang(kk) div#up_title_vk:before {
+    position: absolute;
+    content: "Жылдам тіркеу";
+    color: #456389;
+    background: #FFF;
+    width: 190px;
+    height: 17px;
+    padding: 6px 0px 0px 2px;
+    top: 0px;
+}
+[dir] :lang(kk) #up_title_vk {
+    color: #0000;
+}
+[dir] :lang(kk) p#txt_about_vk b {
+    color: black;
+}
+[dir] :lang(kk) p#txt_about_vk {
+    color: #0000;
+}
+
+
+
+/*шапка для старого Языка Дореволюцiонный*/
+[dir] :lang(ru-petr1708) #page_header_cont {
+    background: url(http://vk.com/images/hatimp.gif?1) 0 -42px repeat-x!important;
+}
+[dir] :lang(ru-petr1708) .TopHomeLink {
+    background: url("data:image/png;base64,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") no-repeat;
+    width: 134px;
+    height: 40px;
+    margin: 0;
+}
+
+/*Шапка VK ID ENG*/
+:lang(en-us) .PromoHeaderFixed__actionsIcon {
+    background: url("data:image/gif;base64,R0lGODlhkQAqAOYRAExtkUxukk1ukk1vk05vk05wk05wlE9wlE9xlVBxlWeEpMnT3u/y9fr7/P////X3+d7l7IWet1ByllFzlvf4+srU34qhuvL09+Lo7rrI1vT2+Pz9/c/X4X+ZtHKKpmaEo/7+/uXp7lFyln+Vrq++zpepvVFzl9vh6P7+/3KNq+nt8V9+n/b3+eLn7FBwk1Jzl4GXr9/k6+fr8LLB0P39/lJ0mE9wk93j6eXq7/v8/aSzxezv81N1mdff59HZ4s3X4VZ4m15/olZ3m5mtw1x5mm6IpczW4fj5+3yTrVR2mlh2mOzw81V3m1R2m3uSrb7L2VV3nFZ4nFBxlM3W4Fd2l9ng52B8nFVzlp2vwubq74uiu1Z4nZOmvO3w9IqguWJ/oOru8ld5nVFwlIygt8PO2vn6/L7K11h6nUxskEtrj0pqjk5ukld5nlh6nmKCpVh6n3SRr3KOrqS3yll7n5+yyOTp71x9oVp8n1l7oJmuxVl8oPj6+1p8oJ2xxqK2ynWSsCwAAAAAkQAqAAAH/oAAgoOEhYaHiImKi4yNjo+QiQGTlJWWl5iZmpucnZ6foKGaAqSlpqeoqaqrrK2ur7CxsrO0tba3uLmwA7y9vr/AwcLDxMXGx8jJysMEzc7P0NHS09TV1tfY2drb1AXe3+Dh4uPk5ebn6Onq6+zlBu/w8fLz9PX29/j5+vv8/fYHAAMKHEiwoMGDCBMqXMiwocODCCJKnEixosWLGDNq3Mixo8ePIEOKHEmypMmOCVKqXMmy5UoFCxg0cODgAYQILnPq3Mmzp8+fQHtKGEq0KNEJFGgqrTCBqIULSpViMJpBw4aoU41q3cq1q9evYMOKHSuBQ1SaHYgC8HDWgYai/h9AtA1Btq7du3i5itjLt2/fEW0r9CWQNCqDviTaOijht7Hjx5AjS55MuTJfE5gza9Zc4MRZFCk0qzirIvMKFm1buNjMurXr17Bjy55NO/OL27hz64bRlkPuGGdl4J7RloYH3ciTK1/OvLnz59Bz15hOvbp1GzfaWqCO42yM6SlytNWBwLr58+jTq1/Pvr3799YBn92xYjpUrDV49GjrgwD8/wAGKKB6PBRo4IEI8oCAD239AEQQckXFghBDtMUAEQlmqOGGHHbo4YcghvhhETS01YMRiv1wRFtI5CfiizDGKCOHSdRo44041vgCcYr1yJ8EOQYp5JBEFmnkkUgm/pmkEkv46CRNNzCh5JRUVmmlkU1kqeWWXGrJgxMoPOnkE1B0aeaZaKap5ppstqkmE3DGKeeccpqQmJg+PhEFnXz26eefgAYq6KCEEirFFGLKUFhbTwBR6KOQRiqpn1FUaumlmGZKRRVOngCAFSH0SEKmpJZq6qmopqrqqqyyysQVC/iIRRRJWJFFj1q0quuuvPZa6hbABivssMRuAQUBXHShmBfANvHFrW2BUey01FZr7bXYZpttGNx26+234Hb7ghhjkKFCGTThoEC3TBBhxopKbTDFGeHWa++9+Oar77789htuFC8QgEYaaqiBBhPeRkEAwQUXvIa/EEcs8cTd6LJh8cUYZ6zxxhx37PHHIIcs8sgkd9zGySinrPLKLLfs8sswxyzzzDTX7LIbb+Ss88489+zzz0AHLfTQRBdt9NE+BwEH0kw37fTTUEetcxxyzGH11VhnrfXWXHft9ddghy322GRvTUcddpSt9tpst+3223PcAYEDdOBh991456333nz37fffgAcu+OCE550HTWVEoMfijDfu+OOQRy755JRXbvnlmGfOeAd7KNUAHXbwIfropJdu+umop6766qy37vrrr9vRB7pn1eEHHEHArvvuvPfu++5u/OEHBngWb/zxyCev/PLIBwIAOw==");
+}	
+:lang(en-us) #Layer_1 {
+    background: url("data:image/gif;base64,R0lGODlhkQAqAOYRAExtkUxukk1ukk1vk05vk05wk05wlE9wlE9xlVBxlWeEpMnT3u/y9fr7/P////X3+d7l7IWet1ByllFzlvf4+srU34qhuvL09+Lo7rrI1vT2+Pz9/c/X4X+ZtHKKpmaEo/7+/uXp7lFyln+Vrq++zpepvVFzl9vh6P7+/3KNq+nt8V9+n/b3+eLn7FBwk1Jzl4GXr9/k6+fr8LLB0P39/lJ0mE9wk93j6eXq7/v8/aSzxezv81N1mdff59HZ4s3X4VZ4m15/olZ3m5mtw1x5mm6IpczW4fj5+3yTrVR2mlh2mOzw81V3m1R2m3uSrb7L2VV3nFZ4nFBxlM3W4Fd2l9ng52B8nFVzlp2vwubq74uiu1Z4nZOmvO3w9IqguWJ/oOru8ld5nVFwlIygt8PO2vn6/L7K11h6nUxskEtrj0pqjk5ukld5nlh6nmKCpVh6n3SRr3KOrqS3yll7n5+yyOTp71x9oVp8n1l7oJmuxVl8oPj6+1p8oJ2xxqK2ynWSsCwAAAAAkQAqAAAH/oAAgoOEhYaHiImKi4yNjo+QiQGTlJWWl5iZmpucnZ6foKGaAqSlpqeoqaqrrK2ur7CxsrO0tba3uLmwA7y9vr/AwcLDxMXGx8jJysMEzc7P0NHS09TV1tfY2drb1AXe3+Dh4uPk5ebn6Onq6+zlBu/w8fLz9PX29/j5+vv8/fYHAAMKHEiwoMGDCBMqXMiwocODCCJKnEixosWLGDNq3Mixo8ePIEOKHEmypMmOCVKqXMmy5UoFCxg0cODgAYQILnPq3Mmzp8+fQHtKGEq0KNEJFGgqrTCBqIULSpViMJpBw4aoU41q3cq1q9evYMOKHSuBQ1SaHYgC8HDWgYai/h9AtA1Btq7du3i5itjLt2/fEW0r9CWQNCqDviTaOijht7Hjx5AjS55MuTJfE5gza9Zc4MRZFCk0qzirIvMKFm1buNjMurXr17Bjy55NO/OL27hz64bRlkPuGGdl4J7RloYH3ciTK1/OvLnz59Bz15hOvbp1GzfaWqCO42yM6SlytNWBwLr58+jTq1/Pvr3799YBn92xYjpUrDV49GjrgwD8/wAGKKB6PBRo4IEI8oCAD239AEQQckXFghBDtMUAEQlmqOGGHHbo4YcghvhhETS01YMRiv1wRFtI5CfiizDGKCOHSdRo44041vgCcYr1yJ8EOQYp5JBEFmnkkUgm/pmkEkv46CRNNzCh5JRUVmmlkU1kqeWWXGrJgxMoPOnkE1B0aeaZaKap5ppstqkmE3DGKeeccpqQmJg+PhEFnXz26eefgAYq6KCEEirFFGLKUFhbTwBR6KOQRiqpn1FUaumlmGZKRRVOngCAFSH0SEKmpJZq6qmopqrqqqyyysQVC/iIRRRJWJFFj1q0quuuvPZa6hbABivssMRuAQUBXHShmBfANvHFrW2BUey01FZr7bXYZpttGNx26+234Hb7ghhjkKFCGTThoEC3TBBhxopKbTDFGeHWa++9+Oar77789htuFC8QgEYaaqiBBhPeRkEAwQUXvIa/EEcs8cTd6LJh8cUYZ6zxxhx37PHHIIcs8sgkd9zGySinrPLKLLfs8sswxyzzzDTX7LIbb+Ss88489+zzz0AHLfTQRBdt9NE+BwEH0kw37fTTUEetcxxyzGH11VhnrfXWXHft9ddghy322GRvTUcddpSt9tpst+3223PcAYEDdOBh991456333nz37fffgAcu+OCE550HTWVEoMfijDfu+OOQRy755JRXbvnlmGfOeAd7KNUAHXbwIfropJdu+umop6766qy37vrrr9vRB7pn1eEHHEHArvvuvPfu++5u/OEHBngWb/zxyCev/PLIBwIAOw==");
+    height:23px;
+    width:46px;
+    margin:7px 10px 0 10px;
+}	
+:lang(en-use) #page_header_VKidreg > div.PortalNavigationVKidreg > div.PortalNavigation__icon > a.TopHomeLinkIDVK:first-child{
+    display: none;
+}
+/*Перевод левого меню*/
+/*Английский*/
+:lang(en-us) #l_fr .LeftMenuItem-module__label--itYtZ:before {
+    content: "My Friends"!important;
+}
+:lang(en-us) #l_ph .LeftMenuItem-module__label--itYtZ:before {
+    content: "My Photos"!important;
+}
+:lang(en-us) #l_vid .LeftMenuItem-module__label--itYtZ:before {
+    content: "My Videos"!important;
+}
+:lang(en-us) #l_aud .LeftMenuItem-module__label--itYtZ:before {
+    content: "My Music"!important;
+}
+:lang(en-us) #l_msg .LeftMenuItem-module__label--itYtZ:before {
+    content: "My Messages"!important;
+}
+:lang(en-us) #l_gr .LeftMenuItem-module__label--itYtZ:before {
+    content: "My Communities"!important;
+}
+:lang(en-us) #l_nwsf .LeftMenuItem-module__label--itYtZ:before {
+    content: "My News"!important;
+}
+:lang(en-us) #l_fav .LeftMenuItem-module__label--itYtZ:before {
+    content: "My Bookmarks"!important;
+}
+:lang(en-us) #l_st .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Нстройки"!important;
+}
+:lang(en-us) #l_ap .LeftMenuItem-module__label--itYtZ:before {
+    content: "Applications"!important;
+}
+:lang(en-us) #l_doc .LeftMenuItem-module__label--itYtZ:before {
+    content: "Documents"!important;
+}
+/*Украинский*/
+:lang(uk) #l_fr .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Друзі"!important;
+}
+:lang(uk) #l_ph .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Фотографії"!important;
+}
+:lang(uk) #l_vid .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Відеозаписи"!important;
+}
+:lang(uk) #l_aud .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Аудіозаписи"!important;
+}
+:lang(uk) #l_msg .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Повідомлення"!important;
+}
+:lang(uk) #l_gr .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Гурппы"!important;
+}
+:lang(uk) #l_nwsf .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Новини"!important;
+}
+:lang(uk) #l_fav .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Закладки"!important;
+}
+:lang(uk) #l_st .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Нстройки"!important;
+}
+:lang(uk) #l_ap .LeftMenuItem-module__label--itYtZ:before {
+    content: "Додатки"!important;
+}
+:lang(uk) #l_doc .LeftMenuItem-module__label--itYtZ:before {
+    content: "Документи"!important;
+}
+/*Дореволюцiонный*/
+:lang(ru-petr1708) #l_fr .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Знакомцы"!important;
+}
+:lang(ru-petr1708) #l_ph .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Фотокарточки"!important;
+}
+:lang(ru-petr1708) #l_vid .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мой Синематографъ"!important;
+}
+:lang(ru-petr1708) #l_aud .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Композицiи"!important;
+}
+:lang(ru-petr1708) #l_msg .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Письма"!important;
+}
+:lang(ru-petr1708) #l_gr .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Общества"!important;
+}
+:lang(ru-petr1708) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Изѣвестiе"!important;
+	text-decoration: none;
+}
+:lang(ru-petr1708) #l_ntf .LeftMenuItem-module__label--itYtZ {
+    display:none;
+}
+:lang(ru-petr1708) #l_ntf .left_row, a:hover {
+    text-decoration:none;
+}
+:lang(ru-petr1708) #l_nwsf .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мої Новини"!important;
+}
+:lang(ru-petr1708) #l_fav .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мой Бумажникъ"!important;
+}
+:lang(ru-petr1708) #l_st .LeftMenuItem-module__label--itYtZ:before {
+    content: "Мои Нстройки"!important;
+}
+:lang(ru-petr1708) #l_ap .LeftMenuItem-module__label--itYtZ:before {
+    content: "Аппликацiи"!important;
+}
+:lang(ru-petr1708) #l_doc .LeftMenuItem-module__label--itYtZ:before {
+    content: "Архивъ"!important;
+}
+:lang(ru-petr1708) .HeaderNav__item--gap {
+    padding-right: 0;
+}
+:lang(ru-petr1708) .top_nav_link {
+    left: 8px;
+}
