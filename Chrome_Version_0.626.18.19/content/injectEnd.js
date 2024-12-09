@@ -1,6 +1,4 @@
-﻿updateNarrow = nothing;
-updateLeftMenu = nothing;
-var oldvk_i18n = {
+﻿var oldvk_i18n = {
     messages: {
         0: 'Сообщения',
         1: 'Повідомлення',
@@ -11,7 +9,7 @@ var oldvk_i18n = {
         100: 'Письма',
         777: 'Телеграммы'
     }
-}
+};
 
 var fav_logo = "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAAAACrglzDq4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglzEq4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP/////////////////8+vn/8uzm/9XBrv+sg17/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz////////////SvKj/2ce1//v59///////0ryn/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc////////////q4Jc/6uCXP/dzb7//////+TWyv+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP///////////9jFs//byrr/+vj2/////v/KsZn/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz////////////07un/+/n3///////RuqX/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc////////////q4Jc/7iWdv//////+/n3/6+HY/+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP///////////9K8qP/k1sr///////7+/v+yjGn/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/////////////////+/n3//Tv6v/OtqD/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglzDq4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglz/q4Jc/6uCXP+rglzDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==";
 
@@ -22,15 +20,23 @@ var fav_pause = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8
 var fav_play = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAN9JREFUOBFjjGpY6sXw7//M////yzCQABgZGZ8wMDGmM5GjGWQP2EKgxUyk2ozsSJBeJmQBctg4DUj1t2AQ4OEkaCZOAxyNVRjas7wZtJUk8BqC0wCQLn4eDobKOGeGIAddBkZG7ObgNQCkhYmJkSHESZ+hMMIeqwkEDYDpYmdjgTFRaOyiKEoYGLYevcawfPd5NFEIF6cBwDhm+PbjN8OM9ccYzt54glUzSBCnAQfP32VYd+Ayw5sPX3FqxmvArA0n8GqESRIdiDAN6DQTOFehixLJB+llAmVJcgyBZWcA/L4+qnrrzWsAAAAASUVORK5CYII=";
 
 function icoNodeReplace(href) {
-    var headNode = document.getElementsByTagName('head')[0]; // Получаем элемент 'head'
-    var icoNode = document.querySelector("link[rel*='icon']") || new Image(); // Получаем текущий favicon или создаем новый, если его нет
-    var new_node = document.createElement('link'); // Создаем новый элемент 'link'
-    new_node.rel = 'shortcut icon'; // Устанавливаем атрибут rel равным 'shortcut icon'
+    var headNode = document.querySelector('head'); // Определяем head узел
+    var icoNode = document.querySelector('link[rel="icon"]'); // Определяем текущий узел favicon
+
+    var new_node = document.createElement('link');
     new_node.href = href; // Устанавливаем атрибут href равным предоставленному URL
     new_node.rel = 'icon'; // Добавляем атрибут rel равный 'icon'
-    headNode.replaceChild(new_node, icoNode); // Заменяем старый узел favicon на новый в head документа
+
+    if (icoNode) {
+        headNode.replaceChild(new_node, icoNode); // Заменяем старый узел favicon на новый в head документа
+    } else {
+        headNode.appendChild(new_node); // Если старого узла нет, добавляем новый
+    }
 }
-icoNodeReplace('https://id.vk.ru/promo'); // Вызываем функцию с URL нового favicon
+
+// Пример использования:
+icoNodeReplace(fav_logo); // Устанавливаем иконку на fav_logo
+
 
 if (typeof icoNode !== "undefined")
     if (icoNode.href.search(/fav_im\.ico/i) !== -1)
@@ -44,6 +50,7 @@ if (typeof icoNode !== "undefined")
 
 if (typeof getAudioPlayer !== "undefined" && getAudioPlayer()._currentAudio)
     removeClass(ge("oldvk_top_play"), "oldvk-hide");
+
 
 window.addEventListener("message", function (m) {
     if (m.data.type === 'UPD') {
@@ -61,12 +68,13 @@ window.addEventListener("message", function (m) {
                         removeClass(fleb, "unshown");
                         if (s < 25) {
                             removeClass(fldb, "unshown");
-                            show(fldb)
+                            show(fldb);
                         } else {
                             addClass(fldb, "unshown");
-                            hide(fldb)
+                            hide(fldb);
                         }
                     };
+
                     var sS = Friends.showSection;
                     Friends.showSection = function () {
                         sS.apply(this, arguments);
@@ -85,13 +93,15 @@ window.addEventListener("message", function (m) {
                                 show(fldb);
                             }
                         }
-                        if (arguments.length > 0 && arguments[0] === 'subscribers') show('friends_search_input_wrap')
-
+                        if (arguments.length > 0 && arguments[0] === 'subscribers') {
+                            show('friends_search_input_wrap');
+                        }
                     };
+
                     eval('Friends.editListClient=' + Friends.editListClient.toString().replace(/narrow_column/g, 'ui_search_fltr'));
                     eval('Friends.deleteListClient=' + Friends.deleteListClient.toString().replace(/narrow_column/g, 'ui_search_fltr'));
-                    var tFF = Friends.toggleFindFilters;
 
+                    var tFF = Friends.toggleFindFilters;
                     Friends.toggleFindFilters = function () {
                         tFF.apply(this, arguments);
                         if (hasClass(ge('search_filters_minimized'), 'ui_rmenu_item_expanded')) {
@@ -99,12 +109,29 @@ window.addEventListener("message", function (m) {
                         } else {
                             ge('friends_filters_block').style.top = "247px";
                         }
-                    }
+                    };
                 }
                 break;
         }
     }
 });
+
+if (typeof setFavIcon !== 'undefined') {
+    var sfi = setFavIcon;
+    setFavIcon = function () {
+        if (arguments[0].search(/fav_im.*\.ico/i) !== -1) {
+            arguments[0] = fav_im;
+        } else if (arguments[0].search(/fav_pause\.ico/i) !== -1) {
+            arguments[0] = fav_pause;
+        } else if (arguments[0].search(/fav_play\.ico/i) !== -1) {
+            arguments[0] = fav_play;
+        } else {
+            arguments[0] = fav_logo;
+        }
+        sfi.apply(this, arguments);
+        icoNode.href = icoNode.href.replace(/\?\d+$/, '');
+    };
+}
 
 if (typeof setFavIcon !== 'undefined') {
     var sfi = setFavIcon;

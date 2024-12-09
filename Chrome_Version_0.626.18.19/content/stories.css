@@ -1,1 +1,29 @@
+.feed_submit_only_shown .feed_post_field_wrap, .feed_submit_shown .feed_post_field_wrap, .feed_submit_shown .stories_feed_wrap, .feed_submit_shown_stories .stories_feed_wrap {
+    display: none;
+}
+/*Блок Историй Отключенно*/
 .stories_feed_cont, .page_story_photo_cont, .page_story_photo {display: none}
+.AvatarRich__outline--round.AvatarRich__outline--stories-unseen {
+    display: none;
+    border: var(--avatar-rich-stroke-width, 2px) var(--vkui--color_stroke_accent) solid;
+}
+/*Серый цвет просмотренно*/
+.vkitOutline__rootGray--8VgaV {
+    color: var(--vkui--color_accent_gray);
+    display: none;
+}
+/*Синей цвет посмотреть*/
+.vkitOutline__rootAccent--zIZs7 {
+    display: none;
+}
+body.stories_layer_shown {
+    display: none !important;
+}
+body.stories_layer_shown .stories_layer,
+body.stories_layer_shown .stories_layer_cont,
+body.stories_layer_shown .stories_item,
+body.stories_layer_shown .stories_item_cont,
+body.stories_layer_shown .stories_time_line,
+body.stories_layer_shown .stories_bottom_overlay {
+    display: none !important;
+}

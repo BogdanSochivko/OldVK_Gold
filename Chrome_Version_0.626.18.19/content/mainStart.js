@@ -9,10 +9,33 @@ injectOptions.type = 'text/javascript';
 
 
 document.addEventListener('DOMContentLoaded', () => logTime('DOM'));
+function logTime() {
+  console.log(new Date().toLocaleTimeString());
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  logTime();
+});
 
 function setLayoutWidth(width) {
     document.documentElement.style.setProperty('--layout-width', width + 'px', 'important');
 }
+
+var getOptions = new Promise(function (resolve) {
+    if (isWebExt) {
+        browser.storage.local.get(function (items) {
+            Object.assign(options, items);
+            resolve();
+        });
+    } else {
+        self.port.on('options', function (o) {
+            Object.assign(options, o);
+            resolve();
+        })
+    }
+});
+
+
 
 function init() {
     injectOptions.text = 'var oldvk={};oldvk.options=' + JSON.stringify(options) + ';' + (!isWebExt ? 'oldvk.fox=true;' : '');
@@ -23,7 +46,7 @@ function init() {
     if (isWebExt) {
         insertCSS('local');
         insertCSS('main');
-        insertCSS('ny');
+        //insertCSS('ny');
 		//insertCSS('XB');
 		//insertCSS('8_martha');
 		//insertCSS('9_may_Victory_Day');
@@ -54,6 +77,51 @@ var getOptions = new Promise(function (resolve) {
         })
     }
 });
+
+// Определение объекта Template
+const Template = {
+    l_ntf: document.createElement('li'),
+    l_edit: document.createElement('a'),
+    l_set: document.createElement('li'),
+    l_srv: document.createElement('li'),
+	
+    ntf: `<a href="/feed?section=notifications" class="left_row" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" onmouseover="TopNotifier.preload();"><span class="left_label inl_bl" data-oldvk-i18n="answers"></span><span class="left_count_wrap fl_r" id="oldvk-notify-wrap" onmouseover="TopNotifier.preload()" onmousedown="return TopNotifier.onBellMouseDown(event)" onclick="event.stopPropagation();TopNotifier.setCount('',true);return TopNotifier.onBellClick(event)"><span class="inl_bl left_count" id="oldvk-notify"></span></span></a>`,
+    sett: `<a href="/settings" class="left_row"><span class="left_label inl_bl" id="oldvk-settings" data-oldvk-i18n="settings"></span></a>`,
+    top_menu: `<div class="head_nav_item fl_r"><a id="oldvk_top_exit" class="top_nav_link" href="" onclick="if (checkEvent(event) === false) { window.Notifier && Notifier.lcSend('logged_off'); location.href = this.href; return cancelEvent(event); }" onmousedown="tnActive(this)"><div class="top_profile_name"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_help" class="top_nav_link" href="/support?act=home" onclick="return TopMenu.select(this, event);"><div class="top_profile_name"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_music" class="top_nav_link" href="" onclick="return (checkKeyboardEvent(event) ? AudioUtils.getLayer().toggle() : false);" onmouseover="AudioLayer.prepare()" onmousedown="return (checkKeyboardEvent(event) ? false : AudioUtils.getLayer().toggle(),cancelEvent(event))"><div class="top_profile_name" data-oldvk-i18n="music"></div><div id="oldvk_top_play" class="oldvk-hide" onclick="cancelEvent(event); if (getAudioPlayer().isPlaying()) {getAudioPlayer().pause(); removeClass(this,'active')} else {getAudioPlayer().play(); addClass(this,'active')}" onmousedown="cancelEvent(event);"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_apps" class="top_nav_link" href="/apps" onclick="return TopMenu.select(this, event);"><div class="top_profile_name" data-oldvk-i18n="games"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_communities" class="top_nav_link" href="/search?c[section]=communities" onclick="return TopMenu.select(this, event);"><div class="top_profile_name" data-oldvk-i18n="communities"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_peoples" class="top_nav_link" href="/search?c[section]=people" onclick="return TopMenu.select(this, event);"><div class="top_profile_name" data-oldvk-i18n="people"></div></a></div>`
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+    function setTitle(element) {
+        element.title = element.textContent || element.innerText;
+    }
+
+    var player = document.getElementById('top_audio_player');
+    if (player) {
+        player.parentNode.removeChild(player);
+        document.body.appendChild(player);
+    }
+
+    // Находим и обрабатываем элементы с классом "top_audio_player_title"
+    var titleElements = document.querySelectorAll('.top_audio_player_title');
+    titleElements.forEach(function(title) {
+        setTitle(title);
+    });
+
+    // Находим и обрабатываем элементы с классом "top_audio_player_title_next"
+    var nextTitleElements = document.querySelectorAll('.top_audio_player_title_next');
+    nextTitleElements.forEach(function(title) {
+        setTitle(title);
+    });
+
+    // Находим и обрабатываем элемент с классом "top_audio_player_artist"
+    var artist = document.querySelector('.top_audio_player_artist a');
+    if (artist) {
+        setTitle(artist);
+    }
+});
+
+
+
 
 var getHead = new Promise(function (resolve) {
     KPP.head(function () {
@@ -138,8 +206,8 @@ function headOptions() {
 
     //if (options.optionIm)
        // document.head.classList.add('oldvk-im');
-   // NY
-    document.head.classList.add('oldvk-ny-' + getRandomInt(1, 19).toString())
+    // NY
+    //document.head.classList.add('oldvk-ny-' + getRandomInt(1, 19).toString())
 	// NY-martha
     //document.head.classList.add('oldvk-8_martha-' + getRandomInt(1, 8).toString());
 	// NY-XB
@@ -201,6 +269,11 @@ function headOptions() {
     if (options.optionNy_gerland) {
         insertCSS('ny_gerland')
     }
+	// NY12
+	document.head.classList.add('oldvk-ny-' + getRandomInt(20, 21).toString());
+    if (options.optionSnowflakes) {
+        insertCSS('Snowflakes')
+    }
 }
 var LocalizedContent = {
     l_ntf: document.createElement('li'),
@@ -219,28 +292,72 @@ var LocalizedContent = {
         this.l_set.id = 'l_sett';
         this.l_set.innerHTML = '<a href="/settings" class="left_row"><span class="left_label inl_bl" id="oldvk-settings">' + i18n.settings[lang] + '</span></a>';
 
-        var top_menu = '<div class="head_nav_item fl_r"><a id="oldvk_top_exit" class="top_nav_link" href="" onclick="if (checkEvent(event) === false) { window.Notifier && Notifier.lcSend(\'logged_off\'); location.href = this.href; return cancelEvent(event); }" onmousedown="tnActive(this)"><div class="top_profile_name"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_help" class="top_nav_link" href="/support?act=home" onclick="return TopMenu.select(this, event);"><div class="top_profile_name"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_music" class="top_nav_link" href="" onclick="return (checkKeyboardEvent(event) ? AudioUtils.getLayer().toggle() : false);" onmouseover="AudioLayer.prepare()" onmousedown="return (checkKeyboardEvent(event) ? false : AudioUtils.getLayer().toggle(),cancelEvent(event))"><div class="top_profile_name">' + i18n.music[lang] + '</div><div id="oldvk_top_play" class="oldvk-hide" onclick="cancelEvent(event); if (getAudioPlayer().isPlaying()) {getAudioPlayer().pause(); removeClass(this,\'active\')} else {getAudioPlayer().play(); addClass(this,\'active\')}" onmousedown="cancelEvent(event);"></div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_apps" class="top_nav_link" href="/apps" onclick="return TopMenu.select(this, event);"><div class="top_profile_name">' + i18n.games[lang] + '</div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_communities" class="top_nav_link" href="/search?c[section]=communities" onclick="return TopMenu.select(this, event);"><div class="top_profile_name">' + i18n.communities[lang] + '</div></a></div><div class="head_nav_item fl_r"><a id="oldvk_top_peoples" class="top_nav_link" href="/search?c[section]=people" onclick="return TopMenu.select(this, event);"><div class="top_profile_name">' + i18n.people[lang] + '</div></a></div>';
-        var oldvk_top_menu = document.createElement('div');
-        oldvk_top_menu.id = "oldvk_top_menu";
-        oldvk_top_menu.innerHTML = top_menu;
-        KPP.add('#top_profile_menu', function () {
-            KPP.remove('#top_profile_menu');
-            var top_nav = document.getElementById('top_nav');
-            if (!document.getElementById('oldvk_top_menu')) top_nav.appendChild(oldvk_top_menu);
+document.addEventListener('DOMContentLoaded', function () {
+    console.log('DOMContentLoaded event fired');
+
+    function addTopMenu() {
+        var top_nav = document.getElementById('top_nav');
+        if (top_nav && !document.getElementById('oldvk_top_menu')) {
+            var top_menu = `
+                <div class="head_nav_item fl_r"><a id="oldvk_top_exit" class="top_nav_link" href="" onclick="if (checkEvent(event) === false) { window.Notifier && Notifier.lcSend('logged_off'); location.href = this.href; return cancelEvent(event); }" onmousedown="tnActive(this)"><div class="top_profile_name"></div></a></div>
+                <div class="head_nav_item fl_r"><a id="oldvk_top_help" class="top_nav_link" href="/support?act=home" onclick="return TopMenu.select(this, event);"><div class="top_profile_name"></div></a></div>
+                <div class="head_nav_item fl_r"><a id="oldvk_top_music" class="top_nav_link" href="" onclick="return (checkKeyboardEvent(event) ? AudioUtils.getLayer().toggle() : false);" onmouseover="AudioLayer.prepare()" onmousedown="return (checkKeyboardEvent(event) ? false : AudioUtils.getLayer().toggle(),cancelEvent(event))"><div class="top_profile_name">${i18n.music[lang]}</div><div id="oldvk_top_play" class="oldvk-hide" onclick="cancelEvent(event); if (getAudioPlayer().isPlaying()) {getAudioPlayer().pause(); removeClass(this,'active')} else {getAudioPlayer().play(); addClass(this,'active')}" onmousedown="cancelEvent(event);"></div></a></div>
+                <div class="head_nav_item fl_r"><a id="oldvk_top_apps" class="top_nav_link" href="/apps" onclick="return TopMenu.select(this, event);"><div class="top_profile_name">${i18n.games[lang]}</div></a></div>
+                <div class="head_nav_item fl_r"><a id="oldvk_top_communities" class="top_nav_link" href="/search?c[section]=communities" onclick="return TopMenu.select(this, event);"><div class="top_profile_name">${i18n.communities[lang]}</div></a></div>
+                <div class="head_nav_item fl_r"><a id="oldvk_top_peoples" class="top_nav_link" href="/search?c[section]=people" onclick="return TopMenu.select(this, event);"><div class="top_profile_name">${i18n.people[lang]}</div></a></div>
+            `;
+
+            var oldvk_top_menu = document.createElement('div');
+            oldvk_top_menu.id = "oldvk_top_menu";
+            oldvk_top_menu.innerHTML = top_menu;
+            console.log('Top menu created');
+            top_nav.appendChild(oldvk_top_menu);
+
             var oldvk_top_exit = document.getElementById('oldvk_top_exit');
             var top_logout_link = document.getElementById('top_logout_link');
-            var oldvk_top_help = document.getElementById('oldvk_top_help');
-            var top_support_link = document.getElementById('top_support_link');
             if (oldvk_top_exit && top_logout_link) {
                 oldvk_top_exit.firstElementChild.textContent = top_logout_link.textContent.toLowerCase();
                 oldvk_top_exit.href = top_logout_link.href;
             }
-            if (oldvk_top_help && top_support_link) oldvk_top_help.firstElementChild.textContent = top_support_link.textContent.toLowerCase();
+
+            var oldvk_top_help = document.getElementById('oldvk_top_help');
+            var top_support_link = document.getElementById('top_support_link');
+            if (oldvk_top_help && top_support_link) {
+                oldvk_top_help.firstElementChild.textContent = top_support_link.textContent.toLowerCase();
+            }
+
             var oldvk_top_music = document.getElementById('oldvk_top_music');
-            var top_audio_layer_place = document.getElementById('top_audio_layer_place')
-            if (oldvk_top_music && top_audio_layer_place)
+            var top_audio_layer_place = document.getElementById('top_audio_layer_place');
+            if (oldvk_top_music && top_audio_layer_place) {
                 insertAfter(oldvk_top_music, top_audio_layer_place);
-        })
+            }
+        }
+    }
+
+    setInterval(addTopMenu, 500); // Regular check every half second to re-add the menu if it’s missing
+
+    function insertAfter(referenceNode, newNode) {
+        referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+    }
+
+    KPP.add('#top_profile_menu', function () {
+        KPP.remove('#top_profile_menu');
+        setTimeout(addTopMenu, 1000); // Add a delay to ensure elements are loaded
+    });
+
+    var observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+            if (mutation.addedNodes.length) {
+                setTimeout(addTopMenu, 500); // Add a delay to ensure elements are loaded
+            }
+        });
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+});
+
+
+
     },
     updateMenu: function () {
         console.log('updateMenu');
@@ -258,11 +375,11 @@ var LocalizedContent = {
         }
 
 
-        var ap = document.querySelector('#l_ap .LeftMenuItem-module__label--itYtZ')
-        var aud = document.querySelector('#l_aud .LeftMenuItem-module__label--itYtZ')
-        var vid = document.querySelector('#l_vid .LeftMenuItem-module__label--itYtZ')
-        var gr = document.querySelector('#l_gr .LeftMenuItem-module__label--itYtZ')
-        var msg = document.querySelector('#l_msg .LeftMenuItem-module__label--itYtZ')
+        var ap = document.querySelector('#l_ap .vkitLeftMenuItem__label--lndW2')
+        var aud = document.querySelector('#l_aud .vkitLeftMenuItem__label--lndW2')
+        var vid = document.querySelector('#l_vid .vkitLeftMenuItem__label--lndW2')
+        var gr = document.querySelector('#l_gr .vkitLeftMenuItem__label--lndW2')
+        var msg = document.querySelector('#l_msg .vkitLeftMenuItem__label--lndW2')
         var vid_row = document.querySelector('#l_vid .left_row')
 
         if (ap) ap.textContent = i18n.apps[lang];
@@ -452,11 +569,9 @@ function initArrives() {
         ont.id = 'oldvk-news-tabs';
         ont.className = 'ui_tabs ui_tabs_header clear_fix';
         var urn = document.getElementById('ui_rmenu_news');
-        var uru = document.getElementById('ui_rmenu_updates');
         var urc = document.getElementById('ui_rmenu_comments');
         var urs = document.getElementById('ui_rmenu_search');
         urn.classList.add('ui_tab');
-        uru.classList.add('ui_tab');
         urc.classList.add('ui_tab');
         urs.classList.add('ui_tab');
         var tmp = element.parentNode.getElementsByClassName('ui_rmenu_item');
@@ -464,7 +579,6 @@ function initArrives() {
         tmp = element.parentNode.getElementsByClassName('ui_rmenu_subitem');
         for (i = tmp.length; i--;) tmp[i].setAttribute('onclick', 'newsMenuTabs(this);' + tmp[i].getAttribute('onclick'));
         ont.appendChild(urn);
-        ont.appendChild(uru);
         ont.appendChild(urc);
         ont.appendChild(urs);
         element.parentNode.parentNode.insertBefore(ont, element.parentNode);
@@ -494,142 +608,362 @@ function initArrives() {
         element.parentNode.insertBefore(fl, document.getElementById('search_filters_block'))
     });
 
-    KPP.add('#profile #wide_column', function (element) {
+KPP.add('#wrap3', function (element) {
+    console.log("KPP function executed");
 
-        var name = element.getElementsByClassName('page_name')[0].childNodes[0].textContent.split(' ');
-        if (name[name.length - 1].substr(name[name.length - 1].length - 1) === ')')
-            name.pop();
-        var title = document.createElement('div');
-        title.id = 'oldvk_profile_title';
-        title.textContent = name.shift() + ' ' + name.pop();
-        document.getElementById('wrap1').insertBefore(title, document.getElementById('content'));
+    // Хранилище для последнего времени онлайн
+    var lastOnlineTime = {};
 
-        var sub = document.querySelector('.page_counter[onclick*="fans"]');
-        var tag = document.querySelector('.page_counter[href^="/tag"]');
-        if (sub || tag) {
-            var counters = document.createElement('div');
-            counters.id = 'oldvk-counters';
-            if (tag) {
-                var tag_c = document.createElement('a');
-                tag_c.className = 'oldvk-counter';
-                tag_c.id = 'oldvk-counter-tag';
-                var tag_cs = document.createElement('span');
-                tag_cs.textContent = tag.firstElementChild.textContent;
-                tag_cs.className = 'fl_r';
-                tag_c.setAttribute('onclick', tag.getAttribute('onclick'));
-                tag_c.setAttribute('href', tag.getAttribute('href'));
-                tag_c.appendChild(tag_cs);
-                counters.appendChild(tag_c)
-            }
-            if (sub) {
-                var sub_c = document.createElement('a');
-                sub_c.className = 'oldvk-counter';
-                sub_c.id = 'oldvk-counter-sub';
-                var sub_cs = document.createElement('span');
-                sub_cs.textContent = sub.firstElementChild.textContent;
-                sub_cs.className = 'fl_r';
-                sub_c.setAttribute('onclick', sub.getAttribute('onclick'));
-                var sub_a = document.querySelector('.page_counter[href$="section=all"]');
-                sub_c.setAttribute('href', sub_a.getAttribute('href').replace('all', 'subscribers'));
-                sub_c.appendChild(sub_cs);
-                counters.appendChild(sub_c)
-            }
-            document.getElementsByClassName('page_photo')[0].appendChild(counters)
+    // Словарь переводов
+    var translations = {
+        "заходил": {
+            "en": "last seen",
+            "es": "última vez visto",
+            "fr": "vu pour la dernière fois",
+            "de": "zuletzt gesehen",
+            // Добавьте другие языки здесь
+        },
+        "заходила": {
+            "en": "last seen",
+            "es": "última vez vista",
+            "fr": "vue pour la dernière fois",
+            "de": "zuletzt gesehen",
+            // Добавьте другие языки здесь
+        },
+        "заходил(а)": {
+            "en": "last seen",
+            "es": "última vez visto(a)",
+            "fr": "vu(e) pour la dernière fois",
+            "de": "zuletzt gesehen",
+            // Добавьте другие языки здесь
+        },
+        "назад": {
+            "en": "ago",
+            "es": "hace",
+            "fr": "il y a",
+            "de": "vor",
+            // Добавьте другие языки здесь
         }
-    });
+    };
 
-    KPP.add('#profile_wall, #public_wall, #group_wall', function (element) {
-        var spb = document.getElementById('submit_post_box');
-        if (spb) insertAfter(element.firstElementChild, spb);
-    });
-
-    KPP.add('#profile .page_extra_actions_wrap .page_actions_inner', function (element) {
-        document.getElementsByClassName('page_actions_cont')[0].style.display = 'none';
-        document.getElementsByClassName('narrow_column_wrap')[0].appendChild(element);
-        var psgb = document.getElementById('profile_send_gift_btn');
-        var pgsb = document.getElementById('profile_gift_send_btn');
-        if (psgb && !pgsb) {
-            psgb.className = 'page_actions_item';
-            psgb.textContent = psgb.getElementsByClassName('profile_side_text')[0].textContent;
-            element.insertBefore(psgb, element.firstChild)
+    // Словарь преобразований сокращений
+    var timeTranslations = {
+        "д": {
+            "ru": "день",
+            "en": "day",
+            "es": "día",
+            "fr": "jour",
+            "de": "Tag",
+            // Добавьте другие языки здесь
+        },
+        "ч": {
+            "ru": "час",
+            "en": "hour",
+            "es": "hora",
+            "fr": "heure",
+            "de": "Stunde",
+            // Добавьте другие языки здесь
+        },
+        "мин": {
+            "ru": "минута",
+            "en": "minute",
+            "es": "minuto",
+            "fr": "minute",
+            "de": "Minute",
+            // Добавьте другие языки здесь
+        },
+        "с": {
+            "ru": "секунда",
+            "en": "second",
+            "es": "segundo",
+            "fr": "seconde",
+            "de": "Sekunde",
+            // Добавьте другие языки здесь
         }
-    });
+    };
 
-    KPP.add('.people_cell_name a', function (element) {
-        var br = document.createElement('br');
-        var span = document.createElement('span');
-        span.textContent = decodeHtml(element.parentNode.parentNode.querySelector('img').alt.split(' ').pop());
-        element.appendChild(br);
-        element.appendChild(span);
-    });
-
-    function getFirstPhotoRow(pr) {
-        if (!pr.previousElementSibling || pr.previousElementSibling.classList.contains('photos_period_delimiter'))
-            return pr;
-        else return getFirstPhotoRow(pr.previousElementSibling)
+    function modifyPage() {
+        var ownerPageName = $('#owner_page_name');
+        if (ownerPageName.length > 0 && !ownerPageName.hasClass('processed')) {
+            ownerPageName.addClass('processed'); // Помечаем элемент, чтобы избежать повторной обработки
+            var ownerPageText = ownerPageName.text().replace("онлайн", "");
+            $('#header_name').text(ownerPageText);
+            // Обновляем информацию о времени последнего онлайн-посещения
+            var lastOnlineDiv = $('#last_online_time');
+            updateLastOnlineTime(lastOnlineDiv[0], ownerPageText);
+        }
     }
 
-    KPP.add('.photos_row', function (element) {
-        if (document.getElementsByClassName('photos_period_delimiter').length > 0 || document.getElementsByClassName('photos_row_wrap').length > 0) {
-            getFirstPhotoRow(element.parentElement).appendChild(element);
+    function insertProfileTitle() {
+        // Проверяем, существует ли уже oldvk_profile_title, чтобы не добавлять повторно
+        if (document.getElementById('oldvk_profile_title')) {
+            console.log("oldvk_profile_title уже существует");
+            return;
         }
-    });
 
-    if (!options.optionViewer) {
-        KPP.add('.pe_canvas', function (element) {
-            element.style.marginTop = element.parentNode.firstChild.offsetTop + 'px';
-            element.style.marginLeft = element.parentNode.firstChild.offsetLeft + 'px';
-            document.getElementsByClassName('pv_cont')[0].style.paddingLeft = '0'
-        })
+        var ownerPageName = document.getElementById('owner_page_name');
+        
+        if (ownerPageName) {
+            console.log("OwnerPageName элемент найден: ", ownerPageName.textContent);
+            var firstName = ownerPageName.childNodes[0] ? ownerPageName.childNodes[0].textContent.trim() : "";
+            var lastNameElement = ownerPageName.querySelector('.OwnerPageName__noWrapText');
+            var lastName = lastNameElement ? lastNameElement.textContent.trim() : "";
+            var cleanText = firstName + " " + lastName;
+
+            // Создаем элемент oldvk_profile_title
+            var title = document.createElement('div');
+            title.id = 'oldvk_profile_title';
+            title.textContent = cleanText;
+            console.log("Title content: ", title.textContent);
+            
+            // Перемещаем элементы с классом ProfileIndicatorBadge__badge внутрь oldvk_profile_title
+            var badges = document.querySelectorAll('.ProfileIndicatorBadge__badgeOnline, .ProfileIndicatorBadge__badgeOnlineMobile');
+            badges.forEach(function(badge) {
+                title.appendChild(badge.cloneNode(true));
+                badge.remove(); // Удаляем элемент из исходного места
+            });
+
+            var wrapElement = document.getElementById('wrap3');
+            if (wrapElement) {
+                console.log("Wrap element найден");
+                wrapElement.insertBefore(title, wrapElement.firstChild);
+                console.log("Title element вставлен");
+            } else {
+                console.log("Wrap element не найден");
+            }
+
+            // Добавляем элемент для отображения времени последнего онлайн-посещения
+            var lastOnlineDiv = document.createElement('div');
+            lastOnlineDiv.id = 'last_online_time';
+            updateLastOnlineTime(lastOnlineDiv, cleanText);
+            title.appendChild(lastOnlineDiv);
+        } else {
+            console.log("OwnerPageName элемент не найден или уже обработан");
+        }
     }
 
-    KPP.add('.im-page--members', function () {
-        var ipch = document.querySelectorAll('.im-page--members');
-        if (ipch.length > 0)
-            for (var i = 1; i < ipch.length; i++)
-                ipch[i].remove();
-        document.getElementsByClassName('im-page--chat-header')[0].appendChild(ipch[0]);
-    });
+    function getGender(profileName) {
+        var ownerPageName = document.getElementById('owner_page_name');
+        if (ownerPageName) {
+            var ownerPageText = ownerPageName.textContent.trim();
+            if (ownerPageText.includes('заходила')) {
+                return 'female';
+            } else if (ownerPageText.includes('заходил')) {
+                return 'male';
+            }
+        }
+        return 'unknown';
+    }
 
-    KPP.add('#ui_rmenu_members_list', function (urml) {
-        var urel = document.getElementById('ui_rmenu_edit_list');
-        urel.parentNode.appendChild(urel);
-        urml.parentNode.appendChild(urml)
-    });
+    function getLanguage() {
+        // Возвращаем текущий язык страницы
+        return document.documentElement.lang || "ru"; // По умолчанию русский
+    }
 
-    KPP.add('#ui_rmenu_arhive', function (ura) {
-        var urel = document.getElementById('ui_rmenu_news');
-        insertAfter(urel, ura)
-    });
+    function translateWord(word, lang) {
+        return translations[word] && translations[word][lang] ? translations[word][lang] : word;
+    }
 
-    KPP.add('.im-right-menu', function (irm) {
-        var ian = irm.getElementsByClassName('im-aside-notice');
-        var ipd = document.getElementsByClassName('im-page--dialogs')[0];
-        var id = document.getElementById('im_dialogs');
-        if (ian.length > 0)
-            for (var i = 0; i < ian.length; i++)
-                ipd.insertBefore(ian[i], id);
-        var igodn = document.getElementById('im-group-online-disabled-notice');
-        if (igodn)
-            ipd.insertBefore(igodn, id)
-    });
+    function translateTimeUnit(unit, lang) {
+        return timeTranslations[unit] && timeTranslations[unit][lang] ? timeTranslations[unit][lang] : unit;
+    }
 
-//
- var observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-        if (mutation.type === "childList") {
-            var element = document.querySelector("li#l_aud.LeftMenuItem-module__container--vaT3i");
-            if (element) {
-                element.addEventListener("click", function() {
-                    window.location.href = "/audio?section=all";
+    function updateLastOnlineTime(element, profileName) {
+        var lastSeenElement = document.querySelector('.ProfileIndicatorBadge__badgeLastSeenWrapper');
+        var gender = getGender(profileName);
+        var pronoun;
+
+        if (gender === "female") {
+            pronoun = "заходила";
+        } else if (gender === "male") {
+            pronoun = "заходил";
+        } else {
+            pronoun = "заходил(а)";
+        }
+
+        var onlineElement = document.querySelector('.ProfileIndicatorBadge__badgeOnline, .ProfileIndicatorBadge__badgeOnlineMobile');
+
+        if (onlineElement) {
+            element.textContent = ""; // Если человек онлайн, не отображаем сообщение о последнем посещении
+        } else if (lastSeenElement) {
+            var lastSeenTime = lastSeenElement.textContent.trim();
+            // Перевод времени на полные слова
+            var detailedTime = lastSeenTime
+                .replace(/\b(\d+) д\b/g, function(match, p1) { return p1 + " " + translateTimeUnit("d", getLanguage()); })
+                .replace(/\b(\d+) ч\b/g, function(match, p1) { return p1 + " " + translateTimeUnit("h", getLanguage()); })
+                .replace(/\b(\д+) мин\b/g, function(match, p1) { return p1 + " " + translateTimeUnit("m", getLanguage()); })
+                .replace(/\b(\д+) с\b/g, function(match, p1) { return p1 + " " + translateTimeUnit("s", getLanguage()); });
+
+            var translatedPronoun = translateWord(pronoun, getLanguage());
+            var translatedAgo = translateWord("назад", getLanguage());
+            element.textContent = `${translatedPronoun} ${detailedTime} ${translatedAgo}`;
+            // Обновляем запись времени в lastOnlineTime
+            lastOnlineTime[profileName] = new Date().getTime();
+        } else if (lastOnlineTime[profileName]) {
+            var lastOnlineDate = new Date(lastOnlineTime[profileName]);
+            var currentYear = new Date().getFullYear();
+            var formattedDate;
+
+            if (lastOnlineDate.getFullYear() === currentYear) {
+                formattedDate = lastOnlineDate.toLocaleString(getLanguage(), {
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
                 });
-                observer.disconnect(); // Отключаем observer, когда находим нужный элемент
+            } else {
+                formattedDate = lastOnlineDate.toLocaleString(getLanguage(), {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
             }
+
+            element.textContent = `${translatedPronoun} ${formattedDate}`;
+        } else {
+            element.textContent = "был давно"; // Сообщение, если информации нет
         }
+    }
+
+    function observeMutations() {
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                mutation.addedNodes.forEach(function(node) {
+                    if (node.nodeType === 1 && (node.matches('.ProfileWrapper') || node.querySelector('.ProfileWrapper'))) {
+                        console.log("Новый ProfileWrapper найден");
+                        setTimeout(insertProfileTitle, 500); // Добавляем небольшой тайм-аут
+                    }
+                });
+
+                mutation.removedNodes.forEach(function(node) {
+                    if (node.nodeType === 1 && (node.matches('.ProfileIndicatorBadge__badgeOnline') || node.matches('.ProfileIndicatorBadge__badgeOnlineMobile'))) {
+                        console.log("Статус онлайн изменился на оффлайн");
+                        // Сохраняем время последнего онлайн-посещения
+                        var ownerPageName = document.getElementById('owner_page_name');
+                        if (ownerPageName) {
+                            var firstName = ownerPageName.childNodes[0] ? ownerPageName.childNodes[0].textContent.trim() : "";
+                            var lastNameElement = ownerPageName.querySelector('.OwnerPageName__noWrapText');
+                            var lastName = lastNameElement ? lastNameElement.textContent.trim() : "";
+                            var cleanText = firstName + " " + lastName;
+                            lastOnlineTime[cleanText] = Date.now();
+                        }
+                        updateLastOnlineTime(document.getElementById('last_online_time'));
+                    }
+                });
+            });
+        });
+
+        observer.observe(document.body, { childList: true, subtree: true });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log("DOM полностью загружен и разобран");
+
+        // Проверка начального наличия элемента
+        insertProfileTitle();
+
+        // Наблюдаем за изменениями в DOM
+        observeMutations();
     });
+
+    // Проверка каждые 500 мс до тех пор, пока не найдем элемент или не истечет время
+    var checkInterval = setInterval(function() {
+        var ownerPageName = document.getElementById('owner_page_name');
+        if (ownerPageName) {
+            clearInterval(checkInterval); // Останавливаем таймер после нахождения элемента
+            insertProfileTitle();
+        } else {
+            console.log("OwnerPageName элемент не найден, пробуем снова...");
+        }
+    }, 500);
+
+    // Прекращаем проверку через 10 секунд
+    setTimeout(function() {
+        clearInterval(checkInterval);
+    }, 10000);
 });
 
-observer.observe(document.body, { childList: true, subtree: true });
+
+
+KPP.add('#profile_wall, #public_wall, #group_wall', function (element) {
+    var spb = document.getElementById('submit_post_box');
+    if (spb) insertAfter(element.firstElementChild, spb);
+});
+
+KPP.add('#profile .page_extra_actions_wrap .page_actions_inner', function (element) {
+    document.getElementsByClassName('page_actions_cont')[0].style.display = 'none';
+    document.getElementsByClassName('narrow_column_wrap')[0].appendChild(element);
+    var psgb = document.getElementById('profile_send_gift_btn');
+    var pgsb = document.getElementById('profile_gift_send_btn');
+    if (psgb && !pgsb) {
+        psgb.className = 'page_actions_item';
+        psgb.textContent = psgb.getElementsByClassName('profile_side_text')[0].textContent;
+        element.insertBefore(psgb, element.firstChild);
+    }
+});
+
+KPP.add('.people_cell_name a', function (element) {
+    var br = document.createElement('br');
+    var span = document.createElement('span');
+    span.textContent = decodeHtml(element.parentNode.parentNode.querySelector('img').alt.split(' ').pop());
+    element.appendChild(br);
+    element.appendChild(span);
+});
+
+function getFirstPhotoRow(pr) {
+    if (!pr.previousElementSibling || pr.previousElementSibling.classList.contains('photos_period_delimiter'))
+        return pr;
+    else return getFirstPhotoRow(pr.previousElementSibling);
+}
+
+KPP.add('.photos_row', function (element) {
+    if (document.getElementsByClassName('photos_period_delimiter').length > 0 || document.getElementsByClassName('photos_row_wrap').length > 0) {
+        getFirstPhotoRow(element.parentElement).appendChild(element);
+    }
+});
+
+if (!options.optionViewer) {
+    KPP.add('.pe_canvas', function (element) {
+        element.style.marginTop = element.parentNode.firstChild.offsetTop + 'px';
+        element.style.marginLeft = element.parentNode.firstChild.offsetLeft + 'px';
+        document.getElementsByClassName('pv_cont')[0].style.paddingLeft = '0';
+    });
+}
+
+KPP.add('.im-page--members', function () {
+    var ipch = document.querySelectorAll('.im-page--members');
+    if (ipch.length > 0)
+        for (var i = 1; i < ipch.length; i++)
+            ipch[i].remove();
+    document.getElementsByClassName('im-page--chat-header')[0].appendChild(ipch[0]);
+});
+
+KPP.add('#ui_rmenu_members_list', function (urml) {
+    var urel = document.getElementById('ui_rmenu_edit_list');
+    urel.parentNode.appendChild(urel);
+    urml.parentNode.appendChild(urml);
+});
+
+KPP.add('#ui_rmenu_arhive', function (ura) {
+    var urel = document.getElementById('ui_rmenu_news');
+    insertAfter(urel, ura);
+});
+
+KPP.add('.im-right-menu', function (irm) {
+    var ian = irm.getElementsByClassName('im-aside-notice');
+    var ipd = document.getElementsByClassName('im-page--dialogs')[0];
+    var id = document.getElementById('im_dialogs');
+    if (ian.length > 0)
+        for (var i = 0; i < ian.length; i++)
+            ipd.insertBefore(ian[i], id);
+    var igodn = document.getElementById('im-group-online-disabled-notice');
+    if (igodn)
+        ipd.insertBefore(igodn, id);
+});
+
+
 
 
 
@@ -727,6 +1061,49 @@ observer.observe(document.body, { childList: true, subtree: true });
         }
     });
 }
+// Мои Аудизаписи
+
+document.addEventListener('DOMContentLoaded', function() {
+    function addClickListener() {
+        var element = document.querySelector("li#l_aud");
+        if (element && !element.dataset.listenerAdded) {
+            console.log("Элемент найден, добавляем обработчик");
+            element.addEventListener("click", function() {
+                window.location.href = "/audio?section=all";
+            });
+            element.dataset.listenerAdded = "true"; // Помечаем, что обработчик добавлен
+        } else {
+            console.log("Элемент не найден или обработчик уже добавлен");
+        }
+    }
+
+    // Используем MutationObserver для отслеживания изменений в DOM
+    var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === "childList") {
+                addClickListener();
+            }
+        });
+    });
+
+    // Начинаем наблюдение за изменениями в теле документа
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    // Первоначальная попытка добавить обработчик
+    addClickListener();
+
+    // Периодическая проверка наличия элемента
+    var intervalCheck = setInterval(function() {
+        addClickListener();
+        // Остановим интервал, если элемент найден и обработчик добавлен
+        if (document.querySelector("li#l_aud") && document.querySelector("li#l_aud").dataset.listenerAdded) {
+            clearInterval(intervalCheck);
+        }
+    }, 100);
+});
+
+
+
 
 function resizeNarrow(element, factor) {
     element.style.width = Math.floor(element.clientWidth * factor) + 'px';

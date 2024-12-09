@@ -1,5 +1,5 @@
 @charset "UTF-8";
-:lang(ru) #l_nwsf .left_label:before {
+:lang(ru) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
@@ -7,45 +7,45 @@
   content: "Мои ";
 }
 
-:lang(ru) #l_msg .left_label:before {
+:lang(ru) #l_msg .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои ";
 }
 
-:lang(ru) #l_fr .left_label:before {
+:lang(ru) #l_fr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru) #l_gr .left_label:before {
+:lang(ru) #l_gr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru) #l_ph .left_label:before {
+:lang(ru) #l_ph .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru) #l_aud .left_label:before {
+:lang(ru) #l_aud .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru) #l_vid .left_label:before {
+:lang(ru) #l_vid .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru) #l_fav .left_label:before {
+:lang(ru) #l_fav .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru) #l_sett .left_label:before {
+:lang(ru) #l_sett .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(uk) #l_pr .left_label.inl_bl:before {
+:lang(uk) #l_pr .vkitLeftMenuItem__label--lndW2.inl_bl:before {
     content: 'Моя Сторінка';
     display: -webkit-inline-box;
     padding-right: 100px;
 }
 
-:lang(uk) #l_nwsf .left_label:before {
+:lang(uk) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
   content: "Мої ";
 }
 
@@ -53,45 +53,45 @@
   content: "Мої ";
 }
 
-:lang(uk) #l_msg .left_label.inl_bl:before {
+:lang(uk) #l_msg .vkitLeftMenuItem__label--lndW2.inl_bl:before {
   content: "Мої Повідомлення";
   display: -webkit-inline-box;
   padding-right: 130px;
 }
 
-:lang(uk) #l_fr .left_label:before {
+:lang(uk) #l_fr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мої ";
 }
 
-:lang(uk) #l_gr .left_label.inl_bl:before {
+:lang(uk) #l_gr .vkitLeftMenuItem__label--lndW2.inl_bl:before {
   content: "Мої Групи";
   display: -webkit-inline-box;
   padding-right: 100px;
 }
 
-:lang(uk) #l_ph .left_label:before {
+:lang(uk) #l_ph .vkitLeftMenuItem__label--lndW2:before {
   content: "Мої ";
 }
 
-:lang(uk) #l_aud .left_label:before {
+:lang(uk) #l_aud .vkitLeftMenuItem__label--lndW2:before {
   content: "Мої ";
 }
 
-:lang(uk) #l_vid .left_label.inl_bl:before {
+:lang(uk) #l_vid .vkitLeftMenuItem__label--lndW2.inl_bl:before {
   content: "Мої Відеозаписи";
   display: -webkit-inline-box;
   padding-right: 100px;
 }
-:lang(uk) #l_ap .left_label.inl_bl:before {
+:lang(uk) #l_ap .vkitLeftMenuItem__label--lndW2.inl_bl:before {
     content: "Додатки";
     display: -webkit-inline-box;
     padding-right: 100px;
 }
-:lang(uk) #l_fav .left_label:before {
+:lang(uk) #l_fav .vkitLeftMenuItem__label--lndW2:before {
   content: "Мої ";
 }
 
-:lang(uk) #l_sett .left_label:before {
+:lang(uk) #l_sett .vkitLeftMenuItem__label--lndW2:before {
   content: "Мої Налаштування ";
   display: -webkit-inline-box;
   padding-right: 100px;
@@ -125,7 +125,7 @@
     content: "Дії";
 }
 
-:lang(be) #l_nwsf .left_label:before {
+:lang(be) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
@@ -133,39 +133,39 @@
   content: "Мае ";
 }
 
-:lang(be) #l_msg .left_label:before {
+:lang(be) #l_msg .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be) #l_fr .left_label:before {
+:lang(be) #l_fr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be) #l_gr .left_label:before {
+:lang(be) #l_gr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be) #l_ph .left_label:before {
+:lang(be) #l_ph .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be) #l_aud .left_label:before {
+:lang(be) #l_aud .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be) #l_vid .left_label:before {
+:lang(be) #l_vid .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be) #l_fav .left_label:before {
+:lang(be) #l_fav .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be) #l_sett .left_label:before {
+:lang(be) #l_sett .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_nwsf .left_label:before {
+:lang(be-tarask) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
@@ -173,79 +173,92 @@
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_msg .left_label:before {
+:lang(be-tarask) #l_msg .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_fr .left_label:before {
+:lang(be-tarask) #l_fr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_gr .left_label:before {
+:lang(be-tarask) #l_gr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_ph .left_label:before {
+:lang(be-tarask) #l_ph .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_aud .left_label:before {
+:lang(be-tarask) #l_aud .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_vid .left_label:before {
+:lang(be-tarask) #l_vid .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_fav .left_label:before {
+:lang(be-tarask) #l_fav .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(be-tarask) #l_sett .left_label:before {
+:lang(be-tarask) #l_sett .vkitLeftMenuItem__label--lndW2:before {
   content: "Мае ";
 }
 
-:lang(en-us) #l_nwsf .left_label:before {
-  content: "My ";
+:lang(en-us) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
+  content: "My News"!important;
+}
+
+:lang(en-us) #l_pr .vkitLeftMenuItem__label--lndW2:before {
+    content: "My Profile" !important;
 }
 
 :lang(en-us) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
-  content: "My ";
+  content: "My "!important;
 }
 
-:lang(en-us) #l_msg .left_label:before {
-  content: "My ";
+:lang(en-us) #l_msg .vkitLeftMenuItem__label--lndW2:before {
+  content: "My Messenger"!important;
 }
 
-:lang(en-us) #l_fr .left_label:before {
-  content: "My ";
+:lang(en-us) #l_fr .vkitLeftMenuItem__label--lndW2:before {
+  content: "My Friends"!important;
 }
 
-:lang(en-us) #l_gr .left_label:before {
-  content: "My ";
+:lang(en-us) #l_gr .vkitLeftMenuItem__label--lndW2:before {
+  content: "My Communities"!important;
 }
 
-:lang(en-us) #l_ph .left_label:before {
-  content: "My ";
+:lang(en-us) #l_ph .vkitLeftMenuItem__label--lndW2:before {
+  content: "My Photos"!important;
 }
 
-:lang(en-us) #l_aud .left_label:before {
-  content: "My ";
+:lang(en-us) #l_aud .vkitLeftMenuItem__label--lndW2:before {
+  content: "My Music"!important;
 }
 
-:lang(en-us) #l_vid .left_label:before {
-  content: "My ";
+:lang(en-us) #l_vid .vkitLeftMenuItem__label--lndW2:before {
+  content: "My Videos"!important;
 }
 
-:lang(en-us) #l_fav .left_label:before {
-  content: "My ";
+:lang(en-us) #l_fav .vkitLeftMenuItem__label--lndW2:before {
+  content: "My Bookmarks"!important;
 }
 
-:lang(en-us) #l_sett .left_label:before {
-  content: "My ";
+:lang(en-us) #l_sett .vkitLeftMenuItem__label--lndW2:before {
+    content: "My Setings" !important;
+    position: absolute;
+    display: block;
+    padding-right: 40px;
+    margin-left: 9px;
+    margin-top: 5px;
+    color: #2b587a !important;
+    background: #ffffff;
+    z-index: 1;
+    font-size: 11px;
 }
 
-:lang(ru-ussr) #l_nwsf .left_label:before {
+:lang(ru-ussr) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
@@ -253,39 +266,39 @@
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_msg .left_label:before {
+:lang(ru-ussr) #l_msg .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_fr .left_label:before {
+:lang(ru-ussr) #l_fr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_gr .left_label:before {
+:lang(ru-ussr) #l_gr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_ph .left_label:before {
+:lang(ru-ussr) #l_ph .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 	}
 
-:lang(ru-ussr) #l_aud .left_label:before {
+:lang(ru-ussr) #l_aud .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_vid .left_label:before {
+:lang(ru-ussr) #l_vid .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_fav .left_label:before {
+:lang(ru-ussr) #l_fav .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_sett .left_label:before {
+:lang(ru-ussr) #l_sett .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_nwsf .left_label:before {
+:lang(ru-petr1708) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
@@ -293,44 +306,44 @@
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_msg .left_label:before {
+:lang(ru-petr1708) #l_msg .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_fr .left_label:before {
+:lang(ru-petr1708) #l_fr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_gr .left_label:before {
+:lang(ru-petr1708) #l_gr .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_ph .left_label:before {
+:lang(ru-petr1708) #l_ph .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_aud .left_label:before {
+:lang(ru-petr1708) #l_aud .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_vid .left_label:before {
+:lang(ru-petr1708) #l_vid .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_fav .left_label:before {
+:lang(ru-petr1708) #l_fav .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-petr1708) #l_sett .left_label:before {
+:lang(ru-petr1708) #l_sett .vkitLeftMenuItem__label--lndW2:before {
   content: "Мои ";
 }
 
-:lang(ru-ussr) #l_nwsf .left_label:before {
+:lang(ru-ussr) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
   content: "Моё ";
 }
 
-:lang(ru-petr1708) #l_vid .left_label:before,
-:lang(ru-petr1708) #l_fav .left_label:before {
+:lang(ru-petr1708) #l_vid .vkitLeftMenuItem__label--lndW2:before,
+:lang(ru-petr1708) #l_fav .vkitLeftMenuItem__label--lndW2:before {
   content: "Мой ";
 }
 
@@ -619,12 +632,12 @@ content: 'Closed community';
 :lang(uk) ._audio_section_tab__all .ui_tab:before {
 	    content: "Мої Аудіозаписи";
 }
-:lang(uk) #l_aud .left_label.inl_bl:before {
+:lang(uk) #l_aud .vkitLeftMenuItem__label--lndW2.inl_bl:before {
     content: "Мої Аудїозаписи";
     display: -webkit-inline-box;
     padding-right: 100px;
 }
-:lang(en-us)  #l_aud .left_label.inl_bl:before {
+:lang(en-us)  #l_aud .vkitLeftMenuItem__label--lndW2.inl_bl:before {
     content: "My Audios";
     display: -webkit-inline-box;
     padding-right: 100px;
@@ -1059,15 +1072,15 @@ content: 'Closed community';
     content: "Поділитися"
 } 
 /* Надпись Мои Группы */       
-:lang(ru) #l_gr .left_label.inl_bl:before {
+:lang(ru) #l_gr .vkitLeftMenuItem__label--lndW2.inl_bl:before {
     content: 'Мои ';
 }     
-:lang(en-us) #l_gr .left_label.inl_bl:before {
+:lang(en-us) #l_gr .vkitLeftMenuItem__label--lndW2.inl_bl:before {
     content: 'My Communities';
     display: -webkit-inline-box;
     padding-right: 68px;
 }     
-:lang(en-us) #l_pr .left_label.inl_bl:before {
+:lang(en-us) #l_pr .vkitLeftMenuItem__label--lndW2.inl_bl:before {
     content: 'My Page';
     display: -webkit-inline-box;
     padding-right: 100px;
@@ -1097,17 +1110,17 @@ content: 'Closed community';
     content: 'Pavel Durov';
 }
 /* Исправления 11.20.20*/
-:lang(ru) #l_doc .left_label:before {
+:lang(ru) #l_doc .vkitLeftMenuItem__label--lndW2:before {
     content: 'Документы';
     display: -webkit-inline-box;
 }
 
-:lang(uk) #l_doc .left_label:before {
+:lang(uk) #l_doc .vkitLeftMenuItem__label--lndW2:before {
     content: 'Документи';
     display: -webkit-inline-box;
 }
 
-:lang(en-us) #l_doc .left_label:before {
+:lang(en-us) #l_doc .vkitLeftMenuItem__label--lndW2:before {
     content: 'Documents';
     display: -webkit-inline-box;
 }
@@ -1453,7 +1466,7 @@ div#vk_connect_registration_faq {
 [dir] :lang(en-us) .im-send-btn.im-chat-input--send._im_send.im-send-btn_send {
     width: 55px;
 }
-[dir] :lang(en-us) #ui_rmenu_all:before {
+/*[dir] :lang(en-us) #ui_rmenu_all:before {
     content: "Dialogues";
     background: #fff;
 	background-size: cover;
@@ -1473,7 +1486,7 @@ div#vk_connect_registration_faq {
     content: "Dialogues";
     background: #fff;
     position: absolute;
-}
+}*/
 
 /*Регистрация на английский*/
 [dir] :lang(en-us) .VkIdForm__header {
@@ -1706,90 +1719,90 @@ left: 307px!important;
 }
 /*Перевод левого меню*/
 /*Английский*/
-:lang(en-us) #l_fr .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_fr .vkitLeftMenuItem__label--lndW2:before {
     content: "My Friends"!important;
 }
-:lang(en-us) #l_ph .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_ph .vkitLeftMenuItem__label--lndW2:before {
     content: "My Photos"!important;
 }
-:lang(en-us) #l_vid .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_vid .vkitLeftMenuItem__label--lndW2:before {
     content: "My Videos"!important;
 }
-:lang(en-us) #l_aud .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_aud .vkitLeftMenuItem__label--lndW2:before {
     content: "My Music"!important;
 }
-:lang(en-us) #l_msg .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_msg .vkitLeftMenuItem__label--lndW2:before {
     content: "My Messages"!important;
 }
-:lang(en-us) #l_gr .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_gr .vkitLeftMenuItem__label--lndW2:before {
     content: "My Communities"!important;
 }
-:lang(en-us) #l_nwsf .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
     content: "My News"!important;
 }
-:lang(en-us) #l_fav .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_fav .vkitLeftMenuItem__label--lndW2:before {
     content: "My Bookmarks"!important;
 }
-:lang(en-us) #l_st .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_st .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Нстройки"!important;
 }
-:lang(en-us) #l_ap .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_ap .vkitLeftMenuItem__label--lndW2:before {
     content: "Applications"!important;
 }
-:lang(en-us) #l_doc .LeftMenuItem-module__label--itYtZ:before {
+:lang(en-us) #l_doc .vkitLeftMenuItem__label--lndW2:before {
     content: "Documents"!important;
 }
 /*Украинский*/
-:lang(uk) #l_fr .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_fr .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Друзі"!important;
 }
-:lang(uk) #l_ph .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_ph .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Фотографії"!important;
 }
-:lang(uk) #l_vid .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_vid .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Відеозаписи"!important;
 }
-:lang(uk) #l_aud .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_aud .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Аудіозаписи"!important;
 }
-:lang(uk) #l_msg .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_msg .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Повідомлення"!important;
 }
-:lang(uk) #l_gr .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_gr .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Гурппы"!important;
 }
-:lang(uk) #l_nwsf .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Новини"!important;
 }
-:lang(uk) #l_fav .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_fav .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Закладки"!important;
 }
-:lang(uk) #l_st .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_st .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Нстройки"!important;
 }
-:lang(uk) #l_ap .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_ap .vkitLeftMenuItem__label--lndW2:before {
     content: "Додатки"!important;
 }
-:lang(uk) #l_doc .LeftMenuItem-module__label--itYtZ:before {
+:lang(uk) #l_doc .vkitLeftMenuItem__label--lndW2:before {
     content: "Документи"!important;
 }
 /*Дореволюцiонный*/
-:lang(ru-petr1708) #l_fr .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_fr .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Знакомцы"!important;
 }
-:lang(ru-petr1708) #l_ph .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_ph .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Фотокарточки"!important;
 }
-:lang(ru-petr1708) #l_vid .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_vid .vkitLeftMenuItem__label--lndW2:before {
     content: "Мой Синематографъ"!important;
 }
-:lang(ru-petr1708) #l_aud .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_aud .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Композицiи"!important;
 }
-:lang(ru-petr1708) #l_msg .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_msg .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Письма"!important;
 }
-:lang(ru-petr1708) #l_gr .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_gr .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Общества"!important;
 }
 :lang(ru-petr1708) #l_ntf .LeftMenuItem-module__label--itYtZ:before {
@@ -1802,19 +1815,19 @@ left: 307px!important;
 :lang(ru-petr1708) #l_ntf .left_row, a:hover {
     text-decoration:none;
 }
-:lang(ru-petr1708) #l_nwsf .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
     content: "Мої Новини"!important;
 }
-:lang(ru-petr1708) #l_fav .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_fav .vkitLeftMenuItem__label--lndW2:before {
     content: "Мой Бумажникъ"!important;
 }
-:lang(ru-petr1708) #l_st .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_st .vkitLeftMenuItem__label--lndW2:before {
     content: "Мои Нстройки"!important;
 }
-:lang(ru-petr1708) #l_ap .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_ap .vkitLeftMenuItem__label--lndW2:before {
     content: "Аппликацiи"!important;
 }
-:lang(ru-petr1708) #l_doc .LeftMenuItem-module__label--itYtZ:before {
+:lang(ru-petr1708) #l_doc .vkitLeftMenuItem__label--lndW2:before {
     content: "Архивъ"!important;
 }
 :lang(ru-petr1708) .HeaderNav__item--gap {
@@ -1822,4 +1835,188 @@ left: 307px!important;
 }
 :lang(ru-petr1708) .top_nav_link {
     left: 8px;
+}
+/*Язык Советский в 2024 году*/
+:lang(ru-ussr) li.HeaderNav__item.HeaderNav__item--acts {
+    margin: -33px;
+}
+:lang(ru-ussr) #l_pr .vkitLeftMenuItem__label--lndW2:before {
+    content: "Моё досье" !important;
+}
+:lang(ru-ussr) #l_fr .vkitLeftMenuItem__label--lndW2:before {
+    content: "Мои Товарищи" !important;
+}
+:lang(ru-ussr) #l_ph .vkitLeftMenuItem__label--lndW2:before {
+    content: "Мои Фотокарточки" !important;
+}
+:lang(ru-ussr) #l_vid .vkitLeftMenuItem__label--lndW2:before {
+    content: "Мои Киноленты" !important;
+}
+:lang(ru-ussr) #l_aud .vkitLeftMenuItem__label--lndW2:before {
+    content: "Мои Грамзаписи" !important;
+}
+:lang(ru-ussr) #l_msg .vkitLeftMenuItem__label--lndW2:before {
+    content: "Мои Телеграммы" !important;
+}
+:lang(ru-ussr) #l_gr .vkitLeftMenuItem__label--lndW2:before {
+    content: "Мои Клубы" !important;
+}
+:lang(ru-ussr) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
+    content: "Моё Информбюро" !important;
+}
+:lang(ru-ussr) #l_fav .vkitLeftMenuItem__label--lndW2:before {
+    content: "Мои Коллекции" !important;
+}
+
+
+/* Русский язык */
+body[lang="ru"] [data-test-id="main-data"] .vkuiSimpleCell__children::before {  
+content: "Моя Главная";
+}
+body[lang="ru"] [data-test-id="main-data"] .vkuiSimpleCell__children {  
+visibility: hidden; /* Скрываем оригинальный текст */
+}
+body[lang="ru"] [data-test-id="main-data"] .vkuiSimpleCell__children::before {  
+visibility: visible;
+}
+body[lang="ru"] [data-test-id="personal-data"] .vkuiSimpleCell__children::before {
+  content: "Мои Личные данные";
+}
+
+body[lang="ru"] [data-test-id="personal-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="ru"] [data-test-id="personal-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+body[lang="ru"] [data-test-id="security-data"] .vkuiSimpleCell__children::before {
+  content: "Моя Безопасность и вход";
+}
+
+body[lang="ru"] [data-test-id="security-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="ru"] [data-test-id="security-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+body[lang="ru"] [data-test-id="vkpay-data"] .vkuiSimpleCell__children::before {
+  content: "Мой VK Pay: карты и платежи";
+}
+
+body[lang="ru"] [data-test-id="vkpay-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="ru"] [data-test-id="vkpay-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+body[lang="ru"] [data-test-id="subs-data"] .vkuiSimpleCell__children::before {
+  content: "Мои Подписки";
+}
+
+body[lang="ru"] [data-test-id="subs-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="ru"] [data-test-id="subs-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+body[lang="ru"] [data-test-id="services-data"] .vkuiSimpleCell__children::before {
+  content: "Мои Сервисы и сайты";
+}
+
+body[lang="ru"] [data-test-id="services-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="ru"] [data-test-id="services-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+/* Английский язык */
+body[lang="en"] [data-test-id="main-data"] .vkuiSimpleCell__children::before {  
+content: "My Home";
+}
+body[lang="en"] [data-test-id="main-data"] .vkuiSimpleCell__children {  
+visibility: hidden; /* Скрываем оригинальный текст */
+}
+body[lang="en"] [data-test-id="main-data"] .vkuiSimpleCell__children::before {  
+visibility: visible;
+}
+body[lang="en"] [data-test-id="personal-data"] .vkuiSimpleCell__children::before {
+  content: "My Personal Data";
+}
+
+body[lang="en"] [data-test-id="personal-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="en"] [data-test-id="personal-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+body[lang="en"] [data-test-id="security-data"] .vkuiSimpleCell__children::before {
+  content: "My Security and Login";
+}
+
+body[lang="en"] [data-test-id="security-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="en"] [data-test-id="security-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+body[lang="en"] [data-test-id="vkpay-data"] .vkuiSimpleCell__children::before {
+  content: "My VK Pay: cards and payments";
+}
+
+body[lang="en"] [data-test-id="vkpay-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="en"] [data-test-id="vkpay-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+body[lang="en"] [data-test-id="subs-data"] .vkuiSimpleCell__children::before {
+  content: "My Subscriptions";
+}
+
+body[lang="en"] [data-test-id="subs-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="en"] [data-test-id="subs-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+body[lang="en"] [data-test-id="services-data"] .vkuiSimpleCell__children::before {
+  content: "My Services and Sites";
+}
+
+body[lang="en"] [data-test-id="services-data"] .vkuiSimpleCell__children {
+  visibility: hidden; /* Скрываем оригинальный текст */
+}
+
+body[lang="en"] [data-test-id="services-data"] .vkuiSimpleCell__children::before {
+  visibility: visible;
+}
+
+/**/
+:lang(en-us).ProfileHeaderActions__moreButtonContainer .vkuiButton--with-icon .vkuiButton__content::after {
+    content: "More";
+}
+:lang(en-us).ProfileWrapper .vkuiButton--mode-secondary.vkuiButton--appearance-accent[href="/edit"] .vkuiButton__content::after {
+    content: "Edit profile";
+}
+:lang(en-us).ProfileHeaderActions__buttons a.vkuiButton[href^="/im"] .vkuiButton__content::after {
+    content: "Write a message";
+}
+:lang(en-us).ProfileHeaderActions__buttons a.vkuiButton[href^="/im"] .vkuiButton__before::after {
+    content: "Write a message";
 }

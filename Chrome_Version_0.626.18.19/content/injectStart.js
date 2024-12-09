@@ -1,12 +1,17 @@
+var oldvk = { fox: true }; // Убедитесь, что oldvk объявлен и инициализирован
+
 if (oldvk.fox) {
     (function (history) {
         var pushState = history.pushState;
         history.pushState = function (state) {
-            window.postMessage({type: "PUSH_URL", text: arguments[2].slice(1)}, "*");
+            if (arguments[2] && typeof arguments[2].slice === 'function') {
+                window.postMessage({type: "PUSH_URL", text: arguments[2].slice(1)}, "*");
+            }
             return pushState.apply(history, arguments);
         }
     })(window.history);
 }
+
 
 var nothing = function () {
 };
@@ -148,11 +153,12 @@ watchVar('Photoview', function (Photoview) {
             pv_switch_wrap.setAttribute('onclick', 'cancelEvent(event);pvSwitch();');
             layer.appendChild(pv_switch_wrap);
             if (localStorage.getItem('oldvk_pvDark') === '1') {
-                if (oldvk.options.optionViewer)
+                if (oldvk.options && oldvk.options.optionViewer) {
                     addClass(cur.pvBox, 'oldvk-dark');
+                }
                 addClass(layerBG, 'oldvk-dark');
             }
-            if (!oldvk.options.optionViewer && cur.module !== 'marketplace') {
+            if (!oldvk.options || !oldvk.options.optionViewer && cur.module !== 'marketplace') {
                 addClass(layerWrap, 'oldvk');
                 cur.pvImageWrap.insertBefore(cur.pvCounter, domFC(cur.pvImageWrap));
                 cur.pvRightColumn = ce('div', {id: 'pv_right_column'});
@@ -175,11 +181,10 @@ watchVar('Photoview', function (Photoview) {
                 }
                 Photoview.getPhotoSize = _getPhotoSize;
             }
-
         };
         Photoview.createLayer.oldvk = true;
     }
-    if (!oldvk.options.optionViewer) {
+    if (!oldvk.options || !oldvk.options.optionViewer) {
         Photoview.updateVerticalPosition = nothing;
         Photoview.updatePhotoDimensions = nothing;
         if (!Photoview.show.oldvk) {
@@ -190,80 +195,80 @@ watchVar('Photoview', function (Photoview) {
                     cur.pvCounter.textContent = getLang("photos_photo_num_of_N").replace("%s", cur.pvIndex + 1).replace(/%s|{count}/, cur.pvData[cur.pvListId].length);
                 }
             };
-            Photoview.show.oldvk = true
-        }
-
-        if (!Photoview.doShow.oldvk) {
-            var ds = Photoview.doShow;
-            Photoview.doShow = function () {
-                ds.apply(this, arguments);
-                if (cur.pvCanvas)
-                    return;
-                if (geByClass1('pv_author_block', cur.pvRightColumn))
-                    cur.pvRightColumn.removeChild(geByClass1('pv_author_block', cur.pvRightColumn));
-                if (geByClass1('pv_author_block')) {
-                    cur.pvRightColumn.appendChild(geByClass1('pv_author_block'));
-                    insertAfter(ge('pv_author_name'), cur.pvAlbumName);
-                    var date_wrap = ce('div', {innerHTML: cur.pvCurPhoto.date});
-                    date_wrap.firstChild.textContent = getLang('photos_added') + ' ' + date_wrap.firstChild.textContent;
-                    if (cur.pvPhotoDate.firstChild)
-                        cur.pvPhotoDate.removeChild(cur.pvPhotoDate.firstChild);
-                    cur.pvPhotoDate.appendChild(date_wrap.firstChild);
-                    cur.pvRightColumn.appendChild(cur.pvBottomActions);
-                    cur.pvMoreActionsTooltip._opts.offset[1] = 12;
-                    cur.pvMoreActionsTooltip._ttel = null;
-                    cur.pvMoreActionsTooltip.build();
-                    cur.pvBottomActions.insertBefore(ge('pv_more_act_download'), geByClass1('pv_actions_more'));
-
-                    if (cur.pvBottomLike.firstChild)
-                        cur.pvBottomLike.removeChild(cur.pvBottomLike.firstChild);
-                    cur.pvBottomLike.appendChild(document.querySelector('.pv_narrow_column_wrap .like_wrap'))
-                }
-
-                if (localStorage.getItem('oldvk_pvLarge') === '1') {
-                    addEventListener('resize', _pvResize);
-                    _pvResize()
-                }
-            };
-            Photoview.doShow.oldvk = true
-        }
-
-        if (!Photoview.showTag.oldvk) {
-            var st = Photoview.showTag;
-            Photoview.showTag = function () {
-                cur.pvPhWidth = cur.pvPhoto.firstElementChild.clientWidth;
-                cur.pvPhHeight = cur.pvPhoto.firstElementChild.clientHeight;
-                Photoview.updateTagFrameDimensions();
-                st.apply(this, arguments);
-                var p = cur.pvPhoto.firstElementChild.offsetTop + cur.pvTagInfo.clientHeight;
-                var t = parseFloat(getComputedStyle(cur.pvCounter).marginTop) + cur.pvCounter.offsetHeight + p;
-                setStyle(cur.pvTagFrame, 'top', t);
-                setStyle(cur.pvTagPerson, 'top', t);
-                setStyle(cur.pvTagFaded, 'top', p);
-            };
-            Photoview.showTag.oldvk = true
-        }
-
-        if (!Photoview.afterShow.oldvk) {
-            var as = Photoview.afterShow;
-            Photoview.afterShow = function () {
-                as.apply(this, arguments);
-                var h = cur.pvPhoto.firstElementChild.style.getPropertyValue('max-height');
-                cur.pvTagFrame.firstElementChild.style.setProperty('max-height', h, 'important');
-            };
-            Photoview.afterShow.oldvk = true
-        }
-
-        if (!Photoview.hide.oldvk) {
-            var h = Photoview.hide;
-            Photoview.hide = function () {
-                removeEventListener('resize', _pvResize);
-                h.apply(this, arguments);
-            };
-            Photoview.hide.oldvk = true
+            Photoview.show.oldvk = true;
         }
     }
+    if (!Photoview.doShow.oldvk) {
+        var ds = Photoview.doShow;
+        Photoview.doShow = function () {
+            ds.apply(this, arguments);
+            if (cur.pvCanvas)
+                return;
+            if (geByClass1('pv_author_block', cur.pvRightColumn))
+                cur.pvRightColumn.removeChild(geByClass1('pv_author_block', cur.pvRightColumn));
+            if (geByClass1('pv_author_block')) {
+                cur.pvRightColumn.appendChild(geByClass1('pv_author_block'));
+                insertAfter(ge('pv_author_name'), cur.pvAlbumName);
+                var date_wrap = ce('div', {innerHTML: cur.pvCurPhoto.date});
+                date_wrap.firstChild.textContent = getLang('photos_added') + ' ' + date_wrap.firstChild.textContent;
+                if (cur.pvPhotoDate.firstChild)
+                    cur.pvPhotoDate.removeChild(cur.pvPhotoDate.firstChild);
+                cur.pvPhotoDate.appendChild(date_wrap.firstChild);
+                cur.pvRightColumn.appendChild(cur.pvBottomActions);
+                cur.pvMoreActionsTooltip._opts.offset[1] = 12;
+                cur.pvMoreActionsTooltip._ttel = null;
+                cur.pvMoreActionsTooltip.build();
+                cur.pvBottomActions.insertBefore(ge('pv_more_act_download'), geByClass1('pv_actions_more'));
+
+                if (cur.pvBottomLike.firstChild)
+                    cur.pvBottomLike.removeChild(cur.pvBottomLike.firstChild);
+                cur.pvBottomLike.appendChild(document.querySelector('.pv_narrow_column_wrap .like_wrap'))
+            }
+
+            if (localStorage.getItem('oldvk_pvLarge') === '1') {
+                addEventListener('resize', _pvResize);
+                _pvResize()
+            }
+        };
+        Photoview.doShow.oldvk = true;
+    }
+
+    if (!Photoview.showTag.oldvk) {
+        var st = Photoview.showTag;
+        Photoview.showTag = function () {
+            cur.pvPhWidth = cur.pvPhoto.firstElementChild.clientWidth;
+            cur.pvPhHeight = cur.pvPhoto.firstElementChild.clientHeight;
+            Photoview.updateTagFrameDimensions();
+            st.apply(this, arguments);
+            var p = cur.pvPhoto.firstElementChild.offsetTop + cur.pvTagInfo.clientHeight;
+            var t = parseFloat(getComputedStyle(cur.pvCounter).marginTop) + cur.pvCounter.offsetHeight + p;
+            setStyle(cur.pvTagFrame, 'top', t);
+            setStyle(cur.pvTagPerson, 'top', t);
+            setStyle(cur.pvTagFaded, 'top', p);
+        };
+        Photoview.showTag.oldvk = true;
+    }
+
+    if (!Photoview.afterShow.oldvk) {
+        var as = Photoview.afterShow;
+        Photoview.afterShow = function () {
+            as.apply(this, arguments);
+            var h = cur.pvPhoto.firstElementChild.style.getPropertyValue('max-height');
+            cur.pvTagFrame.firstElementChild.style.setProperty('max-height', h, 'important');
+        };
+        Photoview.afterShow.oldvk = true;
+    }
+
+    if (!Photoview.hide.oldvk) {
+        var h = Photoview.hide;
+        Photoview.hide = function () {
+            removeEventListener('resize', _pvResize);
+            h.apply(this, arguments);
+        };
+        Photoview.hide.oldvk = true;
+    }
 });
+
 
 watchVar('Emoji', function (Emoji) {
     Emoji.curEmojiRecent = Emoji.emojiGetRecentFromStorage();
@@ -315,12 +320,34 @@ watchVar('AudioUtils', function (AudioUtils) {
     }
 });
 
-watchVar('.LeftMenuOld-module__container--G1UQ7', function (__leftMenu) {
+watchVar('__leftMenu', function (__leftMenu) {
     __leftMenu.handleUpdateRequest = nothing;
     // TODO: Покопать дальше, функция срабатывает недостаточно рано
 });
 
 watchVar('ap', function (ap) {
+    if (ap.top && ap.top._updateTitle) {
+        ap.top._updateTitle = function (t) {
+            if (!t) return;
+            t = AudioUtils.asObject(t);
+            var title = document.createElement('div');
+            var performer = document.createElement('div');
+            performer.classList.add('oldvk-performer');
+            title.classList.add('oldvk-title');
+            var wrap = geByClass1('top_audio_player_title');
+            wrap.textContent = '';
+            performer.textContent = decodeHtml(t.performer);
+            title.textContent = decodeHtml(t.title);
+            wrap.appendChild(performer);
+            wrap.appendChild(title);
+            title.style.transitionDuration = title.clientWidth / 170 * 2 + 's';
+            performer.style.transitionDuration = performer.clientWidth / 170 * 2 + 's';
+            if (title.clientWidth <= 170)
+                title.classList.add('oldvk-no-scroll');
+            if (performer.clientWidth <= 170)
+                performer.classList.add('oldvk-no-scroll')
+        }
+    }
     if (ap.top) {
         ap.on(ap.top, "start", function () {
             removeClass(ge("oldvk_top_play"), "oldvk-hide");
@@ -328,11 +355,9 @@ watchVar('ap', function (ap) {
         });
         ap.on(ap.top, "pause", function () {
             removeClass(ge("oldvk_top_play"), "active")
-        });
+        })
     }
 });
-
-
 
 /*function _bind(variable, func, before, after) { // TODO: Переписать функции с учетом этого
     if (!variable[func].oldvk) {
@@ -349,6 +374,7 @@ watchVar('ap', function (ap) {
     }
     variable[func].oldvk = true
 }
+
 /*var jsObserver = new MutationObserver(function (ms) {
  ms.forEach(function (m) {
  m.addedNodes.forEach(function (n) {
@@ -360,6 +386,7 @@ watchVar('ap', function (ap) {
  })
  });
  });
+
  jsObserver.observe(document.head, {childList: true});*/
 
 function newsMenuTabs(element) {

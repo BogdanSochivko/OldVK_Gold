@@ -9,30 +9,31 @@ if (options.enabled || !isWebExt) {
     initWide();
     LocalizedContent.updateMenu();
 
-    if (isWebExt)
+    if (isWebExt) {
         browser.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             if (request.action === 'updating') {
                 initWide();
-                setTimeout(function () {
-                    initWide()
-                }, 500); // TODO: Найти лучшее решение
+                setTimeout(initWide, 500); // TODO: Найти лучшее решение
             }
         });
+    }
 
     var fw = document.getElementById('footer_wrap');
     var lmnw = document.getElementsByClassName('LeftMenuOld-module__container--G1UQ7')[0];
-    if (fw && lmnw)
+    if (fw && lmnw) {
         fw.appendChild(lmnw);
+    }
 
     KPP.add('.apps_i_wrap', function (element) {
-        document.body.classList.remove('static_header')
+        document.body.classList.remove('static_header');
     });
 
-    if (!localStorage.oldvk_pvLarge)
+    if (!localStorage.oldvk_pvLarge) {
         localStorage.setItem('oldvk_pvLarge', options.oldvk_pvLarge);
-    if (!localStorage.oldvk_pvDark)
-        localStorage.setItem('oldvk_pvDark', options.oldvk_pvDark)
-
+    }
+    if (!localStorage.oldvk_pvDark) {
+        localStorage.setItem('oldvk_pvDark', options.oldvk_pvDark);
+    }
 }
 
 function initWide() {
@@ -48,12 +49,12 @@ function initWide() {
         window.addEventListener('scroll', checkWide);
         window.addEventListener('resize', checkWide);
         window.addEventListener('mousedown', checkWide);
-        window.addEventListener('load', checkWide)
+        window.addEventListener('load', checkWide);
     } else {
         window.removeEventListener('scroll', checkWide);
         window.removeEventListener('resize', checkWide);
         window.removeEventListener('mousedown', checkWide);
-        window.removeEventListener('load', checkWide)
+        window.removeEventListener('load', checkWide);
     }
 }
 
