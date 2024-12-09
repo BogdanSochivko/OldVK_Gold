@@ -7,8 +7,12 @@
    
  	• Firefox 45+
 
-  Группа поддержки ВКонтакте: https://vk.com/old_vk_style
-  Начальная группа ВКонтакте: https://vk.com/vkoldfix
+  Группа поддержки ВКонтакте: 
+  
+  • https://vk.com/old_vk_style
+  
+  Начальная группа ВКонтакте: 
+  • https://vk.com/vkoldfix
   
 # Донат разработчикам Gold-версии Старого дизайна ВК
 
