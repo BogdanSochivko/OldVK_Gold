@@ -17,7 +17,7 @@
         var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-        return `До дня рождения Богдана Сочивко осталось: ${days} дней, ${hours} часов, ${minutes} минут, ${seconds} секунд.`;
+        return `До дня рождения <a href="https://vk.com/beleday">Богдана Сочивко</a> осталось: ${days} дней, ${hours} часов, ${minutes} минут, ${seconds} секунд.`;
     }
 
     // Проверяем, существует ли элемент
@@ -32,10 +32,10 @@
         // Проверяем, является ли сегодня днем рождения Богдана Сочивко
         if (month === 0 && day === 21) {
           // Показываем поздравление
-          element.prepend("С днем рождения!");
+          element.innerHTML = "<a href='https://vk.com/beleday'>С днем рождения!</a>";
         } else {
           // Показываем оставшееся время до дня рождения
-          element.prepend(countDownToBirthday());
+          element.innerHTML = countDownToBirthday();
         }
     } else {
         console.log("Элемент с классом 'side_bar_inner' не найден");
@@ -52,10 +52,10 @@
             // Проверяем, является ли сегодня днем рождения Богдана Сочивко
             if (month === 0 && day === 21) {
               // Показываем поздравление
-              element.prepend("С днем рождения!");
+              element.innerHTML = "<a href='https://vk.com/beleday'>С днем рождения!</a>";
             } else {
               // Показываем оставшееся время до дня рождения
-              element.prepend(countDownToBirthday());
+              element.innerHTML = countDownToBirthday();
             }
         }
     }, 1000);
