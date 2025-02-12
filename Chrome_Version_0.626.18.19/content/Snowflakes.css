@@ -1,4 +1,4 @@
-body {
+/*body {
     overflow: inherit;
 }
 
@@ -9,9 +9,10 @@ body {
     user-select: none;
     pointer-events: none;
     animation: fall linear infinite;
-	display: block; /* Скрываем снежинки по умолчанию */
+	display: block; /* Скрываем снежинки по умолчанию 
 }
-
+*/
+/*
 @keyframes fall {
     0% {
         transform: translateY(-10px);
@@ -20,3 +21,4 @@ body {
         transform: translateY(100vh);
     }
 }
+*/

@@ -1414,6 +1414,47 @@ lang(en-us)[dir] .index_vk_connect_faq {
 :lang(kk) div#vk_connect_registration_faq {
     display: block;
 }
+/*Левое меню на каз-яз*/
+:lang(kk) #l_pr .vkitLeftMenuItem__label--lndW2:before {
+    content:"Менің парағым"!important;
+}
+:lang(kk) #l_ntf .LeftMenuItem-module__label--itYtZ:hover {
+    width: 98px !important;
+}
+:lang(kk) #l_gr .vkitLeftMenuItem__label--lndW2:before {
+    content: "Менің топтарым" !important;
+}
+:lang(kk) #l_nwsf .vkitLeftMenuItem__label--lndW2:before {
+    content: "Менің жаңалықтарым" !important;
+}
+:lang(kk) #l_fav .vkitLeftMenuItem__label--lndW2:before {
+    content: "Менің бетбелгілерім" !important;
+}
+:lang(kk) #l_msg .vkitLeftMenuItem__label--lndW2:before {
+    content: "Менің хабарлама" !important;
+}
+:lang(kk) #l_aud .vkitLeftMenuItem__label--lndW2:before {
+    content: "Менің аудиоларым" !important;
+}
+:lang(kk) #l_vid .vkitLeftMenuItem__label--lndW2:before {
+    content: "Менің видеоларым" !important; 
+}
+:lang(kk)#l_ph .vkitLeftMenuItem__label--lndW2:before {
+    content:"Менің cуреттерім"!important;
+}
+:lang(kk) #l_fr .vkitLeftMenuItem__label--lndW2:before {
+    content:"Менің достарым"!important;
+}
+:lang(kk) #l_ap .vkitLeftMenuItem__label--lndW2:before {
+    content:"Қолданбалар"!important;
+}
+:lang(kk) #l_doc .vkitLeftMenuItem__label--lndW2:before {
+    content:"Құжаттар"!important;
+}
+:lang(kk) .top_nav_link {
+    left: 40px
+}
+
 
 div#vk_connect_registration_faq {
 	position: absolute;

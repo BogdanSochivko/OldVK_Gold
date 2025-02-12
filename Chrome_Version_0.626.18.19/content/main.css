@@ -79,16 +79,16 @@ a {
 [dir] .friends_phonebook .friends_user_info,
 [dir] .page_block_header_count,
 [dir] .friends_find_user_info,
-[dir] .wide .post_date,
+[dir] .wide ._post .PostDateBlock__root a,
 [dir] .wide .post_full_like_wrap,
 [dir] .wide .wall_module .reply_footer,
-[dir] .big_wall .post_date,
+[dir] .big_wall .PostDateBlock__root a,
 [dir] .big_wall .post_full_like_wrap,
 [dir] .big_wall .wall_module .reply_footer,
-[dir] .search_results .post_date,
+[dir] .search_results .PostDateBlock__root a,
 [dir] .search_results .post_full_like_wrap,
 [dir] .search_results.wall_module .reply_footer,
-[dir] #main_feed .post_date,
+[dir] #main_feed ._post .PostDateBlock__root a,
 [dir] .wall_comments_summary,
 [dir] .pg_in,
 [dir] .ui_ownblock_info,
@@ -1829,7 +1829,7 @@ a {
     padding: 15px 20px;
 }
 
-[dir] .wall_module .post:hover .ui_actions_menu_icons {
+[dir] .wall_module ._post:hover .ui_actions_menu_icons {
   opacity: 0.6;
 }
 
@@ -1841,7 +1841,7 @@ a {
   display: none;
 }
 
-[dir] .wall_fixed .wall_module .post .post_content {
+[dir] .wall_fixed .wall_module ._post .post_content {
   margin: 0;
   width: 397px;
 }
@@ -1910,23 +1910,23 @@ a {
   padding-top: 0;
 }
 
-[dir] .post_date {
+[dir] ._post .PostDateBlock__root a {
   font-size: 10px;
   font-weight: normal;
   line-height: 20px;
 }
-[dir] head.oldvk-option-date ~ body .post_date {
+[dir] head.oldvk-option-date ~ body ._post .PostDateBlock__root a {
   line-height: inherit;
 }
 
-[dir] .like_wrap .post_date {
+[dir] .like_wrap ._post .PostDateBlock__root a {
   float: left;
 }
 
-[dir] .post_date,
-[dir] .post_date .post_link,
+[dir] ._post .PostDateBlock__root a,
+[dir] ._post .PostDateBlock__root a .post_link,
 [dir] .ShortVideoPost__date .post_link,
-[dir] .post_date .wall_text_name_explain_promoted_post {
+[dir] ._post .PostDateBlock__root a .wall_text_name_explain_promoted_post {
   color: #999;
 }
 
@@ -4445,12 +4445,12 @@ a {
   font-size: 1.4em;
 }
 
-[dir] .wl_head_wrap .post_date {
+[dir] .wl_head_wrap ._post .PostDateBlock__root a {
   font-size: 1.08em;
   padding: 0;
 }
 
-[dir] .wl_head_wrap .post_date .post_link {
+[dir] .wl_head_wrap ._post .PostDateBlock__root a .post_link {
   color: #777;
 }
 
@@ -31314,7 +31314,366 @@ div#last_online_time {
 body.style-active .snowflake {
     display: block; /* Показываем снежинки, когда класс активен */
 }
-
-.vkitOnboardingBanner__root--ghbel {
+a.HeaderLogo.HeaderLogo--new svg use{
+    display:none!important
+}
+/*Герлянда выключена*/
+.GarlandParts__root--GY7Sw {
     display: none;
 }
+
+/*Мои Собщения 2024 декабрь*/
+.body_im .vkuiSplitLayout__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: #ffff;
+    border-left: 1px solid #d3d3d3; /* Добавление границы слева */
+    border-right: 1px solid #d3d3d3; /* Добавление границы справа */
+}
+
+
+
+
+
+.ConvoList__folders {
+    display: none;
+}
+
+
+.vkitTwoColumnLayoutNarrow__root--kuz5K {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Выравнивание по верху */
+    justify-content: space-between; /* Пространство между элементами */
+    padding-top: 20px; /* Отступ сверху */
+}
+
+.VKCOMMessenger__reforgedRightColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 20px; /* Сдвиг влево */
+}
+
+.vkitOnboardingBanner__root--ghbel, .vkitRightMenu__container--mgC1P {
+    display: flex
+;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 0;
+}
+.vkitOnboardingBanner__root--ghbel {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 0;
+    padding: 0px 0 0 0;
+    margin: 0 0 0 -210px;
+}
+.vkitRightMenuItem__container--7Pcb8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px; /* Отступы для визуального разделения */
+}
+
+
+
+
+
+
+.body_im .ConvoList__search--slide-enter-done {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: #edeef0;
+}
+
+.body_im .MEConfig .vkuiSearch__field {
+    background: #ffffff;
+    border-radius: 2px !important;
+    border: 1px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    padding: 5px; /* Отступ внутри поиска */
+}
+
+.body_im .ConvoList__headerContent {
+    display: flex;
+    justify-content: space-between; /* Разделяет элементы */
+    align-items: center;
+    background-color: #edeef0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0; /* Внутренний отступ */
+}
+
+.ConvoList__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    padding: 10px;
+}
+
+.vkmListHeader {
+    display: flex;
+    align-items: center;
+}
+
+.vkmListHeader__before,
+.vkmListHeader__after {
+    display: flex;
+    align-items: center;
+}
+
+.BurgerMenu__button,
+.vkmListHeader__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin: 0 5px; /* Отступы между кнопками */
+}
+
+.vkmListHeader__title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.ConnectionIndicator {
+    margin-left: 10px;
+}
+
+.vkuiSearch__input {
+    display: flex;
+    align-items: center;
+}
+.vkmListHeader__title {
+    display: none;
+}
+.ConvoList {
+    padding: 80px 0 0 0;
+}
+.vkuiInternalTwoColumnLayoutColumn+.vkuiInternalTwoColumnLayoutColumn {
+    --vkui_internal--twocolumnlayout-column-spacing: 16px;
+    z-index: 100;
+    margin-left: var(--vkui_internal--twocolumnlayout-column-spacing, 0);
+}
+.vkuiInternalTwoColumnLayout .vkitTwoColumnLayoutNarrow__root--kuz5K {
+    position: absolute;
+    margin: -18px 0 0 -21px;
+    width: 0;
+    height: 0;
+}
+.VKCOMMessenger__reforgedRightColumn {
+    max-height: calc(30vh - var(--header-height, 0) - 0px);
+}
+/*Вы не можете написать этому пользователю, поскольку он ограничил круг лиц, которые могут присылать ему сообщения*/
+.ConvoMain__composerContent.ComposerBlocked {
+    background-color: #e3e3e3;
+    border-radius: 0px;
+    margin: 15px 0px -20px -16px;
+    padding: 32px 162px 33px 50px;
+    width: 120%;
+    height: 100%;
+}
+
+/* дороботать .vkuiInternalTwoColumnLayout .vkitTwoColumnLayoutMain__root--XmI8k.vkitTwoColumnLayoutMain__root--XmI8k {
+    flex-grow: 1;
+    margin: 0 80px 0 0px;
+    padding: 115px 0 0 0;
+}*/
+
+/*ВКвидео*/
+/* Стили для элемента li */
+body.video_showcase.redesign_web.vkui--vkBase--light.vkui--vkAccessibility--light #search-video-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    width: 23%;
+    height: 38px;
+}
+
+#search-video-form .HeaderNav__search {
+    flex: 1;
+}
+
+/* Стили для элемента input */
+#search-video-form .vkuiSearch__input {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#search-video-form .vkuiSearch__nativeInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+/* Стили для кнопки очистки */
+#search-video-form .vkuiSearch__controls .vkuiIconButton {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Стили для иконок */
+#search-video-form .vkuiIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#search-video-form .vkuiIcon--cancel_24 {
+    width: 24px;
+    height: 24px;
+}
+
+/* Стили для блока с подсказками */
+#search-video-form .ui_search_sugg_list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+/* Стили для элементов подсказок */
+#search-video-form .ui_search_sugg_list .ui_search_sugg_item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#search-video-form .ui_search_sugg_list .ui_search_sugg_item:hover {
+    background: #f5f5f5;
+}
+
+/* Скрываем фильтры по умолчанию */
+#search-video-form .ui_search_filters_pane {
+    display: none;
+}
+
+#search-video-form .vkuiSearch__input .vkuiTypography--weight-3.vkuiTypography--weight-3.vkuiTypography--weight-3 {
+    position: initial;
+}
+
+.video_showcase .vkuiTabs--withGaps {
+    justify-content: flex-start;
+    width: 500px;
+} 
+.video_showcase .vkuiTabs--withGaps .vkuiTabs__in {
+    background: #e1e7ed;
+    height: min-content;
+    width: max-content;
+}
+.video_showcase .VideoTabs__container--PN266 {
+    max-width: 509px;
+}
+.video_showcase .SearchHeaderForm {
+    width: 170px;
+}
+.video_showcase  .vkuiSearch__input {
+    height: 100%;
+    justify-content: flex-start;
+    padding-left: 0px;
+    position: relative;
+    width: inherit;
+}
+
+.video_showcase .vkuiGroup--mode-plain .vkuiSearch {
+    padding-top: 3px;
+}
+.video_showcase .vkuiSearch--sizeY-compact {
+    --vkui_internal--search_height: 24px;
+}
+.VideoShowcaseMyHeaderActions {
+    display: flex;
+    margin: -35px 15px 0 18px;
+}
+div#react_rootHeaderVideoActionsEntry {
+    width: 58px;
+}
+.vkitLink__secondary--4un6Q.vkitLink__secondary--4un6Q {
+    color: #e1e7ed;
+}
+/*Посты*/
+.PostHeaderTitle__authorName {
+    font-weight: bold;
+    font-size: 12px !important;
+    color: #2b587a;
+}
+.PostDateBlock__root {
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 20px;
+}
+.PostDateBlock__root .vkitgetColorClass__colorTextSecondary--gD2ud {
+    color: #999;
+}
+.feed_row .feed_wall--no-islands {
+    background: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    margin: var(--page-block-offset, 15px) 0;
+}
+
+.feed_row .feed_wall--no-islands .groups_page_fixed_post_block {
+    margin-top: var(--page-block-offset, 15px);
+}
+
+.feed_row .feed_wall--no-islands .page_block, 
+.feed_row .feed_wall--no-islands .page_block.post, 
+.feed_row .feed_wall--no-islands .wall_module .page_wall_posts .page_block~.page_block, 
+.feed_row .feed_wall--no-islands .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown) {
+    background: var(--vkui--color_background_content);
+    border-radius: var(--vkui--size_border_radius_paper--regular) !important;
+    box-shadow: var(--page-block-shadow);
+    margin: var(--page-block-offset, 15px) 0 var(--page-block-offset, 15px);
+}
+
+.feed_row .feed_wall--no-islands .wall_posts {
+    --page-block-offset: unset;
+}
+
+.feed_row .feed_wall--no-islands .ui_tabs {
+    border-bottom: none;
+}
+
+.feed_row>div {
+    background: var(--vkui--color_background_content);
+}
+.feed_row .vkui__root>div {
+display: flex;
+flex-direction: column;
+}
+
+.feed_row .vkui__root>div>div {
+flex-wrap: nowrap;
+}
+.feed_row .vkui__root>div>div:nth-child(2) {
+order: -1;
+}
+
+
+

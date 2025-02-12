@@ -71,3 +71,41 @@ function checkWide() {
         }
     }
 }
+
+(function() {
+    'use strict';
+
+    function parseDateString(dateString) {
+        const cleanedDateString = dateString.replace(/[^\d:\s.-]/g, '').trim();
+        const date = new Date(cleanedDateString);
+        return !isNaN(date.getTime()) ? date : null;
+    }
+
+    function updatePostTimes() {
+        const posts = document.querySelectorAll('.PostDateBlock__root a');
+
+        posts.forEach(post => {
+            const exactTimeText = post.innerText;
+
+            const postElement = post.closest('.Post');
+            if (postElement) {
+                const postHeaderInfo = postElement.querySelector('.PostHeaderInfo');
+                if (postHeaderInfo) {
+                    let dateElement = postHeaderInfo.querySelector('.date-element');
+                    if (!dateElement) {
+                        dateElement = document.createElement('div');
+                        dateElement.classList.add('date-element');
+                        dateElement.style.marginTop = '5px';
+                        postHeaderInfo.appendChild(dateElement);
+                    }
+                    dateElement.innerText = exactTimeText;
+                    dateElement.style.color = '#ff0000'; // Пример: красный цвет текста
+                }
+            }
+        });
+    }
+
+    window.addEventListener('load', function() {
+        updatePostTimes();
+    });
+})();

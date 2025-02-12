@@ -207,7 +207,7 @@ function headOptions() {
     //if (options.optionIm)
        // document.head.classList.add('oldvk-im');
     // NY
-    //document.head.classList.add('oldvk-ny-' + getRandomInt(1, 19).toString())
+    //document.head.classList.add('oldvk-ny-' + getRandomInt(1, 19).toString());
 	// NY-martha
     //document.head.classList.add('oldvk-8_martha-' + getRandomInt(1, 8).toString());
 	// NY-XB
@@ -270,10 +270,10 @@ function headOptions() {
         insertCSS('ny_gerland')
     }
 	// NY12
-	document.head.classList.add('oldvk-ny-' + getRandomInt(20, 21).toString());
-    if (options.optionSnowflakes) {
-        insertCSS('Snowflakes')
-    }
+	//document.head.classList.add('oldvk-ny-' + getRandomInt(20, 21).toString());
+    //if (options.optionSnowflakes) {
+        //insertCSS('Snowflakes')
+    //}
 }
 var LocalizedContent = {
     l_ntf: document.createElement('li'),
@@ -970,11 +970,11 @@ KPP.add('.im-right-menu', function (irm) {
     // Перенос даты поста вниз
 
     if (!options.optionDate) {
-        KPP.add('.post', function (post) {
-            var pd = post.getElementsByClassName('post_date')[0];
-            var wt = post.getElementsByClassName('wall_text')[0];
-            var pfl = post.getElementsByClassName('post_full_like')[0];
-            var lw = post.getElementsByClassName('like_wrap')[0];
+        KPP.add('._post', function (_post) {
+            var pd = _post.getElementsByClassName('.PostDateBlock__root')[0];
+            var wt = _post.getElementsByClassName('wall_text')[0];
+            var pfl = _post.getElementsByClassName('post_full_like')[0];
+            var lw = _post.getElementsByClassName('like_wrap')[0];
             if (pd && pfl) {
                 pfl.insertBefore(pd, pfl.firstElementChild);
                 // pd.style.outline = '1px #F55 dashed'; // debug
@@ -1061,7 +1061,7 @@ KPP.add('.im-right-menu', function (irm) {
         }
     });
 }
-// Мои Аудизаписи
+// Мои Аудизаписи ВКонтакте.
 
 document.addEventListener('DOMContentLoaded', function() {
     function addClickListener() {
@@ -1103,6 +1103,318 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+/*Время написанное мной для постов, если нуждается в дороботке на 2025 год*/
+KPP.add('._post.post.page_block.post--with-likes.deep_active.Post--redesign.Post--redesignV3.Post--redesignV3SmallAvatars.feed_post_indicator', function (rootContainer) {
+    'use strict';
+
+    function updatePostTimes() {
+        const posts = rootContainer.querySelectorAll('.PostDateBlock__root a');
+
+        posts.forEach(post => {
+            const exactTimeText = post.innerText;
+
+            const postElement = post.closest('.Post');
+            if (postElement) {
+                const postHeaderInfo = postElement.querySelector('.PostHeaderInfo--inHeader');
+                if (postHeaderInfo) {
+                    let dateElement = postHeaderInfo.querySelector('.date-element');
+                    if (!dateElement) {
+                        dateElement = document.createElement('div');
+                        dateElement.classList.add('date-element');
+                        dateElement.style.marginTop = '5px';
+                        postHeaderInfo.appendChild(dateElement);
+                    }
+                    dateElement.innerText = exactTimeText;
+                    dateElement.style.color = '#ff0000';
+                }
+            }
+        });
+    }
+
+    function initPostTimeObservers() {
+        const posts = rootContainer.querySelectorAll('.PostDateBlock__root a');
+
+        posts.forEach(post => {
+            const observer = new MutationObserver(() => {
+                updatePostTimes();
+            });
+
+            observer.observe(post, {
+                childList: true,
+                subtree: true,
+                characterData: true
+            });
+        });
+    }
+
+    function initialize() {
+        document.addEventListener('DOMContentLoaded', () => {
+            initPostTimeObservers();
+            updatePostTimes();
+        });
+    }
+
+    initialize();
+});
+
+
+
+
+/*Дороботать код нада с постами*/
+/*
+KPP.add('.PostingReactBlock__root', function (rootContainer) {
+    'use strict';
+
+    function addCSS() {
+        const style = document.createElement('style');
+        style.innerHTML = `
+            .old_posting_field {
+                padding: 10px 0 10px 10px;
+                border: 1px solid #ccc;
+                border-radius: 0px;
+                background-color: #F7F7F7;
+                margin-top: 20px;
+            }
+
+            .old_textarea {
+                width: 97%;
+                height: 16px;
+                padding: 4px;
+                border: 1px solid #ccc;
+                border-radius: 0px;
+                resize: none;
+                font-family: Arial, sans-serif;
+                font-size: 11px;
+            }
+
+            .old_textarea::placeholder {
+                color: #a9a9a9;
+            }
+
+            .attachment_buttons {
+                display: none;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            .attachment_buttons.show {
+                display: flex;
+            }
+
+            .attach_file_button,
+            .posting_submit_button {
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                transition: background-color 0.3s ease;
+            }
+
+            .attach_file_button {
+                background-color: #6c757d;
+                color: #fff;
+            }
+
+            .posting_submit_button {
+                background-color: #007bff;
+                color: #fff;
+            }
+
+            .attach_file_button:hover,
+            .posting_submit_button:hover {
+                background-color: #0056b3;
+            }
+
+            .old_textarea_label {
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                margin-bottom: 5px;
+                display: block;
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    function waitForElement(selector, callback) {
+        const element = document.querySelector(selector);
+        if (element) {
+            callback(element);
+        } else {
+            setTimeout(() => waitForElement(selector, callback), 200); // Increased debounce time
+        }
+    }
+
+    function addFunctionalButtons() {
+        if (!rootContainer.querySelector('.old_posting_field')) {
+            console.log('Добавляем функциональные кнопки в блок PostingReactBlock__root');
+
+            const oldPostingField = document.createElement('div');
+            oldPostingField.classList.add('old_posting_field');
+            oldPostingField.innerHTML = `
+                <textarea id="old_textarea" class="old_textarea" placeholder="Что у вас нового?"></textarea>
+                <div class="attachment_buttons">
+                    <button class="attach_file_button">Прикрепить файл</button>
+                    <button class="posting_submit_button" type="button">Опубликовать</button>
+                </div>
+            `;
+            rootContainer.appendChild(oldPostingField);
+
+            const textarea = oldPostingField.querySelector('.old_textarea');
+            const buttons = oldPostingField.querySelector('.attachment_buttons');
+
+            textarea.addEventListener('focus', () => {
+                textarea.style.height = '100px';
+                buttons.classList.add('show');
+            });
+
+            textarea.addEventListener('blur', () => {
+                if (textarea.value.trim() === '') {
+                    textarea.style.height = '16px';
+                    buttons.classList.remove('show');
+                }
+            });
+
+            oldPostingField.querySelector('.attach_file_button').addEventListener('click', () => {
+                console.log('Нажата кнопка прикрепления файла');
+                waitForElement('[data-testid="posting_file_picker_cell"]', (originalAttachButton) => {
+                    originalAttachButton.click();
+                    console.log('Кнопка прикрепления файла найдена и нажата');
+                });
+            });
+
+            oldPostingField.querySelector('posting_submit_button').addEventListener('click', () => {
+                console.log('Нажата кнопка "Опубликовать"');
+                const textContent = oldPostingField.querySelector('.old_textarea').value;
+
+                waitForElement('[data-testid="posting_base_screen_input_message"]', (realInputField) => {
+                    realInputField.innerText = textContent;
+                    const event = new Event('input', { bubbles: true });
+                    realInputField.dispatchEvent(event);
+
+                    waitForElement('[data-testid="post_publish"]', (realPublishButton) => {
+                        realPublishButton.click();
+                        console.log('Пост опубликован');
+                    });
+                });
+            });
+        }
+    }
+
+    function init() {
+        addCSS();
+        addFunctionalButtons();
+    }
+
+    init();
+
+    const observer = new MutationObserver(addFunctionalButtons);
+    observer.observe(rootContainer, { childList: true, subtree: true });
+});
+*/
+
+
+
+KPP.add('.PostDateBlock__root a', function(rootContainer) {
+    'use strict';
+
+    const monthNames = {
+        'ru': ["янв", "фев", "мар", "апр", "май", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"],
+        'en': ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+    };
+
+    function parseDateString(dateString) {
+        const [day, month, year, time] = dateString.split(/[\s,]+/);
+        const language = /[а-яА-ЯЁё]/.test(month) ? 'ru' : 'en';
+        const monthIndex = monthNames[language].indexOf(month.toLowerCase());
+
+        if (monthIndex === -1) {
+            console.error('Invalid month:', month);
+            return null;
+        }
+
+        const cleanedDateString = `${year}-${monthIndex + 1}-${day} ${time}`;
+        const date = new Date(cleanedDateString);
+        return !isNaN(date.getTime()) ? date : null;
+    }
+
+    function updatePostTimes() {
+        const posts = document.querySelectorAll('.PostDateBlock__root a');
+
+        posts.forEach(post => {
+            const observer = new MutationObserver(mutations => {
+                mutations.forEach(mutation => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'aria-describedby') {
+                        const exactTimeElement = document.getElementById(mutation.target.getAttribute('aria-describedby'));
+                        if (exactTimeElement) {
+                            const exactTimeText = exactTimeElement.innerText.split('\n')[0];
+                            const exactTime = parseDateString(exactTimeText);
+
+                            if (exactTime) {
+                                const options = {
+                                    year: 'numeric',
+                                    month: 'long',
+                                    day: 'numeric',
+                                    hour: '2-digit',
+                                    minute: '2-digit'
+                                };
+                                const formattedTime = exactTime.toLocaleString('ru-RU', options);
+
+                                const timeElement = document.createElement('div');
+                                timeElement.className = 'exact-time';
+                                timeElement.innerHTML = formattedTime;
+
+                                // Найти соответствующий родительский элемент
+                                let parentElement = mutation.target.closest('.Post')
+                                                 || mutation.target.closest('.feed_row')
+                                                 || mutation.target.closest('.post')
+                                                 || mutation.target.closest('.wall_post_cont');
+
+                                if (parentElement) {
+                                    const authorBlock = parentElement.querySelector('.PostHeaderInfo--inHeader');
+                                    if (authorBlock) {
+                                        // Проверка на наличие уже добавленного элемента
+                                        if (!authorBlock.querySelector('.exact-time')) {
+                                            authorBlock.appendChild(timeElement);
+                                        }
+                                    } else {
+                                        console.error('Author block not found for post:', mutation.target);
+                                    }
+                                } else {
+                                    console.error('Parent element not found for post:', mutation.target);
+                                }
+
+                                observer.disconnect();
+                            } else {
+                                console.error('Invalid Date:', exactTimeText);
+                            }
+                        } else {
+                            console.error('Element with ID', mutation.target.getAttribute('aria-describedby'), 'not found');
+                        }
+                    }
+                });
+            });
+
+            observer.observe(post, {
+                attributes: true,
+                attributeFilter: ['aria-describedby']
+            });
+
+            // Инициируем событие наведения, чтобы вызвать появление точного времени
+            post.dispatchEvent(new MouseEvent('mouseenter'));
+        });
+    }
+
+    updatePostTimes();
+
+    const domObserver = new MutationObserver(updatePostTimes);
+    domObserver.observe(document.body, {
+        childList: true,
+        subtree: true,
+    });
+})();
 
 
 function resizeNarrow(element, factor) {
