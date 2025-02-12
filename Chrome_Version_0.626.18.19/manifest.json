@@ -26,7 +26,7 @@
     "management"
   ],
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "version": "0.626.18.35",
+  "version": "0.626.18.36",
   "web_accessible_resources": [
     {
       "resources": ["content/*.css", "content/injectStart.js", "content/injectEnd.js"],
