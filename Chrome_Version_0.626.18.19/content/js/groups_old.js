@@ -29,6 +29,28 @@ $(".redesigned-group-avatar .AvatarRich").prependTo($("img.page_avatar_img"));
 })();
 
 
+(function() {
+  "use strict";
+  document.addEventListener('DOMContentLoaded', function() {
+    // Находим элемент, который нужно открепить
+    const postDateBlock = document.querySelector('.PostDateBlock__root');
+    if (postDateBlock) {
+      // Удаляем его из текущего родителя
+      const parent = postDateBlock.closest('.like_cont.PostBottomActionLikeBtns.PostBottomActionLikeBtns--withTransparentButtons');
+      if (parent) {
+        parent.removeChild(postDateBlock);
+      }
+
+      // Закрепляем элемент в левой части страницы
+      postDateBlock.style.position = 'fixed';
+      postDateBlock.style.left = '0px';
+      postDateBlock.style.top = '0px';
+      
+      // Добавляем элемент в body для закрепления в левой части страницы
+      document.body.appendChild(postDateBlock);
+    }
+  });
+})();
 
 
 
