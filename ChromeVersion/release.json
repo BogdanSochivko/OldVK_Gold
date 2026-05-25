@@ -1,0 +1,16 @@
+{
+  "en": {
+    "type": "basic",
+    "title": "New version 0.626",
+    "iconUrl": "oldvk-128.png",
+    "message": "New Year's gift",
+    "contextMessage": "For the New Year"
+  },
+  "ru": {
+    "type": "basic",
+    "title": "Новая версия 0.626",
+    "iconUrl": "oldvk-128.png",
+    "message": "Новогодний подарок",
+    "contextMessage": "Для нового года."
+  }
+}
