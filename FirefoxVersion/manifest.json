@@ -1,0 +1,149 @@
+{
+  "author": "Sochivko Bogdan",
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "lib/lib.js",
+      "events.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "oldvk-48.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "exclude_matches": [
+        "*://vk.com/notifier.php*",
+        "*://vk.com/al_*.php*",
+        "*://vk.com/dev/*",
+        "*://vk.com/ads?*",
+        "*://vk.com/apps?act=manage*",
+        "*://vk.com/upload_fails.php*",
+        "*://vk.com/ads_rotate.php*",
+        "*://vk.com/share.php*",
+        "*://vk.com/like.php*",
+        "*://vk.com/adscreate*",
+        "*://vk.com/wkview.php*",
+        "*://vk.com/bugs",
+        "*://vk.com/bugs?*",
+        "*://vk.com/login.php*",
+        "*://vk.com/q_frame.php*",
+        "*://vk.com/login.php*",
+        "*://vk.com/about*",
+        "*://vk.com/jobs*",
+        "*://vk.com/*.svg*",
+        "*://vk.com/widget_*.php*",
+        "*://vk.com/data_protection*"
+      ],
+      "js": [
+        "lib/lib.js",
+        "content/js/jquery-3.6.0.min.js",
+        "content/js/VK_id_header.js",
+        "content/js/fix_vk_profiles.js",
+        "content/mainStart.js"
+      ],
+      "matches": [
+        "*://vk.com/*",
+        "*://*.vk.com/*",
+        "*://id.vk.com/*",
+        "*://connect.vk.com/*",
+        "*://vk.com/al__feed.php*",
+        "*://vk.com/*.php*",
+        "*://oauth.vk.com/*",
+        "*://api.vk.com/*",
+        "*://mobile.production.vklanding.ru/*",
+        "*://dev.vk.com/*",
+        "*://api.vk.com/*",
+        "*://oauth.vk.com/*",
+        "*://vk.ru/*",
+        "*://id.vk.ru/*"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "all_frames": true,
+      "exclude_matches": [
+        "*://vk.com/notifier.php*",
+        "*://vk.com/al_*.php*",
+        "*://vk.com/dev/*",
+        "*://vk.com/ads?*",
+        "*://vk.com/apps?act=manage*",
+        "*://vk.com/upload_fails.php*",
+        "*://vk.com/ads_rotate.php*",
+        "*://vk.com/share.php*",
+        "*://vk.com/like.php*",
+        "*://vk.com/adscreate*",
+        "*://vk.com/wkview.php*",
+        "*://vk.com/bugs",
+        "*://vk.com/bugs?*",
+        "*://vk.com/login.php*",
+        "*://vk.com/q_frame.php*",
+        "*://vk.com/about*",
+        "*://vk.com/jobs*",
+        "*://vk.com/*.svg*",
+        "*://vk.com/widget_*.php*",
+        "*://vk.com/data_protection*"
+      ],
+      "js": [
+        "content/js/jquery-3.6.0.min.js",
+        "content/js/VK_id_header.js",
+        "content/js/fix_vk_profiles.js",
+        "content/mainEnd.js"
+      ],
+      "matches": [
+        "*://vk.com/*",
+        "*://*.vk.com/*",
+        "*://id.vk.com/*",
+        "*://connect.vk.com/*",
+        "*://vk.com/al__feed.php*",
+        "*://vk.com/*.php*",
+        "*://oauth.vk.com/*",
+        "*://api.vk.com/*",
+        "*://mobile.production.vklanding.ru/*",
+        "*://dev.vk.com/*",
+        "*://api.vk.com/*",
+        "*://oauth.vk.com/*",
+        "*://vk.ru/*",
+        "*://id.vk.ru/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "default_locale": "en",
+  "description": "__MSG_appDesc__",
+  "homepage_url": "https://kesantielu.github.io/oldvk",
+  "icons": {
+    "128": "oldvk-128.png",
+    "48": "oldvk-48.png",
+    "64": "oldvk-64.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "49",
+  "name": "__MSG_appName__",
+  "options_page": "options.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "*://vk.com/*",
+    "tabs",
+    "storage",
+    "notifications"
+  ],
+  "version": "0.626.18.32",
+  "web_accessible_resources": [
+    "content/*.css",
+    "content/*.js",
+    "content/js/js_sc/*.js",
+    "content/injectStart.js",
+    "content/injectEnd.js"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{cbb66a28-4b9a-4a14-a8a5-78b4b7efbd9b}"
+    }
+  }
+}
