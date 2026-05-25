@@ -1,0 +1,809 @@
+@-moz-document url-prefix("https://vk.com/edit") {
+/*EDIT PROFILE*/
+div#wide_column {
+    width: 627px;
+}
+.page_block_header {
+    display: none;
+}
+div#container6,div#container12 {
+    height: 21px;
+}
+
+.page_block:last-child {
+    background: #f7f7f7;
+    margin: 0;
+}
+.pedit_labeled {
+    width: 200px;
+    min-height: 21px;
+}
+div#container1,#container2,#container3,#container4,#container5,#container6,#container7,#container8,#container9,#container10,#container11,#container12,#container13,#container14,#container15,#container16,#container17,#container18,#container19,#container20,#container21,#container22,#container23,#container24,#container25,#container26,#container27,#container28,#container29,#container30,#container31,#container32,#container33,#container34,#container35,#container36,#container37,#container38,#container39,#container40,#container41,#container42,#container43,#container44,#container45,#container46,#container47,#container48,#container49,#container50,#container51,#container52,#container53,#container54,#container55,#container56,#container57,#container58,#container59,#container60,#container61,#container62,#container63,#container64,#container65,#container66,#container67,#container68,#container69,#container70,#container71,#container72,#container73,#container74,#container75,#container76,#container77,#container78,#container79,#container80,#container81,#container82,#container83,#container84,#container85,#container86,#container87,#container88,#container89,#container90,#container91,#container92,#container93,#container94,#container95,#container96,#container97,#container98,#container99,#container100,#container101,#container102,#container103,#container104,#container105,#container106,#container107,#container108,#container109,#container110,#container111,#container112,#container113,#container114,#container115,#container116,#container117,#container118,#container119,#container120,#container121,#container122,#container123,#container124,#container125,#container126,#container127,#container128,#container129,#container130,#container131,#container132,#container133,#container134,#container135,#container136,#container137,#container138,#container139,#container140,#container142,#container143,#container145,#container146,#container147,#container148,#container149,#container150,#container151,#container152,#container153,#container154,#container155,#container156,#container157,#container158,#container159,#container160 {
+    width: 200px !important;
+}
+.ProfileEditAvatar__wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 450px;
+}
+.ProfileEditName {
+    font-size: 13px;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #577ca1;
+}
+.pedit_social_icon_1, .pedit_social_icon_3, .pedit_social_icon_4, .pedit_social_icon_7 {
+    height: 29px;
+}
+table.selector_table {
+    max-width: 50px !important;
+    width: 50px !important;
+    min-width: 50px !important;
+}
+.pedit_next_input.clear_fix.clear {
+    display: flex;
+}
+.pedit_bday.fl_l {
+    width: 50px;
+}
+.pedit_bmonth.fl_l {
+    width: 50px;
+}
+.pedit_byear.fl_l {
+    width: 50px;
+}
+div#container31 {
+    width: 200px;
+    height: 21px;
+}
+.pedit_row {
+    padding-bottom: 10px;
+    width: 530px;
+    margin: 0 auto;
+}
+table.selector_table {
+    width: 200px !important;
+    height: 21px !important;
+    max-height: 24px !important;
+    max-width: 200px !important;
+}
+.selector_container table.selector_table {
+    width: 200px !important;
+    height: 21px !important;
+    max-height: 24px !important;
+    max-width: 200px !important;
+}
+td.selector {
+    width: 200px !important;
+    height: 21px !important;
+    max-height: 24px !important;
+    max-width: 197px !important;
+}
+input.selector_input {
+    width: 194px !important;
+}
+.pedit_label, .pedit_label_box {
+    width: 155px;
+    padding: 3px 10px 0 0;
+}
+.selector_container td.selector input.selected, .selector_container td.selector input.focused {
+    font-size: 11px !important;
+    font-family: tahoma;
+}
+.big.selector_container td.selector input {
+    padding: 2px 0 0px 6px;
+    height: 13px;
+    margin-bottom: 3px;
+}
+.big .result_list ul li {
+    padding: 3px 0 3px 5px;
+    width: 200px !important;
+    max-width: 200px !important;
+}
+.pedit_separator {
+    display: none;
+}
+#profile_editor input.dark, #profile_editor textarea {
+    width: 200px;
+    height: 21px;
+    font-size: 11px;
+    font-family: tahoma;
+    line-height: 7px;
+    padding-left: 5px;
+    border: 1px solid #C0CAD5;
+}
+.selector_dropdown {
+    display: none;
+}
+.result_list {
+    width: 206px !important;
+    overflow: hidden;
+    height: 21px !important;
+}
+.pedit_privacy_control {
+    padding: 0px 0 0 5px;
+}
+.pedit_social_label {
+    padding-top: 1px;
+    color: var(--vkui--color_text_secondary);
+    font-size: 11px;
+    font-family: tahoma;
+}
+.pedit_controls {
+    padding: 0 0 0 250px;
+}
+
+button.FlatButton.FlatButton--primary.FlatButton--size-m {
+    background: #5d80a6;
+    padding: 0px 15px;
+    height: 25px !important;
+    line-height: 25px !important;
+    border-radius: 2px;
+    margin: 10px;
+}
+.pedit_del_icon {
+    background: url(/images/pics/statusx_op.gif) 0 0 no-repeat;
+}
+.header {
+    background: #5d80a6 !important;
+    color: white !important;
+}
+.privacy_dropdown.pdd_ralign {
+    left: auto;
+    right: 25px;
+    width: 200px;
+}
+.pedit_privacy_control .privacy_dropdown .header::after {
+    display:none;
+}
+.privacy_dropdown .item_sel, .privacy_dropdown .item_sel_plus {
+    background-color: rgb(94 137 189 / 7%);
+}
+
+.privacy_dropdown .l_header .l_header_label {
+    padding: 9px 6px 7px 12px;
+}
+.ProfileEditCover__image.ProfileEditCover__image--experiment {
+    display: none;
+}
+.page_block_header_redesign {
+    display: none;
+}
+div#profile_editor {
+    margin-top: 30px;
+    border: 1px solid #e3e4e8;
+}
+.vkuiAvatar.ProfileEditAvatar__image.vkuiImageBase.vkuiImageBase--loaded.vkuiClickable__host.vkuiClickable__realClickable.vkui-focus-visible.vkuiRootComponent {
+    display: none;
+}
+.pedit_redesign__fields {
+    border-radius: 0px !important;
+    background: #f7f7f7;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.big.selector_container td.selector {
+    padding: 0;
+}
+.big.selector_container .result_list {
+    border-radius: 0 !important;
+    width: 200px ! IMPORTANT;
+    height: auto !important;
+}
+.narrow_column_wrap {
+    display: none;
+}
+div#profile_editor {
+    margin: 0 !important;
+    position: relative;
+    top: 0px;
+}
+.tabs.t_bar.clear_fix {
+    border: 1px solid #e3e4e8;
+    border-bottom: 1px solid #577ca1;
+}
+.big.with_icons .result_list ul li img {
+    top: 6px;
+    left: 5px;
+    width: 34px;
+    height: 34px;
+    border-radius: 2px;
+}
+.big.with_icons .result_list ul li {
+    padding: 6px 5px 6px 45px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 10px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2a5885;
+    font-family: tahoma;
+    max-width: 148px !important;
+}
+.big .result_list ul li span {
+    font-size: 10px;
+}
+.result_list ul li.active {
+    background: #E1E7ED;
+}
+#profile_editor hr.vkuiSeparator__in {
+    display: none;
+}
+
+
+
+div#profile_editor {
+    margin: 0 !important;
+    position: relative;
+    top: 0px;
+}
+.page_block.pedit_redesign__cover {
+    margin: 0;
+}
+.NicknameEdit__in {
+    padding: 3px 10px 0 0;
+    height: 21px;
+    max-width: 300px !important;
+}
+.FocusTrap__content {
+    height: 21px;
+}
+span.vkuiFormField.vkuiFormField--mode-default.vkuiFormField--sizeY-compact.vkui-focus-visible.vkui-focus-visible--focused.vkuiFormField--focus-visible.vkuiInput.vkuiInput--sizeY-compact.vkuiInput--hasBefore.NicknameEdit__input.NicknameEdit__nickname {
+    height: 21px !important;
+    max-height: 21px !important;
+    min-height: 21px !important;
+}
+.vkuiFormField__content {
+    height: 21px !important;
+}
+input.vkuiUnstyledTextField.vkuiInput__el.vkuiText.vkuiText--sizeY-compact.vkuiTypography.vkuiRootComponent {
+    height: 21px;
+    font-size: 11px;
+    font-family: tahoma;
+}
+.NicknameEdit__label {
+    width: 120px;
+    color: gray;
+    margin: 0;
+    margin-left: 70px;
+}
+.vkuiFormField>* {
+    overflow: hidden;
+}
+.vkuiFormField--sizeY-compact .vkuiFormField__after, .vkuiFormField--sizeY-compact .vkuiFormField__before {
+    height: 21px;
+}
+.vkuiFormField--focus-visible.vkuiFormField--focus-visible .vkuiFormField__border {
+    border-color: #c0cad5;
+}
+span.NicknameEdit__nickname--domain.NicknameEdit__input--readonly {
+    font-size: 11px;
+    line-height: 1px;
+    padding-left: 6px;
+}
+
+.NicknameEdit__container {
+    height: 21px;
+    padding-bottom: 5px;
+}
+
+button.vkitButton__root--RejCB.vkuiButton.vkuiButton--size-m.vkuiButton--mode-secondary.vkuiButton--appearance-accent.vkuiButton--align-center.vkuiTappable.vkuiTappable--hasPointer-none.vkuiClickable__resetButtonStyle.vkuiClickable__host.vkuiRootComponent {
+    background: #5d80a6;
+    border-radius: 2px;
+    padding: 0px !important;
+    min-height: 24px;
+    max-height: 24px;
+    width: 240px;
+}
+
+.vkuiFormField__iconWrapper {
+    height: 21px;
+}
+.NicknameEdit__nickname {
+    margin-right: 15px;
+    height: 21px !important;
+    max-height: 21px !important;
+    min-height: 21px;
+}
+span.vkuiButton__content {
+    font-size: 11px !important;
+    color: white;
+    line-height: 11px !important;
+}
+span.vkuiButton__content {
+    padding: 0px !important;
+}
+.ProfileEditAvatar {
+    border-radius: 0px;
+    margin-top: 10px;
+    background: var(--vkui--color_background_content);
+    position: relative;
+    height: 54px;
+    top: 0px;
+}
+
+.result_list ul li.active {
+    background: rgb(99 134 176 / 20%);
+}
+.pedit_general_family_row .pedit_labeled {
+    width: 350px;
+}
+
+.NicknameEdit__nickname.NicknameEdit__nickname--readonly {
+    background: white;
+    border: 1px solid #c0cad5;
+    padding: 5px;
+    height: 22px !important;
+    max-height: 11px !important;
+    min-height: 6px !important;
+    width: 188px;
+    margin: 0;
+    line-height: 10px;
+}
+.NicknameEdit {
+    padding: 0;
+    position: relative;
+    top: 20px;
+}
+button.vkuiLink.vkitLink__link--WXYoI.vkuiTappable.vkuiTappable--hasPointer-none.vkuiClickable__resetButtonStyle.vkuiClickable__host.vkuiClickable__realClickable.vkui-focus-visible.vkuiRootComponent {
+    position: relative;
+    left: -45px;
+}
+.FocusTrap {
+    width: 200px;
+}
+.NicknameEdit__descriptionButton {
+    margin-top: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.pedit_labeled_l {
+    float: left;
+    padding: 0;
+}
+.pedit_general_family_row .pedit_labeled {
+    width: 350px;
+    top: 3px;
+    position: relative;
+}
+}
+
+@-moz-document url-prefix("https://vk.com/edit?act=contacts") {
+.pedit_labeled_l {
+    float: left;
+    padding: 0;
+    position: relative;
+    top: 4px;
+}
+}
+
+@-moz-document url-prefix("https://vk.com/edit?act=interests") {
+#profile_editor input.dark, #profile_editor textarea {
+    width: 350px;
+    height: 21px;
+}
+.pedit_content {
+    padding: 20px 0;
+    margin: 0 !important;
+}
+.pedit_labeled {
+    height: 21px;
+}
+.pedit_row {
+    width: 100%;
+    padding-bottom: 100px;
+}
+}
+
+@-moz-document url("https://vk.com/edit") {
+div#profile_editor {
+    margin: 0 !important;
+    position: relative;
+    top: 0px;
+}
+.page_block.pedit_redesign__cover {
+    margin: 0;
+}
+
+.NicknameEdit__in {
+    height: 21px;
+    max-width: 300px !important;
+}
+.FocusTrap__content {
+    height: 21px;
+}
+span.vkuiFormField.vkuiFormField--mode-default.vkuiFormField--sizeY-compact.vkui-focus-visible.vkui-focus-visible--focused.vkuiFormField--focus-visible.vkuiInput.vkuiInput--sizeY-compact.vkuiInput--hasBefore.NicknameEdit__input.NicknameEdit__nickname {
+    height: 21px !important;
+    max-height: 21px !important;
+    min-height: 21px !important;
+}
+.vkuiFormField__content {
+    height: 21px !important;
+}
+input.vkuiUnstyledTextField.vkuiInput__el.vkuiText.vkuiText--sizeY-compact.vkuiTypography.vkuiRootComponent {
+    height: 21px;
+    font-size: 11px;
+    font-family: tahoma;
+}
+.NicknameEdit__label {
+    width: 120px;
+    color: gray;
+    margin: 0;
+    margin-left: 70px;
+}
+.vkuiFormField>* {
+    overflow: hidden;
+}
+.vkuiFormField--sizeY-compact .vkuiFormField__after, .vkuiFormField--sizeY-compact .vkuiFormField__before {
+    height: 21px;
+}
+.vkuiFormField--focus-visible.vkuiFormField--focus-visible .vkuiFormField__border {
+    border-color: #c0cad5;
+}
+span.NicknameEdit__nickname--domain.NicknameEdit__input--readonly {
+    font-size: 11px;
+    line-height: 1px;
+}
+.NicknameEdit__description {
+    margin: 0px 212px;
+    white-space: nowrap;
+}
+.NicknameEdit__container {
+    height: 21px;
+    padding-bottom: 5px;
+}
+.NicknameEdit__descriptionButton {
+    margin-top: 5px;
+}
+button.vkitButton__root--RejCB.vkuiButton.vkuiButton--size-m.vkuiButton--mode-secondary.vkuiButton--appearance-accent.vkuiButton--align-center.vkuiTappable.vkuiTappable--hasPointer-none.vkuiClickable__resetButtonStyle.vkuiClickable__host.vkuiRootComponent {
+    background: #5d80a6;
+    border-radius: 2px;
+    padding: 0px !important;
+    min-height: 24px;
+    max-height: 24px;
+    width: 240px;
+}
+span.vkuiButton__content, .vkuiButton--size-m .vkuiButton__after, .vkuiButton--size-m .vkuiButton__content:last-child {
+    padding: 0px !important;
+}
+.vkuiFormField__iconWrapper {
+    height: 21px;
+}
+.NicknameEdit__nickname {
+    margin-right: 15px;
+    height: 21px !important;
+    max-height: 21px !important;
+    min-height: 21px;
+}
+span.vkuiButton__in {
+    max-width: 200px !important;
+    min-width: 200px !important;
+}
+
+span.vkuiButton__content {
+    font-size: 11px !important;
+    font-family: tahoma !important;
+    color: white;
+    line-height: 11px !important;
+}
+button.vkitLink__link--WXYoI.vkitLink__withIconInChildren--MOP1u.vkuiInternalTappable.vkuiLink__host.vkuiLink__withUnderline.vkuiTappable__host.vkuiTappable__hasPointerNone.vkuiClickable__host.vkuiClickable__realClickable.vkuistyles__-focus-visible.vkuiRootComponent__host {
+    position: relative;
+    left: -45px;
+}
+button.vkitButton__root--RejCB.vkuiInternalTappable.vkuiButton__host.vkuiButton__sizeM.vkuiButton__modeSecondary.vkuiButton__appearanceAccent.vkuiButton__disabled.vkuiTappable__host.vkuiTappable__hasPointerNone.vkuiClickable__host.vkuiRootComponent__host {
+    max-height: 25px !important;
+    line-height: 25px;
+    min-height: 25px;
+    border-radius: 2px;
+    background: #577ca1;
+}
+button.vkitButton__root--RejCB.vkuiInternalTappable.vkuiButton__host.vkuiButton__sizeM.vkuiButton__modeSecondary.vkuiButton__appearanceAccent.vkuiTappable__host.vkuiTappable__hasPointerNone.vkuiClickable__host.vkuiClickable__realClickable.vkuistyles__-focus-visible.vkuiRootComponent__host {
+    height: 25px !important;
+    max-height: 25px;
+    min-height: 25px;
+    background: #577ca1;
+    border-radius: 2px;
+}
+.ProfileEditAvatar {
+    border-radius: 0px;
+    margin-top: 10px;
+    background: var(--vkui--color_background_content);
+    position: relative;
+    height: 54px;
+    top: 0px;
+}
+
+div#pedit_general {
+    padding: 0px;
+}
+.pedit_controls {
+    padding: 10px 0px 10px 210px;
+    border-top: 1px solid #e3e4e8;
+    margin: 0 40px;
+}
+.vkuiFormField__scrollContainer {
+    overflow: hidden;
+}
+input.vkuiUnstyledTextField__host.vkuiInput__el.vkuiText__host.vkuiText__sizeYCompact.vkuiTypography__host.vkuiRootComponent__host {
+    font-size: 11px;
+    height: 20px;
+}
+.result_list ul li.active {
+    background: rgb(99 134 176 / 20%);
+}
+.pedit_general_family_row .pedit_labeled {
+    width: 350px;
+}
+span.token_inner {
+    border-radius: 2px !important;
+    background: #E9EDF1 !important;
+    margin: 2px !important;
+}
+.selector_container td.selector .token span.x, .selector_container td.selector .token span.x_hover {
+    color: #ffffff00;
+    background: url(/images/pics/statusx_op.gif) 0px 0px no-repeat;
+    width: 15px !important;
+    height: 15px !important;
+}
+span.x.SelectorToken__x {
+    position: relative;
+    top: 3px;
+}
+}
+
+@-moz-document url("https://vk.com/edit?act=interests"), url("https://vk.com/edit?act=education"), url("https://vk.com/edit?act=higher_education") {
+ul.ui_tabs_container {
+    padding-bottom: 0px;
+}
+a.ui_tab.ui_tab_new.ui_tab_sel {
+    background: #577ca1;
+    padding: 5px 10px;
+    border-radius: 4px 4px 0px 0px;
+    border: none;
+}
+.ui_tab_content_new {
+    font-size: 11px !important;
+    font-family: tahoma;
+}
+a.ui_tab.ui_tab_new.ui_tab_sel span.ui_tab_content_new {
+    color: white !important;
+}
+a.ui_tab.ui_tab_new {
+    border-radius: 4px 4px 0px 0px;
+    height: 24px;
+}
+.pedit_label,
+.pedit_label_box {
+    padding: 3px 5px 0 0;
+}
+.ui_tab_new:not(.ui_tab_disabled_new):hover, .ui_tab_new:not(.ui_tab_disabled_new):active {
+    background-color: rgb(58 95 141 / 12%);
+}
+}
+
+@-moz-document url-prefix("https://vk.com/settings") {
+.narrow_column_wrap {
+    display: none;
+}
+.vkitSpacing__root--k4sMI {
+    display: none;
+}
+.vkitTwoColumnLayoutNarrow__root--AOa8x.vkuiInternalTwoColumnLayoutColumn.vkuiSplitCol__host.vkuiSplitCol__viewWidthNone.vkuiInternalSplitCol--viewWidth-none.vkuiRootComponent__host {
+    display: none;
+}
+.page_block:last-child {
+    width: 631px;
+    background: #f7f7f7;
+    margin: 0;
+}
+div#wide_column {border: 1px solid #e3e4e8;    width: 631px;}
+
+.tabs.t_bar.clear_fix {
+    border: 1px solid #e3e4e8;
+    border-bottom: 1px solid #577ca1;
+}
+.page_block_header {
+    height: 21px;
+    line-height: 37px;
+    padding: 10px 5px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #577ca1;
+    font-size: 11px;
+    font-weight: bold;
+    color: #506c8a;
+}
+.page_block_header::after, .page_block_header.clear_fix::after{
+    display: none;
+}
+h2.page_block_h2 {
+    padding: 0px 50px;
+    background: #f7f7f7;
+}
+.settings_panel {
+    margin: 0 60px;
+}
+.settings_privacy_row {
+    border: navajowhite;
+    border-width: 1px 0;
+    padding: 1px;
+    margin: -1px 0 0;
+}
+.settings_privacy_row .settings_label {
+    width: 300px;
+    padding: 10px 10px 0 0;
+}
+.settings_privacy_row br{
+    display: none;
+}
+.settings_label span {
+    color: #000;
+}
+
+div#settings_silent_mode_banner {
+    display: none;
+}
+.privacy_locked {
+    padding: 0px;
+}
+.privacy_locked::before{
+    display: none;
+}
+.settings_privacy {
+    background: #f7f7f7;
+    padding: 6px 70px 5px;
+}
+.settings_label {
+    color: black;
+}
+.settings_narrow_row input[type=checkbox]+label::before {
+    display: block;
+    content: "";
+    float: left;
+    background: url(https://vk.com/images/icons/check.gif) 0px 2px;
+    background-repeat: no-repeat;
+    margin: 0 7px 0 0;
+    width: 14px;
+    height: 16px;
+}
+.settings_narrow_row input[type=checkbox]:checked+label::before {
+    background: url(https://vk.com/images/icons/check.gif) 0px 42px;
+    height: 14px !important;
+}
+.settings_line {
+    padding: 5px 3px;
+}
+.settings_label {
+    color: gray;
+}
+.settings_block_footer {
+    background: white;
+    padding: 10px;
+    border: 1px solid #e3e4e8;
+}
+.settings_separated_row_hint {
+    color: gray !important;
+    font-size: 11px !important;
+}
+}
+
+@-moz-document url("https://vk.com/settings?act=privacy") {
+.page_block.clear_fix {
+    margin: 0;
+    position:relative;
+    top: -2px !important;
+}
+.page_block_header {
+    height: 21px;
+    line-height: 37px;
+    padding: 10px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #577ca1;
+    font-size: 11px;
+    font-weight: bold;
+    color: #506c8a;
+}
+.settings_label {
+    color: black;
+}
+.settings_privacy_row .settings_label b {
+    font-weight: bold;
+    color: #000;
+}
+button#privacy_edit_calls {
+    font-size: 9px;
+}
+.settings_privacy {
+    background: #f7f7f7;
+    padding: 10px 60px;
+    margin: 0px;
+}
+.settings_privacy_row {
+    border-width: 0px 0;
+    padding: 0px;
+    margin: -10px 0 0;
+}
+.page_block_header::after, .page_block_header.clear_fix::after{
+    display: none;
+}
+div#topnav {
+    margin-bottom: 1px;
+}
+h2.page_block_h2 {
+    padding: 0px 50px;
+    background: #f7f7f7;
+}
+}.page_block.clear_fix {
+    margin: 0;
+    background: #f7f7f7;
+    top: 0px;
+}
+
+@-moz-document url("https://vk.com/settings?act=blacklist") {
+.page_block_sub_header .FlatButton--size-m, .page_block_header .FlatButton--size-m, .ui_tabs_header .FlatButton--size-m {
+    margin-top: 0;
+    height: 25px;
+    border-radius: 2px;
+    background: #577ca1;
+    padding: 0px 18px;
+}
+input#settings_bl_search {
+    background: white;
+}
+.ui_search_input_inner {
+    border-radius: 0px !important;
+    height: 26px;
+}
+input#settings_bl_search {
+    background: white;
+    height: 26px;
+    font-size: 11px;
+    padding-bottom: 0px;
+    padding-top: 1px;
+    padding-left: 7px;
+}
+button.ui_search_button_search._ui_search_button_search {
+    height: 28px;
+    border-radius: 0px;
+}
+.ui_search_new.ui_search.ui_search_field_empty.ui_search_with_separator._wrap {
+    padding: 5px 20px;
+}
+.FlatButton--primary:not(.disable):hover {
+    background-color: #6a86a7;
+}
+}
+
+@-moz-document url("https://vk.com/settings?act=payments") {
+.page_block.clear_fix {
+    margin: 0;
+    background: #f7f7f7;
+    top: 0px;
+}
+.settings_block_msg {
+    padding: 13px 60px 15px;
+}
+button.ui_search_button_search._ui_search_button_search {
+    height: 28px;
+    border-radius: 0px;
+}
+.ui_search_new.ui_search.ui_search_field_empty.ui_search_with_separator._wrap {
+    padding: 5px 20px;
+}
+.FlatButton--size-m{
+    margin-top: 0;
+    height: 25px;
+    border-radius: 2px;
+    background: #577ca1;
+    padding: 0px 18px;
+}
+.FlatButton--size-m:hover {
+    background-color: #6a86a7;
+}
+.settings_block_footer {
+    background: #f7f7f7;
+}
+td.settings_history_title,td.settings_history_amount,td.settings_history_date {font-size: 11px;font-family:tahoma;}
+}
+
