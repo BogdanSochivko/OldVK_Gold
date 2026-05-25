@@ -1,9 +1,0 @@
-/*Убрать Сортировку комментариев*/
-div.post_replies_reorder_wrap {
-    display: none;
-}
-.deep_active .post_replies_header, .deep_active.wall_module .post_replies_header {
-    padding: 0px 0px 0px;
-    border-top: 1px solid #e7e8ec;
-    font-size: 12.5px;
-}
